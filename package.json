@@ -1,9 +1,12 @@
 {
-  "name": "zid-harmonie",
+  "name": "agv-harmonie",
   "version": "2.2.1",
   "main": "dist/harmonie.cjs.js",
   "module": "dist/harmonie.esm.js",
   "browser": "dist/harmonie.min.js",
+  "files": [
+    "dist"
+  ],
   "description": "Farm subsidy application files of all German federal states",
   "directories": {
     "test": "test"
@@ -16,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fruchtfolge/harmonie.git"
+    "url": "git+https://github.com/agvolution/harmonie.git"
   },
   "keywords": [
     "IACS",
@@ -28,9 +31,9 @@
   "author": "Christoph Pahmeyer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fruchtfolge/harmonie/issues"
+    "url": "https://github.com/fruchtfolge/agvolution/issues"
   },
-  "homepage": "https://github.com/fruchtfolge/harmonie#readme",
+  "homepage": "https://github.com/fruchtfolge/agvolution#readme",
   "dependencies": {
     "@turf/helpers": "^6.5.0",
     "@turf/meta": "^6.5.0",
