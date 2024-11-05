@@ -11,7 +11,7 @@ module.exports = {
   bw (updateResults) {
     return test({
       state: 'DE-BW',
-      xml: './test/input/DE-BW/Flurstücksverzeichnis/FIONA-FSV-089994449000-AKTIV.xml',
+      xml: './test/input/DE-BW/Flurstücksverzeichnis/FIONA-FSV-089994449000-AKTIV.xml',
       shp: './test/input/DE-BW/GIS/fiona_089994449000_ETRS89.shp',
       dbf: './test/input/DE-BW/GIS/fiona_089994449000_ETRS89.dbf',
       prj: './test/input/DE-BW/GIS/fiona_089994449000_ETRS89.prj',
