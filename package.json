@@ -1,5 +1,5 @@
 {
-  "name": "agv-harmonie",
+  "name": "@agvolution/harmonie",
   "version": "2.2.1",
   "main": "dist/harmonie.cjs.js",
   "module": "dist/harmonie.esm.js",
