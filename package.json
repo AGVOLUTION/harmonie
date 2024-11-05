@@ -15,7 +15,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "bump": "yarn run agv-bump --root"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
   },
   "homepage": "https://github.com/fruchtfolge/agvolution#readme",
   "dependencies": {
+    "@agvolution/agv-bump": "^0.2.2",
     "@turf/helpers": "^6.5.0",
     "@turf/meta": "^6.5.0",
     "@turf/truncate": "^6.5.0",
