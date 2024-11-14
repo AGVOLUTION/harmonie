@@ -1,9 +1,9 @@
-import { xml } from '../utils/parse.js'
+import { xml } from '../utils/parse'
 import { toGeoJSON, groupByFLIK } from '../utils/geometryHelpers.js'
 import queryComplete from '../utils/queryComplete.js'
 import Field from '../Field.js'
 
-export default async function bb (query) {
+export default async function mv (query) {
   const incomplete = queryComplete(query, ['xml'])
   if (incomplete) throw new Error(incomplete)
   const data = xml(query.xml)
@@ -21,7 +21,7 @@ export default async function bb (query) {
       Area: hnf['fa:groesse'] / 10000,
       FieldBlockNumber: hnf['fa:flik'],
       PartOfField: 0,
-      SpatialData: toGeoJSON(hnf['fa:geometrie'], 'EPSG:25833'),
+      SpatialData: toGeoJSON(hnf['fa:geometrie'], 'EPSG:5650'),
       LandUseRestriction: '',
       Cultivation: {
         PrimaryCrop: {
@@ -49,7 +49,7 @@ export default async function bb (query) {
         Area: stf['fa:groesse'] / 10000,
         FieldBlockNumber: stf['fa:flik'],
         PartOfField: j,
-        SpatialData: toGeoJSON(stf['fa:geometrie'], 'EPSG:25833'),
+        SpatialData: toGeoJSON(stf['fa:geometrie']),
         LandUseRestriction: '',
         Cultivation: {
           PrimaryCrop: {
