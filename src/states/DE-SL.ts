@@ -1,7 +1,7 @@
-import { shape } from "../utils/parse";
-import { reprojectFeature, groupByFLIK } from "../utils/geometryHelpers.js";
-import queryComplete from "../utils/queryComplete.js";
-import Field from "../Field.js";
+import { shape } from "@/utils/parse";
+import { reprojectFeature, groupByFLIK } from "@/utils/geometryHelpers.js";
+import queryComplete from "@/utils/queryComplete.js";
+import Field from "@/Field.js";
 import { HarmonieQuery } from "@/utils/types";
 
 export default async function sl(query: HarmonieQuery) {

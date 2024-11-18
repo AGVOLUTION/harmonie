@@ -1,7 +1,7 @@
-import { shape } from "../utils/parse";
-import { reprojectFeature, groupByFLIK } from "../utils/geometryHelpers.js";
-import queryComplete from "../utils/queryComplete.js";
-import Field from "../Field.js";
+import { shape } from "@/utils/parse";
+import { reprojectFeature, groupByFLIK } from "@/utils/geometryHelpers.js";
+import queryComplete from "@/utils/queryComplete.js";
+import Field from "@/Field.js";
 
 export default async function he(query) {
   const incomplete = queryComplete(query, ["shp", "dbf"]);

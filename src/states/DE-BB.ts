@@ -1,8 +1,8 @@
-import { xml } from "../utils/parse";
-import { toGeoJSON, groupByFLIK } from "../utils/geometryHelpers.js";
-import queryComplete from "../utils/queryComplete.js";
-import Field from "../Field.js";
+import { toGeoJSON, groupByFLIK } from "@/utils/geometryHelpers.js";
+import queryComplete from "@/utils/queryComplete.js";
+import Field from "@/Field.js";
 import { HarmonieQuery } from "@/utils/types";
+import { xml } from "@/utils/parse.js";
 
 export default async function bb(query: HarmonieQuery) {
   const incomplete = queryComplete(query, ["xml"]);

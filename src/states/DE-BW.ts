@@ -1,11 +1,11 @@
-import { shape, xml } from "../utils/parse";
+import { shape, xml } from "@/utils/parse";
 import {
   reprojectFeature,
   groupBy,
   groupByFLIK,
-} from "../utils/geometryHelpers.js";
-import queryComplete from "../utils/queryComplete.js";
-import Field from "../Field.js";
+} from "@/utils/geometryHelpers.js";
+import queryComplete from "@/utils/queryComplete.js";
+import Field from "@/Field.js";
 import truncate from "@turf/truncate";
 import { HarmonieQuery } from "@/utils/types";
 

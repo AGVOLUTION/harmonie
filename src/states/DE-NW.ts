@@ -1,7 +1,7 @@
-import { dataExperts } from '../utils/parse'
-import { groupByFLIK } from '../utils/geometryHelpers.js'
-import queryComplete from '../utils/queryComplete.js'
-import Field from '../Field.js'
+import { dataExperts } from '@/utils/parse'
+import { groupByFLIK } from '@/utils/geometryHelpers.js'
+import queryComplete from '@/utils/queryComplete.js'
+import Field from '@/Field.js'
 
 export default async function nw (query) {
   const incomplete = queryComplete(query, ['xml', 'gml'])
