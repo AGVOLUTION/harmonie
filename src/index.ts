@@ -1,14 +1,14 @@
-import bb from "./states/DE-BB";
-import bw from "./states/DE-BW";
-import by from "./states/DE-BY";
-import he from "./states/DE-HE";
-import mv from "./states/DE-MV";
-import ni from "./states/DE-NI";
-import nw from "./states/DE-NW";
-import sl from "./states/DE-SL";
-import th from "./states/DE-TH";
-import { HarmonieQuery } from "./utils/types";
-export { HarmonieQuery } from "./utils/types";
+import bb from "./states/DE-BB.js";
+import bw from "./states/DE-BW.js";
+import by from "./states/DE-BY.js";
+import he from "./states/DE-HE.js";
+import mv from "./states/DE-MV.js";
+import ni from "./states/DE-NI.js";
+import nw from "./states/DE-NW.js";
+import sl from "./states/DE-SL.js";
+import th from "./states/DE-TH.js";
+import type { HarmonieQuery } from "./utils/types.js";
+export type { HarmonieQuery } from "./utils/types.js";
 
 export default function harmonie(query: HarmonieQuery) {
   const state = query.state;

@@ -1,13 +1,13 @@
-import { shape, xml } from "@/utils/parse";
+import { shape, xml } from "../utils/parse.js";
 import {
   reprojectFeature,
   groupBy,
   groupByFLIK,
-} from "@/utils/geometryHelpers.js";
-import queryComplete from "@/utils/queryComplete.js";
-import Field from "@/Field.js";
+} from "../utils/geometryHelpers.js";
+import queryComplete from "../utils/queryComplete.js";
+import Field from "../Field.js";
 import truncate from "@turf/truncate";
-import { HarmonieQuery } from "@/utils/types";
+import type { HarmonieQuery } from "../utils/types.js";
 
 export default async function bw(query: HarmonieQuery) {
   const incomplete = queryComplete(query, ["xml", "shp", "dbf"]);

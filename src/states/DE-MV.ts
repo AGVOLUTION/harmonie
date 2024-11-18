@@ -1,7 +1,7 @@
-import { xml } from "@/utils/parse";
-import { toGeoJSON, groupByFLIK } from "@/utils/geometryHelpers.js";
-import queryComplete from "@/utils/queryComplete.js";
-import Field from "@/Field.js";
+import { xml } from "../utils/parse.js";
+import { toGeoJSON, groupByFLIK } from "../utils/geometryHelpers.js";
+import queryComplete from "../utils/queryComplete.js";
+import Field from "../Field.js";
 
 export default async function mv(query) {
   const incomplete = queryComplete(query, ["xml"]);

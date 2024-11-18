@@ -1,8 +1,8 @@
-import { xml } from "@/utils/parse";
-import { wktToGeoJSON, groupByFLIK } from "@/utils/geometryHelpers.js";
-import { getSafe } from "@/utils/helpers.js";
-import queryComplete from "@/utils/queryComplete.js";
-import Field from "@/Field.js";
+import { xml } from "../utils/parse.js";
+import { wktToGeoJSON, groupByFLIK } from "../utils/geometryHelpers.js";
+import { getSafe } from "../utils/helpers.js";
+import queryComplete from "../utils/queryComplete.js";
+import Field from "../Field.js";
 
 export default async function by(query) {
   const incomplete = queryComplete(query, ["xml"]);

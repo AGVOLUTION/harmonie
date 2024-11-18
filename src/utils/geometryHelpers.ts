@@ -1,10 +1,10 @@
-import { xml } from "./parse";
 import { polygon, multiPolygon } from "@turf/helpers";
 import { coordEach } from "@turf/meta";
 import proj4 from "proj4";
 import polygonClipping from "polygon-clipping";
 import { parse as wktParse } from "terraformer-wkt-parser";
 import { getSafe } from "./helpers.js";
+import { xml } from "./parse.js";
 
 // configure proj4 in order to convert GIS coordinates to web mercator
 proj4.defs("EPSG:25832", "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs");
