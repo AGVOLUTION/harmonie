@@ -1,6 +1,6 @@
 {
   "name": "@agvolution/harmonie",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "main": "dist/harmonie.cjs.js",
   "types": "dist/index.d.ts",
   "module": "dist/harmonie.esm.js",
