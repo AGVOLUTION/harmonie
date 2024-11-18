@@ -2,16 +2,14 @@ import { shape } from "../utils/parse";
 import { reprojectFeature, groupByFLIK } from "../utils/geometryHelpers.js";
 import queryComplete from "../utils/queryComplete.js";
 import Field from "../Field.js";
+import { HarmonieQuery } from "..";
 
-export default async function he(query) {
+export default async function th(query: HarmonieQuery) {
   const incomplete = queryComplete(query, ["shp", "dbf"]);
   if (incomplete) throw new Error(incomplete);
   // parse the shape file information
-  const geometries = await shape(query.shp, query.dbf, query.encoding);
+  const geometries = await shape(query.shp, query.dbf);
   // reproject coordinates into web mercator
-  if (!query.prj) {
-    query.prj = "EPSG:31467";
-  }
   geometries.features = geometries.features.map((f) =>
     reprojectFeature(f, query.prj)
   );
@@ -19,18 +17,18 @@ export default async function he(query) {
   const subplots = geometries.features.map(
     (plot, count) =>
       new Field({
-        id: `harmonie_${count}_${plot.properties.FLIK}`,
+        id: `harmonie_${count}_${plot.properties.FBI}`,
         referenceDate: undefined, // duh!
-        NameOfField: plot.properties.LAGE_BEZ,
+        NameOfField: "",
         NumberOfField: count,
-        Area: plot.properties.BEANTR_GRO,
-        FieldBlockNumber: plot.properties.FLIK,
+        Area: plot.properties.FL,
+        FieldBlockNumber: plot.properties.FBI,
         PartOfField: "",
         SpatialData: plot,
         Cultivation: {
           PrimaryCrop: {
-            CropSpeciesCode: plot.properties.NCODE,
-            Name: plot.properties.NUTZUNG,
+            CropSpeciesCode: undefined, // duh!
+            Name: undefined,
           },
         },
       })

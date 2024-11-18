@@ -7,8 +7,10 @@ import ni from "./states/DE-NI";
 import nw from "./states/DE-NW";
 import sl from "./states/DE-SL";
 import th from "./states/DE-TH";
+import { HarmonieQuery } from "./utils/types";
+export { HarmonieQuery } from "./utils/types";
 
-export default function harmonie(query) {
+export default function harmonie(query: HarmonieQuery) {
   const state = query.state;
   if (!state) {
     throw new Error(

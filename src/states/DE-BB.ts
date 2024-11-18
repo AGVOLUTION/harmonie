@@ -2,8 +2,9 @@ import { xml } from "../utils/parse";
 import { toGeoJSON, groupByFLIK } from "../utils/geometryHelpers.js";
 import queryComplete from "../utils/queryComplete.js";
 import Field from "../Field.js";
+import { HarmonieQuery } from "@/utils/types";
 
-export default async function bb(query) {
+export default async function bb(query: HarmonieQuery) {
   const incomplete = queryComplete(query, ["xml"]);
   if (incomplete) throw new Error(incomplete);
   const data = xml(query.xml);
