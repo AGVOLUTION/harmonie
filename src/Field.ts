@@ -1,4 +1,4 @@
-import { MultiPolygon, Polygon } from "@turf/helpers";
+import type { Polygon, MultiPolygon } from "geojson";
 import truncate from "@turf/truncate";
 
 export default class Field {
@@ -12,7 +12,7 @@ export default class Field {
   SpatialData: {
     type: string;
     properties: Record<string, unknown>;
-    geometry: Polygon | MultiPolygon;
+    geometry: MultiPolygon | Polygon;
   };
   LandUseRestriction: string;
   Cultivation: {
