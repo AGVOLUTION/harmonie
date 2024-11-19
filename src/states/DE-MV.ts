@@ -2,8 +2,9 @@ import { xml } from "../utils/parse.js";
 import { toGeoJSON, groupByFLIK } from "../utils/geometryHelpers.js";
 import queryComplete from "../utils/queryComplete.js";
 import Field from "../Field.js";
+import type { HarmonieQuery } from "../index.js";
 
-export default async function mv(query) {
+export default async function mv(query: HarmonieQuery) {
   const incomplete = queryComplete(query, ["xml"]);
   if (incomplete) throw new Error(incomplete);
   const data = xml(query.xml);
@@ -24,7 +25,11 @@ export default async function mv(query) {
         Area: hnf["fa:groesse"] / 10000,
         FieldBlockNumber: hnf["fa:flik"],
         PartOfField: 0,
-        SpatialData: toGeoJSON(hnf["fa:geometrie"], "EPSG:5650"),
+        SpatialData: toGeoJSON(
+          hnf["fa:geometrie"],
+          // sometimes a custom projection is used, if not, we default to EPSG:5650
+          query.prj ?? query.projection ?? "EPSG:5650"
+        ),
         LandUseRestriction: "",
         Cultivation: {
           PrimaryCrop: {
