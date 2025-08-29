@@ -1,16 +1,14 @@
-import bb from "./states/DE-BB.js";
-import bw from "./states/DE-BW.js";
-import by from "./states/DE-BY.js";
-import he from "./states/DE-HE.js";
-import mv from "./states/DE-MV.js";
-import ni from "./states/DE-NI.js";
-import nw from "./states/DE-NW.js";
-import sl from "./states/DE-SL.js";
-import th from "./states/DE-TH.js";
-import type { HarmonieQuery } from "./utils/types.js";
-export type { HarmonieQuery } from "./utils/types.js";
+const bb = require("./states/DE-BB.js");
+const bw = require("./states/DE-BW.js");
+const by = require("./states/DE-BY.js");
+const he = require("./states/DE-HE.js");
+const mv = require("./states/DE-MV.js");
+const ni = require("./states/DE-NI.js");
+const nw = require("./states/DE-NW.js");
+const sl = require("./states/DE-SL.js");
+const th = require("./states/DE-TH.js");
 
-export default function harmonie(query: HarmonieQuery) {
+function harmonie(query) {
   const state = query.state;
   if (!state) {
     throw new Error(
@@ -18,6 +16,7 @@ export default function harmonie(query: HarmonieQuery) {
         'ISO 3166-2 UTF-8 string format (e.g. "DE-NW")'
     );
   }
+
   switch (state) {
     case "DE-BB":
       return bb(query);
@@ -57,3 +56,6 @@ export default function harmonie(query: HarmonieQuery) {
       );
   }
 }
+
+module.exports = harmonie;
+module.exports.default = harmonie;
