@@ -1,7 +1,7 @@
 {
   "name": "@agvolution/harmonie",
   "type": "module",
-  "version": "2.2.8",
+  "version": "2.2.9",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
