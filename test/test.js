@@ -1,6 +1,6 @@
-const states = require('./states')
+import { states } from "./states.js";
 
-;(async () => {
+(async () => {
   const tests = [
     states.bb(),
     states.bw(),
@@ -9,13 +9,13 @@ const states = require('./states')
     states.mv(),
     states.nw(),
     states.sl(),
-    states.th()
-  ]
+    states.th(),
+  ];
 
   try {
-    await Promise.all(tests)
-    console.log('Passed all tests.')
+    await Promise.all(tests);
+    console.log("Passed all tests.");
   } catch (e) {
-    console.error('Error:', e)
+    console.error("Error:", e);
   }
-})()
+})();
