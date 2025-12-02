@@ -12,3 +12,4 @@ package.tgz
 tsconfig.tsbuildinfo
 .yalc
 yalc.lock
+.DS_Store
