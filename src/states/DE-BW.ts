@@ -10,7 +10,7 @@ import truncate from "@turf/truncate";
 import type { HarmonieQuery } from "../utils/types.js";
 
 export default async function bw(query: HarmonieQuery) {
-  const incomplete = queryComplete(query, ["xml", "shp", "dbf"]);
+  const incomplete = queryComplete(query, ["shp", "dbf", "prj"]);
   if (incomplete) throw new Error(incomplete);
   // parse the shape file information
   const geometries = await shape(query.shp, query.dbf, query.encoding);
@@ -25,61 +25,88 @@ export default async function bw(query: HarmonieQuery) {
     });
   });
 
-  // parse the individual field information
-  const data = xml(query.xml);
-  let applicationYear, subplotsRawData;
-  // try to access the subplots from the xml
-  try {
-    applicationYear = data["fsv:FSV"]["fsv:FSVHeader"]["commons:Antragsjahr"];
-    subplotsRawData = data["fsv:FSV"]["fsv:FSVTable"]["fsv:FSVTableRow"];
-    // only consider plots that have a geometry attached
-    subplotsRawData = subplotsRawData.filter(
-      (plot) => plot["fsvele:Geometrie"]
-    );
-  } catch (e) {
-    throw new Error(
-      "Error in XML data structure. Is this file the correct file from FSV BW?"
-    );
-  }
-  const subplots = subplotsRawData.map(
-    (plot, count) =>
-      new Field({
-        id: `harmonie_${count}_${plot["fsvele:FLIK"]}`,
-        referenceDate: applicationYear,
-        NameOfField: plot["commons:Bezeichnung"],
-        NumberOfField: plot["fsvele:SchlagNummer"],
-        Area: plot["fsvele:NutzflaecheMitLandschaftselement"]["#text"],
-        FieldBlockNumber: plot["fsvele:FLIK"],
-        PartOfField: "",
-        SpatialData: plot["fsvele:GeometrieId"],
-        LandUseRestriction: "",
-        Cultivation: {
-          PrimaryCrop: {
-            CropSpeciesCode: plot["fsvele:CodeDerKultur"],
-            Name: "",
+  if (!query.xml) {
+    // if there's no xml file, we assume the geometries are the fields
+    const fields = geometries.features.map(
+      (feature, count) =>
+        new Field({
+          id: `harmonie_${count}`,
+          referenceDate: "",
+          NameOfField: feature.properties.bez,
+          NumberOfField: count,
+          Area: feature.properties.flaeche_ha,
+          FieldBlockNumber: "",
+          PartOfField: "",
+          SpatialData: feature,
+          LandUseRestriction: "",
+          Cultivation: {
+            PrimaryCrop: {
+              CropSpeciesCode: "",
+              Name: "",
+            },
           },
-        },
-      })
-  );
-  // in BW some fields are having multiple entries in the raw XML, despite only
-  // having a single geometry attached
-  // we now group the fields by similar geometries and re-evaluate
-  const grouped = groupBy(subplots, "SpatialData");
-  const cleanedPlots = [];
-  Object.keys(grouped).forEach((geometryId) => {
-    const fieldsWithSameId = grouped[geometryId];
-    if (fieldsWithSameId.length > 1) {
-      for (let i = 1; i < fieldsWithSameId.length; i++) {
-        fieldsWithSameId[0].Area += fieldsWithSameId[i].Area;
-      }
+        })
+    );
+    return fields;
+  } else {
+    // parse the individual field information
+    const data = xml(query.xml);
+    let applicationYear, subplotsRawData;
+    // try to access the subplots from the xml
+    try {
+      applicationYear = data["fsv:FSV"]["fsv:FSVHeader"]["commons:Antragsjahr"];
+      subplotsRawData = data["fsv:FSV"]["fsv:FSVTable"]["fsv:FSVTableRow"];
+      // only consider plots that have a geometry attached
+      subplotsRawData = subplotsRawData.filter(
+        (plot) => plot["fsvele:Geometrie"]
+      );
+    } catch (e) {
+      throw new Error(
+        "Error in XML data structure. Is this file the correct file from FSV BW?"
+      );
     }
-    // replace geometry id with actualy geometry
-    fieldsWithSameId[0].SpatialData = geometries.features.find((f) => {
-      return fieldsWithSameId[0].SpatialData === f.properties.geo_id;
+    const subplots = subplotsRawData.map(
+      (plot, count) =>
+        new Field({
+          id: `harmonie_${count}_${plot["fsvele:FLIK"]}`,
+          referenceDate: applicationYear,
+          NameOfField: plot["commons:Bezeichnung"],
+          NumberOfField: plot["fsvele:SchlagNummer"],
+          Area: plot["fsvele:NutzflaecheMitLandschaftselement"]["#text"],
+          FieldBlockNumber: plot["fsvele:FLIK"],
+          PartOfField: "",
+          SpatialData: plot["fsvele:GeometrieId"],
+          LandUseRestriction: "",
+          Cultivation: {
+            PrimaryCrop: {
+              CropSpeciesCode: plot["fsvele:CodeDerKultur"],
+              Name: "",
+            },
+          },
+        })
+    );
+    // in BW some fields are having multiple entries in the raw XML, despite only
+    // having a single geometry attached
+    // we now group the fields by similar geometries and re-evaluate
+    const grouped = groupBy(subplots, "SpatialData");
+    const cleanedPlots = [];
+    Object.keys(grouped).forEach((geometryId) => {
+      const fieldsWithSameId = grouped[geometryId];
+      if (fieldsWithSameId.length > 1) {
+        for (let i = 1; i < fieldsWithSameId.length; i++) {
+          fieldsWithSameId[0].Area += fieldsWithSameId[i].Area;
+        }
+      }
+      // replace geometry id with actualy geometry
+      fieldsWithSameId[0].SpatialData = geometries.features.find((f) => {
+        return fieldsWithSameId[0].SpatialData === f.properties.geo_id;
+      });
+      if (fieldsWithSameId[0].SpatialData) {
+        cleanedPlots.push(fieldsWithSameId[0]);
+      }
     });
-    cleanedPlots.push(fieldsWithSameId[0]);
-  });
-  // finally, group the parts of fields by their FLIK and check whether they are
-  // actually seperate parts of fields
-  return groupByFLIK(cleanedPlots);
+    // finally, group the parts of fields by their FLIK and check whether they are
+    // actually seperate parts of fields
+    return groupByFLIK(cleanedPlots);
+  }
 }

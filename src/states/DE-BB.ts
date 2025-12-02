@@ -17,11 +17,13 @@ export default async function bb(query: HarmonieQuery) {
     // start off with main area of field
     const parzellenName = p["fa:parzellenname"];
     const hnf = p["fa:teilflaechen"]["fa:hauptnutzungsflaeche"];
+    // Use parzellenName if available, otherwise fall back to FLIK
+    const nameOfField = parzellenName || hnf["fa:flik"] || "";
     acc.push(
       new Field({
         id: `harmonie_${count}_${hnf["fa:flik"]}`,
         referenceDate: applicationYear,
-        NameOfField: parzellenName || "",
+        NameOfField: nameOfField,
         NumberOfField: Math.floor(hnf["fa:teilflaechennummer"]),
         Area: hnf["fa:groesse"] / 10000,
         FieldBlockNumber: hnf["fa:flik"],
@@ -47,11 +49,13 @@ export default async function bb(query: HarmonieQuery) {
     }
     strfFlaechen["fa:streifen"].forEach((stf, j) => {
       count++;
+      // Use parzellenName if available, otherwise fall back to FLIK
+      const stripNameOfField = parzellenName || stf["fa:flik"] || "";
       acc.push(
         new Field({
           id: `harmonie_${count}_${stf["fa:flik"]}`,
           referenceDate: applicationYear,
-          NameOfField: parzellenName || "",
+          NameOfField: stripNameOfField,
           NumberOfField: Math.floor(stf["fa:teilflaechennummer"]),
           Area: stf["fa:groesse"] / 10000,
           FieldBlockNumber: stf["fa:flik"],

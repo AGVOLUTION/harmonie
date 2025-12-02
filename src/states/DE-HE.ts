@@ -2,8 +2,9 @@ import { shape } from "../utils/parse.js";
 import { reprojectFeature, groupByFLIK } from "../utils/geometryHelpers.js";
 import queryComplete from "../utils/queryComplete.js";
 import Field from "../Field.js";
+import type { HarmonieQuery } from "../utils/types.js";
 
-export default async function he(query) {
+export default async function he(query: HarmonieQuery) {
   const incomplete = queryComplete(query, ["shp", "dbf"]);
   if (incomplete) throw new Error(incomplete);
   // parse the shape file information
@@ -24,12 +25,15 @@ export default async function he(query) {
         NameOfField: plot.properties.LAGE_BEZ,
         NumberOfField: count,
         Area: plot.properties.BEANTR_GRO,
-        FieldBlockNumber: plot.properties.FLIK,
+        FieldBlockNumber: plot.properties.FLIK || plot.properties.flik_akt,
         PartOfField: "",
         SpatialData: plot,
         Cultivation: {
           PrimaryCrop: {
-            CropSpeciesCode: plot.properties.NCODE,
+            CropSpeciesCode:
+              plot.properties.NCODE ||
+              plot.properties.ncode_ak ||
+              plot.properties.ncode_aktu,
             Name: plot.properties.NUTZUNG,
           },
         },

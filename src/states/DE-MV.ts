@@ -2,38 +2,46 @@ import { xml } from "../utils/parse.js";
 import { toGeoJSON, groupByFLIK } from "../utils/geometryHelpers.js";
 import queryComplete from "../utils/queryComplete.js";
 import Field from "../Field.js";
-import type { HarmonieQuery } from "../index.js";
+import type { HarmonieQuery } from "../utils/types.js";
 
 export default async function mv(query: HarmonieQuery) {
   const incomplete = queryComplete(query, ["xml"]);
   if (incomplete) throw new Error(incomplete);
   const data = xml(query.xml);
+  // between 2022 and 2025 MV started to use ns namespace instead of fa
+  // so we need to check which one is used
+  const isNS = data["ns:flaechenantrag"] !== undefined;
+  const namespace = isNS ? "ns" : "fa";
   const applicationYear =
-    data["fa:flaechenantrag"]["fa:xsd_info"]["fa:xsd_jahr"];
+    data[`${namespace}:flaechenantrag`][`${namespace}:antragsjahr`];
   const parzellen =
-    data["fa:flaechenantrag"]["fa:gesamtparzellen"]["fa:gesamtparzelle"];
+    data[`${namespace}:flaechenantrag`][`${namespace}:gesamtparzellen`][
+      `${namespace}:gesamtparzelle`
+    ];
   let count = 0;
   const plots = parzellen.reduce((acc, p) => {
     // start off with main area of field
-    const hnf = p["fa:teilflaechen"]["fa:hauptnutzungsflaeche"];
+    const hnf =
+      p[`${namespace}:teilflaechen`][`${namespace}:hauptnutzungsflaeche`];
+    const flik = hnf[`${namespace}:flik`];
     acc.push(
       new Field({
-        id: `harmonie_${count}_${hnf["fa:flik"]}`,
+        id: `harmonie_${count}_${flik}`,
         referenceDate: applicationYear,
-        NameOfField: "", // seems to be unavailable in Agrarantrag-BB export files?,
-        NumberOfField: Math.floor(hnf["fa:teilflaechennummer"]),
-        Area: hnf["fa:groesse"] / 10000,
-        FieldBlockNumber: hnf["fa:flik"],
+        NameOfField: flik || "", // Use FLIK as name if available
+        NumberOfField: Math.floor(hnf[`${namespace}:teilflaechennummer`]),
+        Area: hnf[`${namespace}:groesse`] / 10000,
+        FieldBlockNumber: flik,
         PartOfField: 0,
         SpatialData: toGeoJSON(
-          hnf["fa:geometrie"],
+          hnf[`${namespace}:geometrie`],
           // sometimes a custom projection is used, if not, we default to EPSG:5650
           query.prj ?? query.projection ?? "EPSG:5650"
         ),
         LandUseRestriction: "",
         Cultivation: {
           PrimaryCrop: {
-            CropSpeciesCode: hnf["fa:nutzung"],
+            CropSpeciesCode: hnf[`${namespace}:nutzung`],
             Name: "",
           },
         },
@@ -41,30 +49,34 @@ export default async function mv(query: HarmonieQuery) {
     );
     count++;
     // go on with field (buffer) strips
-    const strfFlaechen = p["fa:teilflaechen"]["fa:streifen_flaechen"];
+    const strfFlaechen =
+      p[`${namespace}:teilflaechen`][`${namespace}:streifen_flaechen`];
     // return only main area if no field strips are defined
     if (!strfFlaechen) return acc;
     // convert to array structure if only one buffer strip is defined
-    if (!Array.isArray(strfFlaechen["fa:streifen"])) {
-      strfFlaechen["fa:streifen"] = [strfFlaechen["fa:streifen"]];
+    if (!Array.isArray(strfFlaechen[`${namespace}:streifen`])) {
+      strfFlaechen[`${namespace}:streifen`] = [
+        strfFlaechen[`${namespace}:streifen`],
+      ];
     }
-    strfFlaechen["fa:streifen"].forEach((stf, j) => {
+    strfFlaechen[`${namespace}:streifen`].forEach((stf, j) => {
       count++;
+      const stripFlik = stf[`${namespace}:flik`];
       acc.push(
         new Field({
-          id: `harmonie_${count}_${stf["fa:flik"]}`,
+          id: `harmonie_${count}_${stripFlik}`,
           referenceDate: applicationYear,
-          NameOfField: "", // seems to be unavailable in Agrarantrag-BB export files?,
-          NumberOfField: Math.floor(stf["fa:teilflaechennummer"]),
-          Area: stf["fa:groesse"] / 10000,
-          FieldBlockNumber: stf["fa:flik"],
+          NameOfField: stripFlik || "", // Use FLIK as name if available
+          NumberOfField: Math.floor(stf[`${namespace}:teilflaechennummer`]),
+          Area: stf[`${namespace}:groesse`] / 10000,
+          FieldBlockNumber: stripFlik,
           PartOfField: j,
           //@ts-ignore
-          SpatialData: toGeoJSON(stf["fa:geometrie"]),
+          SpatialData: toGeoJSON(stf[`${namespace}:geometrie`]),
           LandUseRestriction: "",
           Cultivation: {
             PrimaryCrop: {
-              CropSpeciesCode: stf["fa:nutzung"],
+              CropSpeciesCode: stf[`${namespace}:nutzung`],
               Name: "",
             },
           },
