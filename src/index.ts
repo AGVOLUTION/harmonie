@@ -6,6 +6,8 @@ import mv from "./states/DE-MV.js";
 import ni from "./states/DE-NI.js";
 import nw from "./states/DE-NW.js";
 import sl from "./states/DE-SL.js";
+import sn from "./states/DE-SN.js";
+import st from "./states/DE-ST.js";
 import th from "./states/DE-TH.js";
 import type { HarmonieQuery } from "./utils/types.js";
 export type { HarmonieQuery } from "./utils/types.js";
@@ -46,9 +48,9 @@ export default function harmonie(query: HarmonieQuery) {
     case "DE-SL":
       return sl(query);
     case "DE-SN":
-      return ni(query);
+      return sn(query);
     case "DE-ST":
-      return ni(query);
+      return st(query);
     case "DE-TH":
       return th(query);
     default:
