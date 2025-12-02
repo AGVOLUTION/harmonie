@@ -1,8 +1,8 @@
 import { polygon, multiPolygon } from "@turf/helpers";
 import { coordEach } from "@turf/meta";
 import proj4 from "proj4";
-import polygonClipping from "polygon-clipping";
-import { parse as wktParse } from "terraformer-wkt-parser";
+import { union as pcUnion } from "polyclip-ts";
+import { wktToGeoJSON as wktParse } from "@terraformer/wkt";
 import { getSafe } from "./helpers.js";
 import { xml } from "./parse.js";
 
@@ -48,6 +48,24 @@ export function toGeoJSON(gml, projection) {
   // convert gml to json
   const json = xml(gml.replace(/&lt;/g, "<").replace(/&gt;/g, ">"));
   const flatJson = flatten(json);
+  let gmlProjection = "";
+  if (getSafe(() => flatJson["gml:Surface.@_srsName"])) {
+    // get projection defined in gml
+    gmlProjection = flatJson["gml:Surface.@_srsName"];
+  } else if (getSafe(() => flatJson["gml:Polygon.@_srsName"])) {
+    // get projection defined in gml
+    gmlProjection = flatJson["gml:Polygon.@_srsName"];
+  } else if (getSafe(() => flatJson["gml:MultiSurface.@_srsName"])) {
+    // get projection defined in gml
+    gmlProjection = flatJson["gml:MultiSurface.@_srsName"];
+  } else if (getSafe(() => flatJson["gml:MultiPolygon.@_srsName"])) {
+    // get projection defined in gml
+    gmlProjection = flatJson["gml:MultiPolygon.@_srsName"];
+  }
+  if (gmlProjection) {
+    // check if it's just a hyperlink, else overwrite projection
+    if (gmlProjection.indexOf("http") === -1) projection = gmlProjection;
+  }
   const polygonArray = Object.keys(flatJson)
     .map((k) => {
       //@ts-ignore
@@ -114,9 +132,14 @@ export function wktToGeoJSON(wkt) {
 export function reprojectFeature(feature, projection) {
   if (!projection) projection = fromETRS89;
   coordEach(feature, (coord) => {
-    const p = proj4(projection, toWGS84, coord);
-    coord.length = 0;
-    coord.push(...p);
+    let p;
+    try {
+      p = proj4(projection, toWGS84, coord);
+      coord.length = 0;
+      coord.push(...p);
+    } catch (error) {
+      // fail silently
+    }
   });
   return feature;
 }
@@ -142,7 +165,7 @@ export function groupByFLIK(fields) {
       // two fields in the same fieldblock, while another farmer owns the field
       // in between these other fields.
       // we therefore need to check if the fields would form a union or not
-      const union = polygonClipping.union(
+      const union = pcUnion(
         //@ts-ignore
         ...fieldsInFieldBlock.map((f) => f.SpatialData.geometry.coordinates)
       );

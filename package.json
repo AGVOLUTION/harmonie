@@ -44,18 +44,20 @@
   },
   "homepage": "https://github.com/fruchtfolge/agvolution#readme",
   "dependencies": {
+    "@terraformer/wkt": "^2.2.1",
     "@turf/helpers": "^7.1.0",
     "@turf/meta": "^7.1.0",
+    "@turf/rewind": "^7.3.1",
     "@turf/truncate": "^7.1.0",
     "fast-xml-parser": "^4.0.9",
-    "polygon-clipping": "^0.15.7",
+    "polyclip-ts": "^0.16.8",
     "proj4": "^2.8.0",
     "shapefile": "^0.6.6",
-    "terraformer-wkt-parser": "^1.2.1",
     "typescript": "^5.6.3"
   },
   "devDependencies": {
     "@types/proj4": "^2.5.5",
+    "@types/terraformer__wkt": "^2",
     "eslint": "^8.21.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
