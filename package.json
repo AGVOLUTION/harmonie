@@ -1,7 +1,7 @@
 {
   "name": "@agvolution/harmonie",
   "type": "module",
-  "version": "2.2.10",
+  "version": "2.3.0",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "exports": {
@@ -21,7 +21,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "dev": "yarn build --watch",
-    "test": "node test/test.js",
+    "test": "tsx test/test.ts",
     "pretest": "npm run build",
     "bump": "yarn dlx @agvolution/agv-bump --root",
     "prepare": "yarn build"
