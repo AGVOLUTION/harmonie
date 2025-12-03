@@ -11,5 +11,17 @@ export interface HarmonieQuery {
   /** Sometimes a projection is passed as a string??? */
   projection?: string;
   /** Mapping for generic shapefile handler */
-  mapping?: Record<string, string>;
+  mapping?: ShapefileMapping;
+}
+
+type PropertyAccessor = string | ((properties: any) => any);
+export interface ShapefileMapping {
+  FieldBlockNumber?: PropertyAccessor;
+  referenceDate?: PropertyAccessor;
+  NameOfField?: PropertyAccessor;
+  NumberOfField?: PropertyAccessor;
+  Area?: PropertyAccessor;
+  PartOfField?: PropertyAccessor;
+  CropSpeciesCode?: PropertyAccessor;
+  Name?: PropertyAccessor;
 }

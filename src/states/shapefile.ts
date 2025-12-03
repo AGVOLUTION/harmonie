@@ -2,18 +2,7 @@ import { shape } from "../utils/parse.js";
 import { reprojectFeature, groupByFLIK } from "../utils/geometryHelpers.js";
 import queryComplete from "../utils/queryComplete.js";
 import Field from "../Field.js";
-import type { HarmonieQuery } from "../utils/types.js";
-
-interface ShapefileMapping {
-  FieldBlockNumber?: string;
-  referenceDate?: string;
-  NameOfField?: string;
-  NumberOfField?: string;
-  Area?: string;
-  PartOfField?: string;
-  CropSpeciesCode?: string;
-  Name?: string;
-}
+import type { HarmonieQuery, ShapefileMapping } from "../utils/types.js";
 
 export default async function shapefile(query: HarmonieQuery) {
   const incomplete = queryComplete(query, ["shp", "dbf", "prj"]);
@@ -39,22 +28,31 @@ export default async function shapefile(query: HarmonieQuery) {
     Name = "",
   } = query.mapping as ShapefileMapping;
 
+  const getValue = (
+    prop: string | ((properties: any) => any) | undefined,
+    properties: any
+  ) => {
+    if (typeof prop === "function") return prop(properties);
+    if (typeof prop === "string") return properties[prop];
+    return undefined;
+  };
+
   const subplots = geometries.features.map((plot, count) => {
     if (!plot.properties) plot.properties = {};
 
     return new Field({
-      id: `harmonie_${count}_${plot.properties[FieldBlockNumber]}`,
-      referenceDate: plot.properties[referenceDate],
-      NameOfField: plot.properties[NameOfField],
-      NumberOfField: plot.properties[NumberOfField] || count,
-      Area: plot.properties[Area],
-      FieldBlockNumber: plot.properties[FieldBlockNumber],
-      PartOfField: plot.properties[PartOfField],
+      id: `harmonie_${count}_${getValue(FieldBlockNumber, plot.properties)}`,
+      referenceDate: getValue(referenceDate, plot.properties),
+      NameOfField: getValue(NameOfField, plot.properties),
+      NumberOfField: getValue(NumberOfField, plot.properties) || count,
+      Area: getValue(Area, plot.properties),
+      FieldBlockNumber: getValue(FieldBlockNumber, plot.properties),
+      PartOfField: getValue(PartOfField, plot.properties),
       SpatialData: plot,
       Cultivation: {
         PrimaryCrop: {
-          CropSpeciesCode: plot.properties[CropSpeciesCode],
-          Name: plot.properties[Name],
+          CropSpeciesCode: getValue(CropSpeciesCode, plot.properties),
+          Name: getValue(Name, plot.properties),
         },
       },
     });

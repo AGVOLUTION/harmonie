@@ -2,11 +2,22 @@ import { xml } from "../utils/parse.js";
 import { toGeoJSON, groupByFLIK } from "../utils/geometryHelpers.js";
 import queryComplete from "../utils/queryComplete.js";
 import Field from "../Field.js";
+import shapefile from "./shapefile.js";
+import SHP_MAPPING_MV from "../mappings/DE-MV.js";
 import type { HarmonieQuery } from "../utils/types.js";
 
 export default async function mv(query: HarmonieQuery) {
-  const incomplete = queryComplete(query, ["xml"]);
-  if (incomplete) throw new Error(incomplete);
+  let incomplete = queryComplete(query, ["xml"]);
+  if (incomplete) {
+    incomplete = queryComplete(query, ["shp", "dbf"]);
+    if (!incomplete) {
+      // pass to shapefile handler with predefined mapping for MV
+      if (!query.mapping) query.mapping = SHP_MAPPING_MV;
+      return shapefile(query);
+    } else {
+      throw new Error(incomplete);
+    }
+  }
   const data = xml(query.xml);
   // between 2022 and 2025 MV started to use ns namespace instead of fa
   // so we need to check which one is used
