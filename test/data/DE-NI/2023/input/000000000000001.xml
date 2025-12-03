@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:hauptantrag xmlns:ns2="http://hauptantrag.schnittstellen.andi_gela.sla.nds.de/" andi_version="2023.7.3" andi_antrag_db_id="202340" antragsjahr="2023" antragsart="HAUPTANTRAG" reg_nr="000000000000001" andi_erstell_datum="2023-05-03T10:56:30.638+02:00" andi_export_datum="2023-05-03T11:37:41.751+02:00" abgabe_reg_nr="000000000000001" abgabe_typ="SELBST" dsa_version="2023.0.8" dsa_export_datum="2023-04-20T13:33:00+02:00" betr_email_weitergabe="true">
+    <absender afa_id="8" name="Bewilligungsstelle Oldenburg" strasse="Musterstraße" plz="00000" ort="Musterstadt"/>
+    <akteurAendern adrHausnr="1" adrNation="DE" adrOrt="Musterstadt" adrOrtsteil="" adrPLZ="00000" adrStrasse="Musterstraße" beantragungInEU="false" betrEMail="anon@example.com" betrFax="0000/000000" betrTelefon="0000/000000" bewirtschaftungNGO="false" erwerbsumfang="H" finanzamt="0000" finanzamtBez="Musteramt" steuerid="00000000000" geburtGruendungDatum="1990-01-01" geburtGruendungNr="0" geburtGruendungOrt="Musterstadt" gemeindeArt="" generation="" geschlecht="M" name="Mustermann" rechtsform="EU" registriernummer="000000000000001" sdvid="000001" sonstigerLW="false" vorname="Max">
+        <bankverbindung akiBank="Musterbank" akiIban="DE00000000000000000000" akiKz="false" bank="Musterbank" bvbid="605728" iban="DE00000000000000000000" massnahme="0"/>
+        <vollmacht befristetBis="2100-12-31" bvmAdrHausnr="1" bvmAdrNation="DE" bvmAdrOrt="Musterstadt" bvmAdrOrtsteil="" bvmAdrPLZ="00000" bvmAdrStrasse="Musterstraße" bvmGeburtGruendungNr="0" bvmGeburtsdatum="1990-01-01" bvmGeburtsort="Musterstadt" bvmGeschlecht="W" bvmName="Mustermann" bvmSdvid="000001" bvmVorname="Max" massnahme="0" vollmachtLiegtVorBei="VV" vollmachtTyp="U" vollmachtVom="2021-04-29" vollmachtBestehend="true" gueltig="true"/>
+        <aktiverLandwirt>
+            <antragDirektzahlung>false</antragDirektzahlung>
+            <unfallversicherung>true</unfallversicherung>
+            <unfallversicherungstraeger>SVLFG</unfallversicherungstraeger>
+            <unfallversicherungsNachweis>BEIGELEGT</unfallversicherungsNachweis>
+            <zugehoerigkeitUnternehmensgruppe>false</zugehoerigkeitUnternehmensgruppe>
+        </aktiverLandwirt>
+    </akteurAendern>
+    <ergaenzende_angaben hauptsitz_in_niedersachsen="true" belegenheitsland="PATRIOT" weitere_reg_nr_betriebsstaetten="true">
+        <bll_bundeslaender_liste/>
+        <betriebsstaetten_liste>
+            <betriebsstaetten reg_nr="000000000000001" name="Mustermann" vorname="Max" strasse="Musterstraße" haus_nr="1" plz="00000" ort="Musterstadt" ortsteil="" verknuepfungstyp="HST" gueltig_von="2022-06-30T00:00:00+02:00" gueltig_bis="2100-12-31T00:00:00+01:00" status="true"/>
+            <betriebsstaetten reg_nr="000000000000001" name="Mustermann" vorname="Max" strasse="Musterstraße" haus_nr="1" plz="00000" ort="Musterstadt" ortsteil="" verknuepfungstyp="BST" gueltig_von="2014-01-01T00:00:00+01:00" gueltig_bis="2100-12-31T00:00:00+01:00" status="true"/>
+        </betriebsstaetten_liste>
+    </ergaenzende_angaben>
+    <oeko_betrieb betrieb="false"/>
+    <tierhaltung haltung="true" pferde_milch_fleisch="false">
+        <tier_liste>
+            <tier art_fach_code="69" anzahl_gesamt="1790"/>
+        </tier_liste>
+    </tierhaltung>
+    <konditionalitaet mineraloel_treibstoff="true" mineraloel_pflanzenschutzmittel="true" klaerschlamm_vorjahr="false" klaerschlamm_antragsjahr="false" wirtschaftsduenger_vorjahr="true" wirtschaftsduenger_antragsjahr="true" organischer_duenger_verwendung="false" zertifizierungssystem_teilnahme="true" zertifizierungssystem="TIER_PRODUKTION" wasserentnahme="false"/>
+    <direktzahlung>
+        <einkommensgrundstuetzung einkommensgrundstuetzung="true" ausnahmeGloez8="true"/>
+        <umverteilungseinkommensstuetzung umverteilungseinkommensstuetzung="true"/>
+        <junglandwirteeinkommensstuetzung junglandwirteeinkommensstuetzung="false" junglandwirt_vorjahr="false" junglandwirt_nicht_anerkannt="false">
+            <junglandwirt_betriebsleiter/>
+            <junglandwirt_qualifikation_liste/>
+        </junglandwirteeinkommensstuetzung>
+    </direktzahlung>
+    <kulturcodeabhaengige_angaben anbau="false" nebenkultur="false" kurzumtriebsplantagen="false" erstaufforstung="false" mischkulturen="false"/>
+    <oekoregelungen nichtproduktive_flaechen_al="false" bluehstreifen_flaechen_al="false" bluehstreifen_flaechen_dk="false" altgrasstreifen_flaechen_dgl="false" anbau_vielfaeltiger_kulturen="false" beibehaltung_agroforst_bewirtschaftungsweise="false" dgl_extensivierung="false" kennarten_dgl="false" verzicht_chem_synth_psm="false" natura_2000_gebiete="false"/>
+    <zusatzantraege teilnahme_aukm_bestehend="false" teilnahme_aukm_neu="false" teilnahme_aukm_uebernommen="false" teilnahme_trinkwasserschutz="false">
+        <erschwernisausgleich beantragung="false"/>
+        <erweiterter_erschwernisausgleich verbot_gruenland_umbruch="false" artenreiches_gruenland="false" mesophiles_gruenland="false" verbot_pflanzenschutzmittel="false" wiesenbrueterschutz="false"/>
+        <teilnahme_aukm/>
+    </zusatzantraege>
+    <tierwohl auszahlungsantrag="false" neubeantragung="false" sommerweidehaltung_milchkuh="false"/>
+    <gekoppelteEinkommensstuetzungMutterschafeZiegen beantragungGekoppelte_einkommensstuetzung_mutterschafe_ziegen="false">
+        <mutterschaf_ziege_liste/>
+    </gekoppelteEinkommensstuetzungMutterschafeZiegen>
+    <gekoppelteEinkommensstuetzungMutterkuehe beantragungGekoppelte_einkommensstuetzung_mutterkuehe="false">
+        <mutterkuh_liste/>
+    </gekoppelteEinkommensstuetzungMutterkuehe>
+    <schlag_liste>
+        <schlag flik="DENILI0318410737" nr="5" bezeichnung="Garen" kultur_fach_code="171" keine_dz="false" oekobetrieb="false" erosions_fehler="false" fb_fehler="false" gela_objekt_id="5">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="4.5382" gela_objekt_id="5000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132340398" nr="24" bezeichnung="Maasradde" kultur_fach_code="121" le="false" gela_fach_id="9678459" gela_objekt_id="24">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.2809" gela_fach_id="9945742" gela_objekt_id="24000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1832360343" nr="26" bezeichnung="Felde" kultur_fach_code="131" le="false" gela_fach_id="9678453" gela_objekt_id="26">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="15.3524" gela_fach_id="9945736" gela_objekt_id="26000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132340149" nr="14" bezeichnung="Dustmoor" kultur_fach_code="121" le="true" gela_fach_id="9679677" gela_objekt_id="14">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.3012" gela_fach_id="9946965" gela_objekt_id="14000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste>
+                <le_teilschlag flek="DENILI07LE118061" nr_le="5" geometrie_groesse="0.1335" typ_le_fach_code="2" gela_fach_id="2068501" gela_objekt_id="5"/>
+            </le_teilschlag_liste>
+        </schlag>
+        <schlag flik="DENILI1232360153" nr="2" bezeichnung="Lampe Moor" kultur_fach_code="121" le="false" gela_fach_id="9679681" gela_objekt_id="2">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.3451" gela_fach_id="9946969" gela_objekt_id="2000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132360087" nr="12" bezeichnung="Roscharden" kultur_fach_code="171" le="true" gela_fach_id="9679680" gela_objekt_id="12">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="7.7283" gela_fach_id="9946968" gela_objekt_id="12000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste>
+                <le_teilschlag flek="DENILI21LE008113" nr_le="4" geometrie_groesse="0.0631" typ_le_fach_code="2" gela_fach_id="2068504" gela_objekt_id="4"/>
+            </le_teilschlag_liste>
+        </schlag>
+        <schlag flik="DENILI2132360029" nr="25" bezeichnung="Maasbusch" kultur_fach_code="156" le="false" gela_fach_id="9678454" gela_objekt_id="25">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="4.3553" gela_fach_id="9945737" gela_objekt_id="25000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132340043" nr="15" bezeichnung="Dustfeld" kultur_fach_code="131" le="false" gela_fach_id="9679679" gela_objekt_id="15">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.3051" gela_fach_id="9946967" gela_objekt_id="15000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132360492" nr="27" bezeichnung="Weide Lampe" kultur_fach_code="452" le="false" gela_fach_id="9678452" gela_objekt_id="27">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.5960" gela_fach_id="9945735" gela_objekt_id="27000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1832340820" nr="20" bezeichnung="Thole Fuhren" kultur_fach_code="131" le="false" gela_fach_id="9679675" gela_objekt_id="20">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.2934" gela_fach_id="9946963" gela_objekt_id="20000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1832340870" nr="3" bezeichnung="bei Hans" kultur_fach_code="311" le="false" gela_fach_id="9679682" gela_objekt_id="3">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="10.7612" gela_fach_id="9946970" gela_objekt_id="3000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132340642" nr="1" bezeichnung="Mömmke" kultur_fach_code="131" le="false" gela_fach_id="9679683" gela_objekt_id="1">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="10.3447" gela_fach_id="9946971" gela_objekt_id="1000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132340552" nr="7" bezeichnung="Elbergen" kultur_fach_code="171" le="false" gela_fach_id="9679676" gela_objekt_id="7">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="10.0783" gela_fach_id="9946964" gela_objekt_id="7000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132360418" nr="10" bezeichnung="Am Haus" kultur_fach_code="156" le="true" gela_fach_id="9679678" gela_objekt_id="10">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.7539" gela_fach_id="9946966" gela_objekt_id="10000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste>
+                <le_teilschlag flek="DENILI18LE004530" nr_le="3" geometrie_groesse="0.0084" typ_le_fach_code="1" gela_fach_id="2068502" gela_objekt_id="3"/>
+                <le_teilschlag flek="DENILI18LE004531" nr_le="2" geometrie_groesse="0.0279" typ_le_fach_code="1" gela_fach_id="2068503" gela_objekt_id="2"/>
+            </le_teilschlag_liste>
+        </schlag>
+        <schlag flik="DENILI2132340149" nr="11" bezeichnung="Ferkelstall" kultur_fach_code="121" le="false" gela_fach_id="9679685" gela_objekt_id="11">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="4.4375" gela_fach_id="9946973" gela_objekt_id="11000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2132340203" nr="4" bezeichnung="Vehrensande" kultur_fach_code="411" keine_dz="false" oekobetrieb="false" erosions_fehler="false" fb_fehler="false" gela_objekt_id="4">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="7.8949" gela_objekt_id="4000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2119220123" nr="50" bezeichnung="Bombenloch Wewer" kultur_fach_code="411" keine_dz="false" oekobetrieb="false" erosions_fehler="false" fb_fehler="false" gela_objekt_id="50">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="11.3446" gela_objekt_id="50000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+    </schlag_liste>
+</ns2:hauptantrag>

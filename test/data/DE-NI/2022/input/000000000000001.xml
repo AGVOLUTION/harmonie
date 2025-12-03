@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:hauptantrag xmlns:ns2="http://hauptantrag.schnittstellen.andi_arkos.sla.nds.de/" andi_version="2022.1.1" andi_antrag_db_id="109691" antragsjahr="2022" antragsart="HAUPTANTRAG" reg_nr="000000000000001" andi_erstell_datum="2022-04-02T20:21:32.267+02:00" andi_export_datum="2022-04-05T10:49:15.404+02:00" abgabe_reg_nr="000000000000001" abgabe_typ="SELBST" dsa_version="2022.0.2-PROD" dsa_export_datum="2022-03-15T00:50:00+01:00" betr_email_weitergabe="true">
+    <absender afa_id="2" name="Bewilligungsstelle Braunschweig" strasse="Musterstraße" plz="00000" ort="Musterstadt"/>
+    <akteurAendern adrHausnr="1" adrNation="DE" adrOrt="Musterstadt" adrOrtsteil="" adrPLZ="00000" adrStrasse="Musterstraße" beantragungInEU="false" betrEMail="anon@example.com" betrFax="0000/000000" betrHandy="0000000000000" betrTelefon="0000/000000" bewirtschaftungNGO="false" erwerbsumfang="H" geburtGruendungDatum="1990-01-01" geburtGruendungOrt="Musterstadt" gemeindeArt="" generation="" name="Mustermann" rechtsform="EU" registriernummer="000000000000001" sdvid="000001" sonstigerLW="false" vorname="Max">
+        <bankverbindung akiBank="Musterbank" akiIban="DE00000000000000000000" akiKz="false" bank="Musterbank" iban="DE00000000000000000000" massnahme="0"/>
+        <betriebsleiter blrBearbeitet="false"/>
+    </akteurAendern>
+    <ergaenzende_angaben hauptsitz_in_niedersachsen="true" belegenheitsland="PATRIOT" weitere_reg_nr_betriebsstaetten="true">
+        <bll_bundeslaender_liste/>
+        <betriebsstaetten_liste>
+            <betriebsstaetten reg_nr="000000000000001" name="Mustermann" vorname="Max" strasse="Musterstraße" haus_nr="1" plz="00000" ort="Musterstadt" ortsteil="" verknuepfungstyp="HST" gueltig_von="2021-07-01T00:00:00+02:00" gueltig_bis="2100-12-31T00:00:00+01:00" status="true"/>
+        </betriebsstaetten_liste>
+    </ergaenzende_angaben>
+    <oeko_betrieb betrieb="false"/>
+    <tierhaltung haltung="true" pferde_milch_fleisch="false">
+        <tier_liste>
+            <tier art_fach_code="59" anzahl_gesamt="1"/>
+            <tier art_fach_code="55" anzahl_gesamt="7"/>
+            <tier art_fach_code="65" anzahl_gesamt="2"/>
+            <tier art_fach_code="69" anzahl_gesamt="800"/>
+            <tier art_fach_code="52" anzahl_gesamt="8"/>
+            <tier art_fach_code="56" anzahl_gesamt="1"/>
+        </tier_liste>
+    </tierhaltung>
+    <cross_compliance mineraloel_treibstoff="true" mineraloel_pflanzenschutzmittel="true" klaerschlamm_vorjahr="false" klaerschlamm_antragsjahr="false" wirtschaftsduenger_vorjahr="true" wirtschaftsduenger_antragsjahr="true" organischer_duenger_verwendung="false" futtermittel="true" zertifizierungssystem_teilnahme="true" zertifizierungssystem="PRODUKTIONSVERFAHREN" wasserentnahme="false"/>
+    <zahlungsansprueche beantragung="false"/>
+    <direktzahlung>
+        <basispraemie basispraemie="true"/>
+        <greeningpraemie greeningpraemie="true" greeningpraemie_pflanzenschutzmittel="true" befreiung_anbaudiversifizierung="false"/>
+        <umverteilungspraemie umverteilungspraemie="true"/>
+        <junglandwirtpraemie junglandwirt_beantragung_praemie="false"/>
+        <kleinerzeuger kleinerzeuger_typ="KEINE_TEILNAHME"/>
+    </direktzahlung>
+    <kulturcodeabhaengige_angaben anbau="false" nebenkultur="false" kurzumtriebsplantagen="false" erstaufforstung="false" mischkulturen="false"/>
+    <zusatzantraege teilnahme_aum_bestehend="false" teilnahme_aum_neu="false" auszahlung_uebernommene_verpflichtungen="false" teilnahme_trinkwasserschutz="false">
+        <aum_bestehend_liste/>
+        <aum_neu_liste/>
+        <aum_uebernommen_liste/>
+        <erschwernisausgleich beantragung="false"/>
+        <erweiterter_erschwernisausgleich verbot_gruenland_umbruch="false" artenreiches_gruenland="false" mesophiles_gruenland="false" verbot_pflanzenschutzmittel="false" wiesenbrueterschutz="false"/>
+        <teilnahme_aum/>
+    </zusatzantraege>
+    <tierwohl auszahlungsantrag="false" neubeantragung="false"/>
+    <schlag_liste>
+        <schlag flik="DENILI0354910010" nr="100" bezeichnung="Sichtelbach" kultur_fach_code="131" le="false" arkos_fach_id="8611965" arkos_objekt_id="100">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="B" geometrie_groesse="0.1442" oevf="false" arkos_objekt_id="100001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.1716" oevf="true" oevf_typ_fach_code="52" arkos_fach_id="8849916" arkos_objekt_id="100000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2055200016" nr="310" bezeichnung="Espenberg" kultur_fach_code="452" le="false" fb_fehler="true" fb_fehler_art_fach_code="ANLAGE5_2" fb_fehler_bemerkung="Erdlagerhaufen exsistieren nicht mehr." arkos_fach_id="8611950" arkos_objekt_id="310">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.4323" arkos_fach_id="8849900" arkos_objekt_id="310000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654920001" nr="410" bezeichnung="Silberfeld" kultur_fach_code="131" le="false" arkos_fach_id="8611955" arkos_objekt_id="410">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="B" geometrie_groesse="9.4041" oevf="true" oevf_typ_fach_code="52" arkos_objekt_id="410001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.4625" arkos_fach_id="8849905" arkos_objekt_id="410000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1954970005" nr="490" bezeichnung="Mühlenwanne" kultur_fach_code="131" kaza="false" oekobetrieb="false" flaechentausch="false" erosions_fehler="false" fb_fehler="false" arkos_objekt_id="490">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.0984" oevf="false" arkos_objekt_id="490000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1954970003" nr="460" bezeichnung="Stöckenfeld Streifen" kultur_fach_code="591" le="true" arkos_fach_id="8611976" arkos_objekt_id="460">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1267" oevf="true" oevf_typ_fach_code="58" oevf_angr_schlag_nr="450" arkos_fach_id="8849927" arkos_objekt_id="460000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste>
+                <le_teilschlag flek="DENILI19LE010340" nr_le="1" geometrie_groesse="0.0100" typ_le_fach_code="1" arkos_fach_id="1826103" arkos_objekt_id="1"/>
+            </le_teilschlag_liste>
+        </schlag>
+        <schlag flik="DENILI0354920017" nr="400" bezeichnung="Im Schwarzen Kampe" kultur_fach_code="210" le="false" arkos_fach_id="8611961" arkos_objekt_id="400">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.9572" oevf="true" oevf_typ_fach_code="22" arkos_fach_id="8849911" arkos_objekt_id="400000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054910009" nr="20" bezeichnung="U.d.Grüte W" kultur_fach_code="115" le="false" arkos_fach_id="8611941" arkos_objekt_id="20">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.2327" oevf="false" arkos_fach_id="8849890" arkos_objekt_id="20000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+                <teilschlag bezeichnung="B" geometrie_groesse="4.4177" oevf="true" oevf_typ_fach_code="52" arkos_objekt_id="20001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910017" nr="92" bezeichnung="Bullenstation" kultur_fach_code="210" le="false" arkos_fach_id="8611983" arkos_objekt_id="92">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.8763" arkos_fach_id="8849934" arkos_objekt_id="92000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910001" nr="350" bezeichnung="Mittelfeld" kultur_fach_code="603" le="false" arkos_fach_id="8611960" arkos_objekt_id="350">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.9093" arkos_fach_id="8849910" arkos_objekt_id="350000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054970009" nr="390" bezeichnung="Vorwiesenanger S" kultur_fach_code="451" kaza="false" oekobetrieb="false" flaechentausch="false" erosions_fehler="false" fb_fehler="false" arkos_objekt_id="390">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.4363" arkos_objekt_id="390000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354920007" nr="386" bezeichnung="Bülten" kultur_fach_code="131" le="false" arkos_fach_id="8611964" arkos_objekt_id="386">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.0523" oevf="true" oevf_typ_fach_code="22" arkos_fach_id="8849915" arkos_objekt_id="386000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2055200014" nr="500" bezeichnung="Kochswiese" kultur_fach_code="451" le="false" arkos_fach_id="8611963" arkos_objekt_id="500">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.5187" arkos_fach_id="8849914" arkos_objekt_id="500000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2055200005" nr="396" bezeichnung="In der Dehne" kultur_fach_code="452" le="false" arkos_fach_id="8611986" arkos_objekt_id="396">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.4953" arkos_fach_id="8849937" arkos_objekt_id="396000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354912005" nr="170" bezeichnung="Osterholz" kultur_fach_code="603" le="false" arkos_fach_id="8611958" arkos_objekt_id="170">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.2032" arkos_fach_id="8849908" arkos_objekt_id="170000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910018" nr="111" bezeichnung="Vor dem Hof Streifen" kultur_fach_code="424" kaza="false" oekobetrieb="false" flaechentausch="false" erosions_fehler="false" fb_fehler="false" arkos_objekt_id="111">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1013" arkos_objekt_id="111000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354910035" nr="80" bezeichnung="Teichwiese" kultur_fach_code="603" le="false" arkos_fach_id="8611954" arkos_objekt_id="80">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.1556" arkos_fach_id="8849904" arkos_objekt_id="80000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354920008" nr="399" bezeichnung="Auf der Wörde" kultur_fach_code="603" le="false" arkos_fach_id="8611945" arkos_objekt_id="399">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.2430" arkos_fach_id="8849895" arkos_objekt_id="399000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910005" nr="240" bezeichnung="Hofkoppel" kultur_fach_code="452" le="false" arkos_fach_id="8611973" arkos_objekt_id="240">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.2794" arkos_fach_id="8849924" arkos_objekt_id="240000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054910001" nr="120" bezeichnung="Mühlenfeld" kultur_fach_code="115" le="false" arkos_fach_id="8611944" arkos_objekt_id="120">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="C" geometrie_groesse="10.5384" arkos_fach_id="8849893" arkos_objekt_id="120002">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2055200017" nr="520" bezeichnung="Arnecke Hof" kultur_fach_code="451" le="false" arkos_fach_id="8611949" arkos_objekt_id="520">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.0120" arkos_fach_id="8849899" arkos_objekt_id="520000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0386070019" nr="385" bezeichnung="Breiter Weg" kultur_fach_code="115" le="false" arkos_fach_id="8611953" arkos_objekt_id="385">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="4.1839" oevf="true" oevf_typ_fach_code="22" arkos_fach_id="8849903" arkos_objekt_id="385000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0554910010" nr="380" bezeichnung="Hohes Feld" kultur_fach_code="131" le="false" arkos_fach_id="8611943" arkos_objekt_id="380">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="B" geometrie_groesse="8.6423" oevf="true" oevf_typ_fach_code="52" arkos_objekt_id="380001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.3651" arkos_fach_id="8849892" arkos_objekt_id="380000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910018" nr="110" bezeichnung="v.Hof" kultur_fach_code="115" le="false" arkos_fach_id="8611967" arkos_objekt_id="110">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="B" geometrie_groesse="0.2828" oevf="false" arkos_objekt_id="110001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+                <teilschlag bezeichnung="A" geometrie_groesse="10.5714" oevf="true" oevf_typ_fach_code="52" arkos_fach_id="8849918" arkos_objekt_id="110000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2162780007" nr="388" bezeichnung="Im Bergenrode" kultur_fach_code="451" le="false" arkos_fach_id="8611969" arkos_objekt_id="388">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.4678" arkos_fach_id="8849920" arkos_objekt_id="388000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054910015" nr="50" bezeichnung="WiedhayH" kultur_fach_code="115" le="false" arkos_fach_id="8611970" arkos_objekt_id="50">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.9456" arkos_fach_id="8849921" arkos_objekt_id="50000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1454910008" nr="130" bezeichnung="Beinumer Weg" kultur_fach_code="115" le="false" arkos_fach_id="8611962" arkos_objekt_id="130">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="B" geometrie_groesse="12.5100" arkos_fach_id="8849913" arkos_objekt_id="130001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910003" nr="370" bezeichnung="Meer" kultur_fach_code="603" le="false" arkos_fach_id="8611975" arkos_objekt_id="370">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="10.0346" arkos_fach_id="8849926" arkos_objekt_id="370000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910017" nr="90" bezeichnung="H. Wiese" kultur_fach_code="131" le="false" arkos_fach_id="8611981" arkos_objekt_id="90">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="10.4799" oevf="false" arkos_fach_id="8849932" arkos_objekt_id="90000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054970019" nr="480" bezeichnung="Strautspitze" kultur_fach_code="115" le="false" arkos_fach_id="8611972" arkos_objekt_id="480">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.3627" oevf="true" oevf_typ_fach_code="22" arkos_fach_id="8849923" arkos_objekt_id="480000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2155200002" nr="510" bezeichnung="Ahlerbach" kultur_fach_code="451" le="false" arkos_fach_id="8611982" arkos_objekt_id="510">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.3108" arkos_fach_id="8849933" arkos_objekt_id="510000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1454910007" nr="40" bezeichnung="Wiedhay B" kultur_fach_code="115" le="false" arkos_fach_id="8611974" arkos_objekt_id="40">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="9.1649" arkos_fach_id="8849925" arkos_objekt_id="40000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354912001" nr="160" bezeichnung="Altfeld W" kultur_fach_code="131" kaza="false" oekobetrieb="false" flaechentausch="false" erosions_fehler="false" fb_fehler="false" arkos_objekt_id="160">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.2761" arkos_objekt_id="160000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+                <teilschlag bezeichnung="B" geometrie_groesse="2.3598" oevf="true" oevf_typ_fach_code="52" arkos_objekt_id="160001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910017" nr="93" bezeichnung="Bullenstation AG" kultur_fach_code="424" le="false" arkos_fach_id="8611979" arkos_objekt_id="93">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1206" arkos_fach_id="8849930" arkos_objekt_id="93000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054910004" nr="60" bezeichnung="Bauernwiese" kultur_fach_code="603" le="false" arkos_fach_id="8611952" arkos_objekt_id="60">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.6288" arkos_fach_id="8849902" arkos_objekt_id="60000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354910010" nr="101" bezeichnung="Sichtelbach Streifen" kultur_fach_code="424" kaza="false" oekobetrieb="false" flaechentausch="false" erosions_fehler="false" fb_fehler="false" arkos_objekt_id="101">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1618" arkos_objekt_id="101000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+                <teilschlag bezeichnung="B" geometrie_groesse="0.5810" oevf="true" oevf_typ_fach_code="52" arkos_objekt_id="101001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054990002" nr="430" bezeichnung="Vor der Aue" kultur_fach_code="131" le="false" arkos_fach_id="8611984" arkos_objekt_id="430">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.6139" oevf="true" oevf_typ_fach_code="22" arkos_fach_id="8849935" arkos_objekt_id="430000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2055060001" nr="210" bezeichnung="Kirschenberg" kultur_fach_code="591" le="false" arkos_fach_id="8611966" arkos_objekt_id="210">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.0377" oevf="true" oevf_typ_fach_code="62" arkos_fach_id="8849917" arkos_objekt_id="210000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354912001" nr="150" bezeichnung="Altfeld" kultur_fach_code="603" le="false" arkos_fach_id="8611942" arkos_objekt_id="150">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="13.8598" arkos_fach_id="8849891" arkos_objekt_id="150000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054970009" nr="391" bezeichnung="Vorwiesenanger W" kultur_fach_code="451" kaza="false" oekobetrieb="false" flaechentausch="false" erosions_fehler="false" fb_fehler="false" arkos_objekt_id="391">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.3455" arkos_objekt_id="391000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054990002" nr="440" bezeichnung="vor der Aue Streifen" kultur_fach_code="591" le="false" arkos_fach_id="8611951" arkos_objekt_id="440">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.0096" oevf="true" oevf_typ_fach_code="58" oevf_angr_schlag_nr="430" arkos_fach_id="8849901" arkos_objekt_id="440000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0386090010" nr="190" bezeichnung="Meierrode I" kultur_fach_code="115" le="false" arkos_fach_id="8611987" arkos_objekt_id="190">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="B" geometrie_groesse="26.6280" arkos_fach_id="8849938" arkos_objekt_id="190001">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354920012" nr="387" bezeichnung="Hinterbusch" kultur_fach_code="131" le="false" arkos_fach_id="8611978" arkos_objekt_id="387">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.6387" oevf="true" oevf_typ_fach_code="22" arkos_fach_id="8849929" arkos_objekt_id="387000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054920003" nr="420" bezeichnung="Hinter den Teichen" kultur_fach_code="603" le="false" arkos_fach_id="8611980" arkos_objekt_id="420">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.9290" arkos_fach_id="8849931" arkos_objekt_id="420000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354970045" nr="392" bezeichnung="Wiese Probst" kultur_fach_code="451" le="false" arkos_fach_id="8611971" arkos_objekt_id="392">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.9858" arkos_fach_id="8849922" arkos_objekt_id="392000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0386090015" nr="180" bezeichnung="Meierrode A" kultur_fach_code="603" le="false" arkos_fach_id="8611948" arkos_objekt_id="180">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="4.9774" arkos_fach_id="8849898" arkos_objekt_id="180000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2154930004" nr="10" bezeichnung="Über der Grüte" kultur_fach_code="603" kaza="false" oekobetrieb="false" flaechentausch="false" erosions_fehler="false" fb_fehler="false" arkos_objekt_id="10">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="19.2747" arkos_objekt_id="10000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054970009" nr="389" bezeichnung="Vorwiesenanger L" kultur_fach_code="451" kaza="false" oekobetrieb="false" flaechentausch="false" erosions_fehler="false" fb_fehler="false" arkos_objekt_id="389">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.4065" arkos_objekt_id="389000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1654910017" nr="94" bezeichnung="Bullenstation Streifen" kultur_fach_code="591" le="false" arkos_fach_id="8611957" arkos_objekt_id="94">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1690" oevf="true" oevf_typ_fach_code="58" oevf_angr_schlag_nr="92" arkos_fach_id="8849907" arkos_objekt_id="94000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054930015" nr="470" bezeichnung="Im Quelag" kultur_fach_code="115" le="false" arkos_fach_id="8611947" arkos_objekt_id="470">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="13.7633" arkos_fach_id="8849897" arkos_objekt_id="470000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1954970003" nr="450" bezeichnung="Stöckenfeld" kultur_fach_code="115" le="false" arkos_fach_id="8611956" arkos_objekt_id="450">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="16.5098" arkos_fach_id="8849906" arkos_objekt_id="450000">
+                    <teilschlag_foerdermassnahme_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+    </schlag_liste>
+</ns2:hauptantrag>

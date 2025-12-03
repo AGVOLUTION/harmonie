@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbfrageErgebnis>
+  <Abfrage typ="DAW_EIG">
+    <Datum>2023-03-31T12:04:17</Datum>
+    <Jahr>2023</Jahr>
+    <Benutzer>
+      <Betriebsnummer>1901290020</Betriebsnummer>
+    </Benutzer>
+    <BetriebsNummerVon>0000000001</BetriebsNummerVon>
+    <BetriebsNummerBis>0000000001</BetriebsNummerBis>
+    <zeigeNutzungen>true</zeigeNutzungen>
+    <zeigeGeodaten>true</zeigeGeodaten>
+  </Abfrage>
+  <Betriebe>
+    <Betrieb Betriebsnummer="0000000001">
+      <Vorname>Max</Vorname>
+      <Nachname>Mustermann</Nachname>
+      <Firma>ANON_FARM</Firma>
+      <FlaecheGesamt>2.8767</FlaecheGesamt>
+      <Adresse>
+        <Ortsteil />
+        <Strasse>Musterstraße 1</Strasse>
+        <PLZ>00000</PLZ>
+        <Ort>Musterstadt</Ort>
+      </Adresse>
+      <Kontaktdaten>
+        <Telefon>0000/000000</Telefon>
+        <Fax>0000/000000</Fax>
+        <EMail>anon@example.com</EMail>
+      </Kontaktdaten>
+      <Feldstuecke Anzahl="1">
+        <Feldstueck FID="DEBYLI9089000286">
+          <Flaeche>2.8767</Flaeche>
+          <Name>Auf dem rücken Acker</Name>
+          <Nummer>27</Nummer>
+          <Geometrie>MULTIPOLYGON (((641756.3302756 5302327.8381877, 641768.5574479 5302296.8969958,
+            641706.4534386 5302291.5522579, 641629.5114898 5302284.9305747, 641546.596804
+            5302277.7866354, 641546.6970969 5302278.811067, 641551.6632404 5302310.4104829,
+            641557.7751447 5302349.3482285, 641564.7970323 5302384.2937947, 641566.9906502
+            5302395.2054348, 641567.4889636 5302419.1380657, 641570.255789 5302436.7343776,
+            641573.6395827 5302441.5057407, 641578.6368345 5302444.5552212, 641592.342019
+            5302445.3898944, 641684.2105573 5302452.754754, 641691.3079684 5302450.1839948,
+            641699.936848 5302444.8262174, 641710.5990609 5302435.8871508, 641725.5674475
+            5302405.5738638, 641740.8436663 5302366.967064, 641756.3302756 5302327.8381877)))</Geometrie>
+          <nitratbelastet>nein</nitratbelastet>
+          <Nutzungen Anzahl="1">
+            <Nutzung>
+              <Code>411</Code>
+              <Flaeche>2.8767</Flaeche>
+              <Ganzpflanzensilage>false</Ganzpflanzensilage>
+              <BejagungsschneiseBluehstreifen>false</BejagungsschneiseBluehstreifen>
+              <Mehrgefahrenversicherung>false</Mehrgefahrenversicherung>
+            </Nutzung>
+          </Nutzungen>
+        </Feldstueck>
+      </Feldstuecke>
+    </Betrieb>
+  </Betriebe>
+</AbfrageErgebnis>

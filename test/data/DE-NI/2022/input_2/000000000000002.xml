@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:aenderungsantrag xmlns:ns2="http://aenderungsantrag.schnittstellen.andi_arkos.sla.nds.de/" andi_version="2022.1.7" andi_antrag_db_id="2531721" antragsjahr="2022" antragsart="AENDERUNGSANTRAG" reg_nr="000000000000001" andi_erstell_datum="2022-07-06T09:42:28.898+02:00" andi_export_datum="2022-07-06T10:12:38.059+02:00" abgabe_reg_nr="000000000000001" abgabe_typ="SELBST" dsa_version="2022.0.7" dsa_export_datum="2022-07-06T02:38:38+02:00">
+    <absender afa_id="6" name="Bewilligungsstelle Uelzen" strasse="Musterstraße" plz="00000" ort="Musterstadt"/>
+    <schlag_liste>
+        <schlag flik="DENILI2266790029" nr="44" bezeichnung="Wischen C" arkos_fach_id="10093422" arkos_objekt_id="44" geometry_uebernommen_id_aktion="453105881" geometry_uebernommen_zeitstempel="2022-07-01T16:00:03+02:00" aenderungskennzeichen="AENDERUNG">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.8751" arkos_fach_id="10365137" arkos_objekt_id="44000" geometry_uebernommen_id_aktion="453105881" geometry_uebernommen_zeitstempel="2022-07-01T16:00:03+02:00" aenderungskennzeichen="AENDERUNG"/>
+            </teilschlag_liste>
+        </schlag>
+        <schlag flik="DENILI2266630010" nr="12" bezeichnung="Weihkoppel" arkos_fach_id="10093438" geometry_uebernommen_id_aktion="453105881" geometry_uebernommen_zeitstempel="2022-07-01T16:00:03+02:00" aenderungskennzeichen="KEINE_AENDERUNG">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" anteil_oeffentliche_hand="5.0892" arkos_fach_id="10365154" geometry_uebernommen_id_aktion="453105881" geometry_uebernommen_zeitstempel="2022-07-01T16:00:03+02:00" aenderungskennzeichen="AENDERUNG"/>
+            </teilschlag_liste>
+        </schlag>
+        <schlag flik="DENILI2266790034" nr="56" bezeichnung="Rens vorne rechts 1" le="false" fb_fehler="true" fb_fehler_art_fach_code="ANLAGE5_1" fb_fehler_bemerkung="Neuer Feldblock nicht richtig Digitalisiert" gruenland_fehler="true" gruenland_fehler_art_jahr="tsDGL" gruenland_fehler_groesse="2.7745" gruenland_fehler_art_fach_code="ANLAGE8_7" gruenland_fehler_bemerkung="Feldblockfehler" arkos_fach_id="10093411" arkos_objekt_id="56" geometry_uebernommen_id_aktion="453105881" geometry_uebernommen_zeitstempel="2022-07-01T16:00:03+02:00" aenderungskennzeichen="AENDERUNG">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.7763" arkos_fach_id="10365126" arkos_objekt_id="56000" geometry_uebernommen_id_aktion="453105881" geometry_uebernommen_zeitstempel="2022-07-01T16:00:03+02:00" aenderungskennzeichen="AENDERUNG"/>
+            </teilschlag_liste>
+            <le_teilschlag_liste>
+                <le_teilschlag flek="DENILI16LE004314" nr_le="140" geometrie_groesse="0.1211" typ_le_fach_code="3" oevf="false" kaza="false" flaechentausch="false" le_fehler="false" arkos_fach_id="2110726" geometry_uebernommen_id_aktion="450247874" geometry_uebernommen_zeitstempel="2022-05-16T13:12:37+02:00" aenderungskennzeichen="ZURUECKGEZOGEN"/>
+            </le_teilschlag_liste>
+        </schlag>
+        <schlag flik="DENILI2266790025" nr="4903" bezeichnung="Matthies" gruenland_fehler="true" gruenland_fehler_art_jahr="tsDGL" gruenland_fehler_groesse="0.5879" gruenland_fehler_art_fach_code="ANLAGE8_7" gruenland_fehler_bemerkung="neuer Feldblock" arkos_fach_id="10093431" arkos_objekt_id="4903" geometry_uebernommen_id_aktion="453105881" geometry_uebernommen_zeitstempel="2022-07-01T16:00:03+02:00" aenderungskennzeichen="AENDERUNG">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.5879" arkos_fach_id="10365147" arkos_objekt_id="4903000" geometry_uebernommen_id_aktion="453105881" geometry_uebernommen_zeitstempel="2022-07-01T16:00:03+02:00" aenderungskennzeichen="AENDERUNG"/>
+            </teilschlag_liste>
+        </schlag>
+    </schlag_liste>
+</ns2:aenderungsantrag>

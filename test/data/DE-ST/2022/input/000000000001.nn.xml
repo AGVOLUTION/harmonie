@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fa:flaechenantrag xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="NN2022.xsd" xmlns:fa="http://www.data-experts.de/Flaechen">
+  <fa:xsd_info>
+    <fa:xsd_name>NN2022.xsd</fa:xsd_name>
+    <fa:xsd_version>0</fa:xsd_version>
+    <fa:xsd_jahr>2022</fa:xsd_jahr>
+    <fa:xsd_land>ST</fa:xsd_land>
+  </fa:xsd_info>
+  <fa:antragsjahr>2022</fa:antragsjahr>
+  <fa:bnrzd>000000000001</fa:bnrzd>
+  <fa:firma>ANON_FARM</fa:firma>
+  <fa:gesamtparzellen>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='100'&gt;637386.6777942 5771253.2679292 637389.2752488 5771293.435709 637391.5016384
+        5771329.4290083 637393.1714307 5771354.197593 637395.0267554 5771380.9142688 637398.1808074
+        5771425.2565291 637400.407197 5771453.5502309 637403.2829503 5771504.9427251 637405.6948724
+        5771541.2143231 637408.0140283 5771578.8774145 637408.9416907 5771596.2247005 637409.0344569
+        5771602.5328045 637409.4055218 5771606.8928175 637410.4259504 5771610.7889994 637413.0369271
+        5771616.2851877 637417.1978856 5771617.8392333 637420.4447038 5771617.5609346 637426.845574
+        5771616.9115709 637431.6694183 5771615.8911424 637455.7886394 5771610.3251682 637546.1429524
+        5771590.6587264 637580.0953944 5771583.0518951 637587.6094595 5771581.4748691 637592.155005
+        5771580.8255055 637596.7005505 5771580.4544405 637604.1593634 5771580.7896833 637610.0391416
+        5771581.1965153 637657.4624345 5771585.1855185 637682.9731492 5771587.4119081 637726.2022148
+        5771591.5863887 637786.7785663 5771597.8017265 637815.7216316 5771600.5847136 637840.0263852
+        5771602.6255707 637888.2648275 5771606.9855838 637906.1687109 5771608.8409085 637959.0454649
+        5771614.1285839 637987.1536341 5771616.2622073 637989.6583225 5771617.2826359 637997.6304533
+        5771617.3341625 638000.4631686 5771615.8655727 638002.088998 5771612.1804929 638003.5732578
+        5771608.4698435 638003.7587902 5771602.4400383 638001.717933 5771558.932674 637997.7289849
+        5771507.7257122 637993.7400368 5771451.4166075 637991.7919459 5771418.0207628 637990.4131396
+        5771395.0707168 637986.3532574 5771339.8494041 637979.9178678 5771248.3513188 637975.0940236
+        5771195.9383959 637973.6705103 5771179.5395888 637972.6090936 5771159.0838863 637972.125504
+        5771149.2769796 637971.3833742 5771133.5994859 637968.8786858 5771107.996005 637967.6727248
+        5771094.6376671 637967.2088936 5771086.6597709 637966.0956988 5771072.8376019 637965.7246338
+        5771065.9729005 637965.2608026 5771063.004381 637963.9620754 5771061.6128874 637962.1067507
+        5771060.9635238 637958.9526987 5771061.1490563 637953.6650233 5771062.0767186 637930.6589969
+        5771066.2511992 637912.2912824 5771069.8690824 637851.7372937 5771083.4871033 637848.5190157
+        5771084.1933071 637843.4587359 5771085.3610436 637842.3455411 5771084.6189138 637841.6961775
+        5771082.3925241 637839.5625541 5771070.4256798 637837.4289307 5771057.4384069 637828.8016708
+        5771009.0144321 637827.8740084 5771005.9531464 637825.4620863 5771003.1701593 637823.4212292
+        5771001.7786658 637819.1539823 5771001.1293021 637815.7216316 5771001.5931333 637767.2976569
+        5771012.910614 637731.2115914 5771021.6306401 637704.1238508 5771028.1242765 637656.070941
+        5771039.2562248 637604.0290831 5771051.0375366 637589.1864855 5771054.4698873 637580.5395697
+        5771056.9347939 637572.5760857 5771059.2285001 637567.3864202 5771061.3345887 637558.8519266
+        5771065.2307706 637550.0391343 5771071.0750434 637542.7982168 5771077.0305124 637535.4290653
+        5771084.7592463 637502.9138868 5771119.8700831 637447.4396782 5771179.6115385 637421.4651324
+        5771207.6269415 637393.0786644 5771238.4253316 637387.6054566 5771245.290033 637386.3994955
+        5771247.7019551 637386.6777942
+        5771253.2679292&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;gml:interior&gt;
+        &lt;gml:LinearRing&gt;
+        &lt;gml:posList srsDimension='2' count='5'&gt;637622.9209 5771124.1924 637626.0844
+        5771124.1924 637626.0844 5771127.3559 637622.9209 5771127.3559 637622.9209
+        5771124.1924&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+        &lt;/gml:interior&gt;
+        &lt;gml:interior&gt;
+        &lt;gml:LinearRing&gt;
+        &lt;gml:posList srsDimension='2' count='5'&gt;637441.1675 5771219.1328 637444.331
+        5771219.1328 637444.331 5771222.2963 637441.1675 5771222.2963 637441.1675
+        5771219.1328&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+        &lt;/gml:interior&gt;
+        &lt;gml:interior&gt;
+        &lt;gml:LinearRing&gt;
+        &lt;gml:posList srsDimension='2' count='5'&gt;637782.0897 5771063.456 637786.5619
+        5771063.456 637786.5619 5771067.9282 637782.0897 5771067.9282 637782.0897
+        5771063.456&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+        &lt;/gml:interior&gt;
+        &lt;gml:interior&gt;
+        &lt;gml:LinearRing&gt;
+        &lt;gml:posList srsDimension='2' count='5'&gt;637736.1529 5771103.0067 637739.3164
+        5771103.0067 637739.3164 5771106.1702 637736.1529 5771106.1702 637736.1529
+        5771103.0067&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+        &lt;/gml:interior&gt;
+        &lt;gml:interior&gt;
+        &lt;gml:LinearRing&gt;
+        &lt;gml:posList srsDimension='2' count='5'&gt;637512.5466 5771144.6878 637515.7101
+        5771144.6878 637515.7101 5771147.8513 637512.5466 5771147.8513 637512.5466
+        5771144.6878&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+        &lt;/gml:interior&gt;
+        &lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:gp_nummer>30100</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='100'&gt;637386.6777942 5771253.2679292 637389.2752488 5771293.435709
+            637391.5016384 5771329.4290083 637393.1714307 5771354.197593 637395.0267554
+            5771380.9142688 637398.1808074 5771425.2565291 637400.407197 5771453.5502309
+            637403.2829503 5771504.9427251 637405.6948724 5771541.2143231 637408.0140283
+            5771578.8774145 637408.9416907 5771596.2247005 637409.0344569 5771602.5328045
+            637409.4055218 5771606.8928175 637410.4259504 5771610.7889994 637413.0369271
+            5771616.2851877 637417.1978856 5771617.8392333 637420.4447038 5771617.5609346
+            637426.845574 5771616.9115709 637431.6694183 5771615.8911424 637455.7886394
+            5771610.3251682 637546.1429524 5771590.6587264 637580.0953944 5771583.0518951
+            637587.6094595 5771581.4748691 637592.155005 5771580.8255055 637596.7005505
+            5771580.4544405 637604.1593634 5771580.7896833 637610.0391416 5771581.1965153
+            637657.4624345 5771585.1855185 637682.9731492 5771587.4119081 637726.2022148
+            5771591.5863887 637786.7785663 5771597.8017265 637815.7216316 5771600.5847136
+            637840.0263852 5771602.6255707 637888.2648275 5771606.9855838 637906.1687109
+            5771608.8409085 637959.0454649 5771614.1285839 637987.1536341 5771616.2622073
+            637989.6583225 5771617.2826359 637997.6304533 5771617.3341625 638000.4631686
+            5771615.8655727 638002.088998 5771612.1804929 638003.5732578 5771608.4698435
+            638003.7587902 5771602.4400383 638001.717933 5771558.932674 637997.7289849
+            5771507.7257122 637993.7400368 5771451.4166075 637991.7919459 5771418.0207628
+            637990.4131396 5771395.0707168 637986.3532574 5771339.8494041 637979.9178678
+            5771248.3513188 637975.0940236 5771195.9383959 637973.6705103 5771179.5395888
+            637972.6090936 5771159.0838863 637972.125504 5771149.2769796 637971.3833742
+            5771133.5994859 637968.8786858 5771107.996005 637967.6727248 5771094.6376671
+            637967.2088936 5771086.6597709 637966.0956988 5771072.8376019 637965.7246338
+            5771065.9729005 637965.2608026 5771063.004381 637963.9620754 5771061.6128874
+            637962.1067507 5771060.9635238 637958.9526987 5771061.1490563 637953.6650233
+            5771062.0767186 637930.6589969 5771066.2511992 637912.2912824 5771069.8690824
+            637851.7372937 5771083.4871033 637848.5190157 5771084.1933071 637843.4587359
+            5771085.3610436 637842.3455411 5771084.6189138 637841.6961775 5771082.3925241
+            637839.5625541 5771070.4256798 637837.4289307 5771057.4384069 637828.8016708
+            5771009.0144321 637827.8740084 5771005.9531464 637825.4620863 5771003.1701593
+            637823.4212292 5771001.7786658 637819.1539823 5771001.1293021 637815.7216316
+            5771001.5931333 637767.2976569 5771012.910614 637731.2115914 5771021.6306401
+            637704.1238508 5771028.1242765 637656.070941 5771039.2562248 637604.0290831
+            5771051.0375366 637589.1864855 5771054.4698873 637580.5395697 5771056.9347939
+            637572.5760857 5771059.2285001 637567.3864202 5771061.3345887 637558.8519266
+            5771065.2307706 637550.0391343 5771071.0750434 637542.7982168 5771077.0305124
+            637535.4290653 5771084.7592463 637502.9138868 5771119.8700831 637447.4396782
+            5771179.6115385 637421.4651324 5771207.6269415 637393.0786644 5771238.4253316
+            637387.6054566 5771245.290033 637386.3994955 5771247.7019551 637386.6777942
+            5771253.2679292&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;gml:interior&gt;
+            &lt;gml:LinearRing&gt;
+            &lt;gml:posList srsDimension='2' count='5'&gt;637622.9209 5771124.1924 637626.0844
+            5771124.1924 637626.0844 5771127.3559 637622.9209 5771127.3559 637622.9209
+            5771124.1924&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+            &lt;/gml:interior&gt;
+            &lt;gml:interior&gt;
+            &lt;gml:LinearRing&gt;
+            &lt;gml:posList srsDimension='2' count='5'&gt;637441.1675 5771219.1328 637444.331
+            5771219.1328 637444.331 5771222.2963 637441.1675 5771222.2963 637441.1675
+            5771219.1328&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+            &lt;/gml:interior&gt;
+            &lt;gml:interior&gt;
+            &lt;gml:LinearRing&gt;
+            &lt;gml:posList srsDimension='2' count='5'&gt;637782.0897 5771063.456 637786.5619
+            5771063.456 637786.5619 5771067.9282 637782.0897 5771067.9282 637782.0897
+            5771063.456&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+            &lt;/gml:interior&gt;
+            &lt;gml:interior&gt;
+            &lt;gml:LinearRing&gt;
+            &lt;gml:posList srsDimension='2' count='5'&gt;637736.1529 5771103.0067 637739.3164
+            5771103.0067 637739.3164 5771106.1702 637736.1529 5771106.1702 637736.1529
+            5771103.0067&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+            &lt;/gml:interior&gt;
+            &lt;gml:interior&gt;
+            &lt;gml:LinearRing&gt;
+            &lt;gml:posList srsDimension='2' count='5'&gt;637512.5466 5771144.6878 637515.7101
+            5771144.6878 637515.7101 5771147.8513 637512.5466 5771147.8513 637512.5466
+            5771144.6878&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+            &lt;/gml:interior&gt;
+            &lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>309350</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>30100.01</fa:teilflaechennummer>
+          <fa:aktivierung />
+          <fa:flik>DESTLI0507260091</fa:flik>
+          <fa:nutzung>000</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='15'&gt;640214.6143526 5769465.6858628 640128.2340652 5769727.0955219 640254.2732532
+        5769769.2992435 640294.234483 5769782.1912327 640370.7449681 5769807.5498215 640381.3024214
+        5769811.0689726 640388.444228 5769813.5530792 640394.1648937 5769816.6439182 640398.3713443
+        5769821.1260878 640402.4804335 5769824.0422156 640414.84996 5769829.6778124 640442.0692101
+        5769838.4623795 640518.3885997 5769861.3100493 640607.708792 5769593.9961698 640214.6143526
+        5769465.6858628&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:parzellenname>Siedefeld GL-02</fa:parzellenname>
+      <fa:gp_nummer>48102</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='15'&gt;640214.6143526 5769465.6858628 640128.2340652 5769727.0955219
+            640254.2732532 5769769.2992435 640294.234483 5769782.1912327 640370.7449681
+            5769807.5498215 640381.3024214 5769811.0689726 640388.444228 5769813.5530792
+            640394.1648937 5769816.6439182 640398.3713443 5769821.1260878 640402.4804335
+            5769824.0422156 640414.84996 5769829.6778124 640442.0692101 5769838.4623795
+            640518.3885997 5769861.3100493 640607.708792 5769593.9961698 640214.6143526
+            5769465.6858628&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>114944</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>48102.01</fa:teilflaechennummer>
+          <fa:aktivierung>1</fa:aktivierung>
+          <fa:bindungen>
+            <fa:bindung>
+              <fa:kennzeichen>OK22</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2019</fa:verpflichtungsbeginn>
+            </fa:bindung>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2019</fa:verpflichtungsbeginn>
+            </fa:bindung>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2021</fa:verpflichtungsbeginn>
+            </fa:bindung>
+          </fa:bindungen>
+          <fa:flik>DESTLI0507040060</fa:flik>
+          <fa:nutzung>603</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='11'&gt;640376.4755783 5768883.5343576 640366.3653592 5768880.9057006 640280.7987217
+        5769164.226932 640418.9800265 5769209.8871365 640440.380569 5769136.9839983 640498.8976782
+        5768942.9477652 640464.3653592 5768926.2097006 640425.4453592 5768906.8897006 640383.7813592
+        5768886.1137006 640377.5653592 5768883.8177006 640376.4755783
+        5768883.5343576&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:parzellenname>Sauthie</fa:parzellenname>
+      <fa:gp_nummer>49101</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='11'&gt;640376.4755783 5768883.5343576 640366.3653592 5768880.9057006
+            640280.7987217 5769164.226932 640418.9800265 5769209.8871365 640440.380569
+            5769136.9839983 640498.8976782 5768942.9477652 640464.3653592 5768926.2097006
+            640425.4453592 5768906.8897006 640383.7813592 5768886.1137006 640377.5653592
+            5768883.8177006 640376.4755783
+            5768883.5343576&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>41818</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>49101.01</fa:teilflaechennummer>
+          <fa:tf_parzellennummer_vorjahr>49100</fa:tf_parzellennummer_vorjahr>
+          <fa:aktivierung>1</fa:aktivierung>
+          <fa:bindungen>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2021</fa:verpflichtungsbeginn>
+            </fa:bindung>
+          </fa:bindungen>
+          <fa:flik>DESTLI0507040060</fa:flik>
+          <fa:nutzung>115</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='15'&gt;640195.5836264 5769459.4740264 639801.9181118 5769330.9773142 639736.198883
+        5769530.3886831 639717.1735425 5769524.0699862 639709.1619001 5769521.3822063 639651.4560003
+        5769501.7509296 639587.8330424 5769479.4152014 639457.5581845 5769433.6376266 639454.6130554
+        5769432.5731174 639436.6546549 5769487.9839186 639437.954795 5769501.8282591 639818.7838019
+        5769624.8233338 639999.814848 5769684.094857 640108.9789749 5769720.6480314 640195.5836264
+        5769459.4740264&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:parzellenname>Siedefeld GL-01</fa:parzellenname>
+      <fa:gp_nummer>48101</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='15'&gt;640195.5836264 5769459.4740264 639801.9181118 5769330.9773142
+            639736.198883 5769530.3886831 639717.1735425 5769524.0699862 639709.1619001
+            5769521.3822063 639651.4560003 5769501.7509296 639587.8330424 5769479.4152014
+            639457.5581845 5769433.6376266 639454.6130554 5769432.5731174 639436.6546549
+            5769487.9839186 639437.954795 5769501.8282591 639818.7838019 5769624.8233338
+            639999.814848 5769684.094857 640108.9789749 5769720.6480314 640195.5836264
+            5769459.4740264&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>133569</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>48101.01</fa:teilflaechennummer>
+          <fa:aktivierung>1</fa:aktivierung>
+          <fa:bindungen>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2019</fa:verpflichtungsbeginn>
+            </fa:bindung>
+            <fa:bindung>
+              <fa:kennzeichen>OK22</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2019</fa:verpflichtungsbeginn>
+            </fa:bindung>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2021</fa:verpflichtungsbeginn>
+            </fa:bindung>
+          </fa:bindungen>
+          <fa:flik>DESTLI0507040060</fa:flik>
+          <fa:nutzung>603</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='45'&gt;637819.4605381 5771618.1245382 637819.7217911 5771614.1316416 637779.7785367
+        5771610.4419109 637733.8144 5771605.2574 637610.2145935 5771593.5332003 637593.7863
+        5771594.2534 637576.655 5771597.2173 637456.7686 5771622.7898 637405.705 5771634.8733
+        637337.3971418 5771649.9616191 637323.5554807 5771652.0201225 637240.413231 5771650.1679165
+        637152.81 5771647.1361 637038.9263894 5771642.7890493 637038.6943069 5771646.7461069
+        637034.3132778 5771645.1018199 637029.3269 5771643.138 637025.9332392 5771644.1232164
+        637022.7585 5771645.5464 637019.7662822 5771648.1007199 636951.2728388 5771724.9505806
+        636950.5430206 5771728.1252897 636952.2216024 5771729.2929988 636993.4621 5771735.898
+        637014.0530378 5771739.7168903 637029.5866 5771744.2066 637108.6553459 5771766.8771818
+        637186.7449991 5771788.8111873 637196.0468548 5771792.71567 637202.3629297 5771796.6201526
+        637365.595 5771904.2231 637450.182741 5771961.2974508 637459.4846 5771966.3503
+        637462.7000531 5771967.7283634 637488.6534 5771973.0109 637544.4645 5771981.8534 637556.9818
+        5771983.1166 637564.4463 5771983.8056 637582.5906 5771984.7243 637608.6588 5771985.2985
+        637658.9577257 5771985.0688599 637668.0976592 5771985.8837801 637766.7711464 5772011.1714409
+        637792.382371 5772017.5742471 637819.4605381
+        5771618.1245382&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;gml:interior&gt;
+        &lt;gml:LinearRing&gt;
+        &lt;gml:posList srsDimension='2' count='5'&gt;637023.919 5771671.4527 637023.919
+        5771668.2893 637027.0825 5771668.2893 637027.0825 5771671.4527 637023.919
+        5771671.4527&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+        &lt;/gml:interior&gt;
+        &lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:parzellenname>Großes Siedefeld</fa:parzellenname>
+      <fa:gp_nummer>40002</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='46'&gt;637038.9263894 5771642.7890493 637038.6943069 5771646.7461069
+            637034.3132778 5771645.1018199 637029.3269 5771643.138 637025.9332392 5771644.1232164
+            637022.7585 5771645.5464 637019.7662822 5771648.1007199 636951.2728388 5771724.9505806
+            636950.5430206 5771728.1252897 636952.2216024 5771729.2929988 636993.4621 5771735.898
+            637014.0530378 5771739.7168903 637029.5866 5771744.2066 637108.6553459 5771766.8771818
+            637186.7449991 5771788.8111873 637196.0468548 5771792.71567 637202.3629297
+            5771796.6201526 637365.595 5771904.2231 637450.182741 5771961.2974508 637459.4846
+            5771966.3503 637462.7000531 5771967.7283634 637488.6534 5771973.0109 637544.4645
+            5771981.8534 637556.9818 5771983.1166 637564.4463 5771983.8056 637582.5906 5771984.7243
+            637608.6588 5771985.2985 637658.9577257 5771985.0688599 637668.0976592 5771985.8837801
+            637766.7711464 5772011.1714409 637792.382371 5772017.5742471 637819.4605381
+            5771618.1245382 637779.4106059 5771614.4249533 637733.4013352 5771609.2361734
+            637610.1128361 5771597.5415031 637594.2165968 5771598.2383781 637577.4134691
+            5771601.1455007 637457.646489 5771626.6925277 637406.5677514 5771638.7791495
+            637338.2598932 5771653.8674686 637324.1438812 5771655.9766089 637323.4663926
+            5771656.0191303 637240.2748798 5771654.1655232 637152.6574271 5771651.1331891
+            637038.7738165 5771646.7861384 637038.9263894
+            5771642.7890493&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;gml:interior&gt;
+            &lt;gml:LinearRing&gt;
+            &lt;gml:posList srsDimension='2' count='5'&gt;637023.919 5771671.4527 637023.919
+            5771668.2893 637027.0825 5771668.2893 637027.0825 5771671.4527 637023.919
+            5771671.4527&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+            &lt;/gml:interior&gt;
+            &lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>217027</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>40002.01</fa:teilflaechennummer>
+          <fa:tf_parzellennummer_vorjahr>4000</fa:tf_parzellennummer_vorjahr>
+          <fa:aktivierung>1</fa:aktivierung>
+          <fa:bindungen>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2022</fa:verpflichtungsbeginn>
+            </fa:bindung>
+          </fa:bindungen>
+          <fa:flik>DESTLI0507260004</fa:flik>
+          <fa:nutzung>210</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+        <fa:streifen_flaechen>
+          <fa:streifen>
+            <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+              xmlns:gml="http://www.opengis.net/gml"&gt;
+              &lt;gml:patches&gt;
+              &lt;gml:PolygonPatch&gt;
+              &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+              count='28'&gt;637819.4605381 5771618.1245382 637819.7217911 5771614.1316416
+              637779.7785367 5771610.4419109 637733.8144 5771605.2574 637610.2145935 5771593.5332003
+              637593.7863 5771594.2534 637576.655 5771597.2173 637456.7686 5771622.7898 637405.705
+              5771634.8733 637337.3971418 5771649.9616191 637323.5554807 5771652.0201225
+              637240.413231 5771650.1679165 637152.81 5771647.1361 637038.9263894 5771642.7890493
+              637038.7738165 5771646.7861384 637152.6574271 5771651.1331891 637240.2748798
+              5771654.1655232 637323.4663926 5771656.0191303 637324.1438812 5771655.9766089
+              637338.2598932 5771653.8674686 637406.5677514 5771638.7791495 637457.646489
+              5771626.6925277 637577.4134691 5771601.1455007 637594.2165968 5771598.2383781
+              637610.1128361 5771597.5415031 637733.4013352 5771609.2361734 637779.4106059
+              5771614.4249533 637819.4605381
+              5771618.1245382&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+              &lt;/gml:patches&gt;
+              &lt;/gml:Surface&gt;</fa:geometrie>
+            <fa:groesse>3152</fa:groesse>
+            <fa:groesseFFH>0</fa:groesseFFH>
+            <fa:groesseSPA>0</fa:groesseSPA>
+            <fa:teilflaechennummer>40002.05</fa:teilflaechennummer>
+            <fa:aktivierung>1</fa:aktivierung>
+            <fa:bindungen>
+              <fa:bindung>
+                <fa:kennzeichen>OK20</fa:kennzeichen>
+                <fa:verpflichtungsbeginn>01.01.2022</fa:verpflichtungsbeginn>
+              </fa:bindung>
+            </fa:bindungen>
+            <fa:flik>DESTLI0507260004</fa:flik>
+            <fa:nutzung>058</fa:nutzung>
+            <fa:oevf_typ>4</fa:oevf_typ>
+          </fa:streifen>
+        </fa:streifen_flaechen>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='5'&gt;640280.7987217 5769164.226932 640275.0029401 5769183.4011208 640413.3436443
+        5769229.088153 640418.9800265 5769209.8871365 640280.7987217
+        5769164.226932&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:gp_nummer>49103</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='5'&gt;640280.7987217 5769164.226932 640275.0029401 5769183.4011208 640413.3436443
+            5769229.088153 640418.9800265 5769209.8871365 640280.7987217
+            5769164.226932&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>2913</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>49103.01</fa:teilflaechennummer>
+          <fa:aktivierung />
+          <fa:flik>DESTLI0507040060</fa:flik>
+          <fa:nutzung>000</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='6'&gt;640197.2885797 5769453.6960121 640283.8279551 5769193.2425726 639892.2469811
+        5769067.1699265 639888.4223064 5769065.9904739 639803.8113377 5769325.2388168 640197.2885797
+        5769453.6960121&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;gml:interior&gt;
+        &lt;gml:LinearRing&gt;
+        &lt;gml:posList srsDimension='2' count='4'&gt;639908.7433089 5769097.7316816 639908.7433088
+        5769097.7316813 639908.7433089 5769097.7316813 639908.7433089
+        5769097.7316816&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+        &lt;/gml:interior&gt;
+        &lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:parzellenname>Siedefeld GL-03</fa:parzellenname>
+      <fa:gp_nummer>48103</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='6'&gt;640197.2885797 5769453.6960121 640283.8279551 5769193.2425726
+            639892.2469811 5769067.1699265 639888.4223064 5769065.9904739 639803.8113377
+            5769325.2388168 640197.2885797
+            5769453.6960121&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;gml:interior&gt;
+            &lt;gml:LinearRing&gt;
+            &lt;gml:posList srsDimension='2' count='4'&gt;639908.7433089 5769097.7316816
+            639908.7433088 5769097.7316813 639908.7433089 5769097.7316813 639908.7433089
+            5769097.7316816&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;
+            &lt;/gml:interior&gt;
+            &lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>113447</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>48103.01</fa:teilflaechennummer>
+          <fa:aktivierung>1</fa:aktivierung>
+          <fa:bindungen>
+            <fa:bindung>
+              <fa:kennzeichen>OK22</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2019</fa:verpflichtungsbeginn>
+            </fa:bindung>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2019</fa:verpflichtungsbeginn>
+            </fa:bindung>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2021</fa:verpflichtungsbeginn>
+            </fa:bindung>
+          </fa:bindungen>
+          <fa:flik>DESTLI0507040060</fa:flik>
+          <fa:nutzung>603</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='27'&gt;640283.8279551 5769193.2425726 640197.2885797 5769453.6960121 639803.8113377
+        5769325.2388168 639888.4223064 5769065.9904739 639869.9191419 5769060.284471 639784.7969768
+        5769319.0312622 639779.7928001 5769334.2042567 639779.8634 5769334.2249 639758.6526474
+        5769398.3025977 639717.1735425 5769524.0699862 639736.198883 5769530.3886831 639801.9181118
+        5769330.9773142 640195.5836264 5769459.4740264 640108.9789749 5769720.6480314 640128.2340652
+        5769727.0955219 640214.6143526 5769465.6858628 640607.708792 5769593.9961698 640518.3885997
+        5769861.3100493 640537.5319172 5769867.0409678 640716.1092 5769332.7707 640716.2069211
+        5769332.5764252 640716.7740236 5769330.7615868 640697.7048591 5769324.7428168 640609.6586751
+        5769588.3210938 640216.3013077 5769459.9030336 640302.9037466 5769199.383989 640283.8279551
+        5769193.2425726&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:gp_nummer>48105</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='27'&gt;640283.8279551 5769193.2425726 640197.2885797 5769453.6960121
+            639803.8113377 5769325.2388168 639888.4223064 5769065.9904739 639869.9191419
+            5769060.284471 639784.7969768 5769319.0312622 639779.7928001 5769334.2042567 639779.8634
+            5769334.2249 639758.6526474 5769398.3025977 639717.1735425 5769524.0699862 639736.198883
+            5769530.3886831 639801.9181118 5769330.9773142 640195.5836264 5769459.4740264
+            640108.9789749 5769720.6480314 640128.2340652 5769727.0955219 640214.6143526
+            5769465.6858628 640607.708792 5769593.9961698 640518.3885997 5769861.3100493
+            640537.5319172 5769867.0409678 640716.1092 5769332.7707 640716.2069211 5769332.5764252
+            640716.7740236 5769330.7615868 640697.7048591 5769324.7428168 640609.6586751
+            5769588.3210938 640216.3013077 5769459.9030336 640302.9037466 5769199.383989
+            640283.8279551
+            5769193.2425726&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>37135</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>48105.01</fa:teilflaechennummer>
+          <fa:aktivierung />
+          <fa:flik>DESTLI0507040060</fa:flik>
+          <fa:nutzung>000</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='19'&gt;640504.7533674 5768923.5309503 640477.3489907 5768910.3693261 640391.5599017
+        5768867.6712822 640383.3288846 5768864.6420513 640372.212073 5768861.8064065 640372.1016686
+        5768861.7856224 640372.1318 5768861.7913 640366.3653592 5768880.9057006 640377.5653592
+        5768883.8177006 640383.7813592 5768886.1137006 640425.4453592 5768906.8897006 640464.3653592
+        5768926.2097006 640498.8976782 5768942.9477652 640440.380569 5769136.9839983 640521.3389
+        5769161.9069 640495.4485 5769255.4723 640820.8496 5769359.1135 640898.1872 5769112.4872
+        640504.7533674
+        5768923.5309503&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:parzellenname>Sauthie</fa:parzellenname>
+      <fa:gp_nummer>49102</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='19'&gt;640504.7533674 5768923.5309503 640477.3489907 5768910.3693261
+            640391.5599017 5768867.6712822 640383.3288846 5768864.6420513 640372.212073
+            5768861.8064065 640372.1016686 5768861.7856224 640372.1318 5768861.7913 640366.3653592
+            5768880.9057006 640377.5653592 5768883.8177006 640383.7813592 5768886.1137006
+            640425.4453592 5768906.8897006 640464.3653592 5768926.2097006 640498.8976782
+            5768942.9477652 640440.380569 5769136.9839983 640521.3389 5769161.9069 640495.4485
+            5769255.4723 640820.8496 5769359.1135 640898.1872 5769112.4872 640504.7533674
+            5768923.5309503&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>118821</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>49102.01</fa:teilflaechennummer>
+          <fa:aktivierung>1</fa:aktivierung>
+          <fa:bindungen>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2021</fa:verpflichtungsbeginn>
+            </fa:bindung>
+          </fa:bindungen>
+          <fa:flik>DESTLI0507040060</fa:flik>
+          <fa:nutzung>115</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='8'&gt;640302.9037466 5769199.383989 640216.3013077 5769459.9030336 640609.6586751
+        5769588.3210938 640697.7048591 5769324.7428168 640701.3384422 5769325.8896787 640619.5968955
+        5769300.0897238 640428.8415843 5769239.929457 640302.9037466
+        5769199.383989&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:parzellenname>Siedefeld GL-03</fa:parzellenname>
+      <fa:gp_nummer>48104</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='8'&gt;640302.9037466 5769199.383989 640216.3013077 5769459.9030336 640609.6586751
+            5769588.3210938 640697.7048591 5769324.7428168 640701.3384422 5769325.8896787
+            640619.5968955 5769300.0897238 640428.8415843 5769239.929457 640302.9037466
+            5769199.383989&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>114240</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>48104.01</fa:teilflaechennummer>
+          <fa:aktivierung>1</fa:aktivierung>
+          <fa:bindungen>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2021</fa:verpflichtungsbeginn>
+            </fa:bindung>
+            <fa:bindung>
+              <fa:kennzeichen>OK22</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2019</fa:verpflichtungsbeginn>
+            </fa:bindung>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2019</fa:verpflichtungsbeginn>
+            </fa:bindung>
+          </fa:bindungen>
+          <fa:flik>DESTLI0507040060</fa:flik>
+          <fa:nutzung>603</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+    <fa:gesamtparzelle>
+      <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832' xmlns:gml="http://www.opengis.net/gml"&gt;
+        &lt;gml:patches&gt;
+        &lt;gml:PolygonPatch&gt;
+        &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+        count='36'&gt;638649.3160519 5771569.7246217 638536.2979 5771580.1855 638383.7557391
+        5771593.6012143 638224.3281962 5771607.3718925 638208.8088945 5771612.0109817 638163.9169
+        5771618.7859 638130.7646 5771622.4537 638060.7836 5771628.9507 638027.7017 5771631.0242
+        638005.9973317 5771631.2538282 637974.7615 5771629.5313 637954.8945 5771627.8087
+        637866.7799184 5771618.4786037 637819.7217911 5771614.1316416 637819.4605381 5771618.1245382
+        637792.382371 5772017.5742471 637897.6475 5772043.8905 637945.1263 5772056.2763 637965.6661
+        5772061.3338 637980.2194 5772063.5013 638003.5459 5772066.9074 638066.7133989
+        5772074.1324744 638131.9452 5772082.8025 638163.9417849 5772086.1053967 638185.1008286
+        5772083.9378849 638305.5525552 5772069.1781617 638455.6155126 5772050.4022764 638631.9778
+        5772029.9704 638695.4208 5772021.6988 638712.7031 5771776.065 638712.8295 5771765.2523
+        638712.231 5771744.6136 638696.9278791 5771568.2854263 638696.0112785 5771566.6451938
+        638692.7442049 5771565.7049434 638649.3160519
+        5771569.7246217&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+        &lt;/gml:patches&gt;
+        &lt;/gml:Surface&gt;</fa:geometrie>
+      <fa:parzellenname>Großes Siedefeld</fa:parzellenname>
+      <fa:gp_nummer>40001</fa:gp_nummer>
+      <fa:teilflaechen>
+        <fa:hauptnutzungsflaeche>
+          <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+            xmlns:gml="http://www.opengis.net/gml"&gt;
+            &lt;gml:patches&gt;
+            &lt;gml:PolygonPatch&gt;
+            &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+            count='39'&gt;638208.8088945 5771612.0109817 638209.1195654 5771614.0695507
+            638198.9825311 5771617.5384979 638164.3567557 5771622.7616423 638131.1343678
+            5771626.4365723 638061.1533678 5771632.9335723 638027.9519201 5771635.0163661
+            638005.7770827 5771635.2477599 637974.541251 5771633.5252317 637954.54897
+            5771631.7937482 637866.3853427 5771622.4591848 637819.4605381 5771618.1245382
+            637792.382371 5772017.5742471 637897.6475 5772043.8905 637945.1263 5772056.2763
+            637965.6661 5772061.3338 637980.2194 5772063.5013 638003.5459 5772066.9074
+            638066.7133989 5772074.1324744 638131.9452 5772082.8025 638163.9417849 5772086.1053967
+            638185.1008286 5772083.9378849 638305.5525552 5772069.1781617 638455.6155126
+            5772050.4022764 638631.9778 5772029.9704 638695.4208 5772021.6988 638712.7031
+            5771776.065 638712.8295 5771765.2523 638712.231 5771744.6136 638696.9278791
+            5771568.2854263 638696.0112785 5771566.6451938 638692.7442049 5771565.7049434
+            638649.3160519 5771569.7246217 638643.6080885 5771572.2614943 638536.4731188
+            5771582.1778098 638383.9278498 5771595.593795 638224.7045673 5771609.34683
+            638209.3816981 5771613.9272009 638208.8088945
+            5771612.0109817&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+            &lt;/gml:patches&gt;
+            &lt;/gml:Surface&gt;</fa:geometrie>
+          <fa:groesse>404330</fa:groesse>
+          <fa:groesseFFH>0</fa:groesseFFH>
+          <fa:groesseSPA>0</fa:groesseSPA>
+          <fa:teilflaechennummer>40001.01</fa:teilflaechennummer>
+          <fa:aktivierung>1</fa:aktivierung>
+          <fa:bindungen>
+            <fa:bindung>
+              <fa:kennzeichen>OK20</fa:kennzeichen>
+              <fa:verpflichtungsbeginn>01.01.2022</fa:verpflichtungsbeginn>
+            </fa:bindung>
+          </fa:bindungen>
+          <fa:flik>DESTLI0507260004</fa:flik>
+          <fa:nutzung>210</fa:nutzung>
+        </fa:hauptnutzungsflaeche>
+        <fa:streifen_flaechen>
+          <fa:streifen>
+            <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+              xmlns:gml="http://www.opengis.net/gml"&gt;
+              &lt;gml:patches&gt;
+              &lt;gml:PolygonPatch&gt;
+              &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+              count='11'&gt;638649.3160519 5771569.7246217 638536.2979 5771580.1855 638383.7557391
+              5771593.6012143 638224.3281962 5771607.3718925 638208.8088945 5771612.0109817
+              638209.3816981 5771613.9272009 638224.7045673 5771609.34683 638383.9278498
+              5771595.593795 638536.4731188 5771582.1778098 638643.6080885 5771572.2614943
+              638649.3160519
+              5771569.7246217&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+              &lt;/gml:patches&gt;
+              &lt;/gml:Surface&gt;</fa:geometrie>
+            <fa:groesse>879</fa:groesse>
+            <fa:groesseFFH>0</fa:groesseFFH>
+            <fa:groesseSPA>0</fa:groesseSPA>
+            <fa:teilflaechennummer>40001.03</fa:teilflaechennummer>
+            <fa:aktivierung>1</fa:aktivierung>
+            <fa:bindungen>
+              <fa:bindung>
+                <fa:kennzeichen>OK20</fa:kennzeichen>
+                <fa:verpflichtungsbeginn>01.01.2022</fa:verpflichtungsbeginn>
+              </fa:bindung>
+            </fa:bindungen>
+            <fa:flik>DESTLI0507260004</fa:flik>
+            <fa:nutzung>058</fa:nutzung>
+            <fa:oevf_typ>4</fa:oevf_typ>
+          </fa:streifen>
+          <fa:streifen>
+            <fa:geometrie>&lt;gml:Surface srsName='EPSG:25832'
+              xmlns:gml="http://www.opengis.net/gml"&gt;
+              &lt;gml:patches&gt;
+              &lt;gml:PolygonPatch&gt;
+              &lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList srsDimension='2'
+              count='22'&gt;638208.8088945 5771612.0109817 638163.9169 5771618.7859 638130.7646
+              5771622.4537 638060.7836 5771628.9507 638027.7017 5771631.0242 638005.9973317
+              5771631.2538282 637974.7615 5771629.5313 637954.8945 5771627.8087 637866.7799184
+              5771618.4786037 637819.7217911 5771614.1316416 637819.4605381 5771618.1245382
+              637866.3853427 5771622.4591848 637954.54897 5771631.7937482 637974.541251
+              5771633.5252317 638005.7770827 5771635.2477599 638027.9519201 5771635.0163661
+              638061.1533678 5771632.9335723 638131.1343678 5771626.4365723 638164.3567557
+              5771622.7616423 638198.9825311 5771617.5384979 638209.1195654 5771614.0695507
+              638208.8088945
+              5771612.0109817&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:PolygonPatch&gt;
+              &lt;/gml:patches&gt;
+              &lt;/gml:Surface&gt;</fa:geometrie>
+            <fa:groesse>1555</fa:groesse>
+            <fa:groesseFFH>0</fa:groesseFFH>
+            <fa:groesseSPA>0</fa:groesseSPA>
+            <fa:teilflaechennummer>40001.02</fa:teilflaechennummer>
+            <fa:aktivierung>1</fa:aktivierung>
+            <fa:bindungen>
+              <fa:bindung>
+                <fa:kennzeichen>OK20</fa:kennzeichen>
+                <fa:verpflichtungsbeginn>01.01.2022</fa:verpflichtungsbeginn>
+              </fa:bindung>
+            </fa:bindungen>
+            <fa:flik>DESTLI0507260004</fa:flik>
+            <fa:nutzung>058</fa:nutzung>
+            <fa:oevf_typ>4</fa:oevf_typ>
+          </fa:streifen>
+        </fa:streifen_flaechen>
+      </fa:teilflaechen>
+    </fa:gesamtparzelle>
+  </fa:gesamtparzellen>
+</fa:flaechenantrag>
