@@ -1,0 +1,5 @@
+[Coordinate System]
+Group=UTM
+System=UTM-32N
+Datum=ETRS89
+Unit=METERS

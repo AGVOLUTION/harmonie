@@ -3,6 +3,7 @@ import { getSafe } from "./helpers.js";
 import { XMLParser, XMLValidator } from "fast-xml-parser";
 import proj4 from "proj4";
 import { polygon } from "@turf/helpers";
+import { rewind } from "@turf/rewind";
 
 // configure proj4 in order to convert GIS coordinates to web mercator
 proj4.defs("EPSG:25832", "+proj=utm +zone=32 +ellps=GRS80 +units=m +no_defs");
@@ -10,7 +11,9 @@ const fromETRS89 = new proj4.Proj("EPSG:25832");
 const toWGS84 = new proj4.Proj("WGS84");
 
 const alwaysParseAsArrays = [
+  "nn.land",
   "nn.land.parzelle",
+  "nn.land[*].parzelle",
   "wfs:FeatureCollection.gml:featureMember",
 ];
 const options = {
@@ -32,18 +35,29 @@ export function parseXML(xml) {
   const basis = {
     applicationYear: getSafe(() => json.nn.antragsjahr),
     farmId: getSafe(() => json.nn.bnrzd),
-    state: getSafe(() => json.nn.land.bezeichnung),
-    fieldBlockConstant: getSafe(() => json.nn.land.feldblockkonstante),
-    stateNo: getSafe(() => json.nn.land.nummer),
   };
 
-  if (getSafe(() => json.nn.land.parzelle)) {
-    return json.nn.land.parzelle.map((field) => {
-      return {
+  if (getSafe(() => json.nn.land)) {
+    return json.nn.land.reduce((acc, land) => {
+      const landBasis = {
         ...basis,
-        ...field,
+        state: getSafe(() => land.bezeichnung),
+        fieldBlockConstant: getSafe(() => land.feldblockkonstante),
+        stateNo: getSafe(() => land.nummer),
       };
-    });
+      if (getSafe(() => land.parzelle)) {
+        return acc.concat(
+          land.parzelle.map((field) => {
+            return {
+              ...landBasis,
+              ...field,
+            };
+          })
+        );
+      } else {
+        return acc;
+      }
+    }, []);
   } else {
     return new Error("No fields found in XML.");
   }
@@ -59,37 +73,66 @@ export function parseGML(gml) {
     const results = [];
     json["wfs:FeatureCollection"]["gml:featureMember"].forEach((field) => {
       const id = getSafe(() => field["elan:tschlag"]["elan:SCHLAGNR"]);
+      const teilschlag = getSafe(() => field["elan:tschlag"]["elan:TEILSCHLAG"]);
       const year = getSafe(() => field["elan:tschlag"]["elan:WIRTSCHAFTSJAHR"]);
-      let coordinates = getSafe(
-        () =>
-          field["elan:tschlag"]["elan:GEO_COORD_"]["gml:Polygon"][
-            "gml:outerBoundaryIs"
-          ]["gml:LinearRing"]["gml:coordinates"]
+      const gmlPolygon = getSafe(
+        () => field["elan:tschlag"]["elan:GEO_COORD_"]["gml:Polygon"]
       );
 
-      if (!coordinates) return;
+      if (!gmlPolygon) return;
 
-      // split coordinate string into array of strings
-      coordinates = coordinates.split(" ");
-      // then into array of arrays and transform string values to numbers
-      coordinates = coordinates.map((pair) => {
-        return pair.split(",").map((coord) => {
-          return Number(coord);
+      const processRing = (ring) => {
+        let coordinates = getSafe(
+          () => ring["gml:LinearRing"]["gml:coordinates"]
+        );
+        if (!coordinates) return [];
+
+        // split coordinate string into array of strings
+        coordinates = coordinates.split(" ");
+        // then into array of arrays and transform string values to numbers
+        return coordinates
+          .map((pair) => {
+            return pair.split(",").map((coord) => {
+              return Number(coord);
+            });
+          })
+          .filter((pair) => pair.length === 2)
+          .map((latlng) => {
+            return proj4(fromETRS89, toWGS84, latlng);
+          });
+      };
+
+      const outerRing = processRing(gmlPolygon["gml:outerBoundaryIs"]);
+      if (outerRing.length === 0) return;
+
+      const allRings = [outerRing];
+
+      let innerRings = gmlPolygon["gml:innerBoundaryIs"];
+      if (innerRings) {
+        if (!Array.isArray(innerRings)) {
+          innerRings = [innerRings];
+        }
+        innerRings.forEach((ring) => {
+          const processedRing = processRing(ring);
+          if (processedRing.length > 0) {
+            allRings.push(processedRing);
+          }
         });
-      });
+      }
 
-      coordinates = coordinates.map((latlng) => {
-        return proj4(fromETRS89, toWGS84, latlng);
-      });
-      const feature = polygon([coordinates], {
-        number: id,
-        year,
-      });
+      const feature = rewind(
+        polygon(allRings, {
+          number: id,
+          part: teilschlag,
+          year,
+        })
+      );
 
       return results.push({
         schlag: {
           nummer: id,
         },
+        teilschlag,
         geometry: feature,
       });
     });
@@ -104,7 +147,9 @@ export function join(xml, gml) {
   return xml.map((field) => {
     const geometry = gml.find(
       // eslint-disable-next-line eqeqeq
-      (tschlag) => tschlag.schlag.nummer == field.schlag.nummer
+      (tschlag) =>
+        tschlag.schlag.nummer == field.schlag.nummer &&
+        tschlag.teilschlag === field.teilschlag
     );
     if (!geometry) return field;
     return {

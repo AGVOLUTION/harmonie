@@ -25,8 +25,13 @@ export default class Field {
   constructor(properties) {
     this.id = properties.id || "String";
     this.referenceDate = properties.referenceDate;
-    this.NameOfField =
-      properties.NameOfField || `Unbenannt ${properties.NumberOfField}`;
+    let NameOfField = properties.NameOfField
+    if (!NameOfField && properties.FieldBlockNumber) {
+      NameOfField = properties.FieldBlockNumber;
+    } else if (!NameOfField) {
+      NameOfField = `Unbenannt ${properties.NumberOfField}`;
+    }
+    this.NameOfField = NameOfField
     this.NumberOfField = properties.NumberOfField;
     this.Area = properties.Area;
     this.FieldBlockNumber = properties.FieldBlockNumber;

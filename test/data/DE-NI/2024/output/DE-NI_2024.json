@@ -1,0 +1,4548 @@
+[
+  {
+    "id": "harmonie_0_DENILI2254240003",
+    "referenceDate": "2024",
+    "NameOfField": "Maathe",
+    "NumberOfField": 0,
+    "Area": 5.2774,
+    "FieldBlockNumber": "DENILI2254240003",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 19000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254240003",
+        "JAHR": 2024,
+        "SCHLAG_NR": 19,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.081999,
+              52.156614
+            ],
+            [
+              10.077358,
+              52.156087
+            ],
+            [
+              10.076941,
+              52.156528
+            ],
+            [
+              10.076759,
+              52.156723
+            ],
+            [
+              10.07654,
+              52.156948
+            ],
+            [
+              10.076361,
+              52.157101
+            ],
+            [
+              10.081152,
+              52.158163
+            ],
+            [
+              10.081358,
+              52.158201
+            ],
+            [
+              10.081618,
+              52.157553
+            ],
+            [
+              10.081999,
+              52.156614
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_1_DENILI2054240002",
+    "referenceDate": "2024",
+    "NameOfField": "Streitacker",
+    "NumberOfField": 1,
+    "Area": 3.9232,
+    "FieldBlockNumber": "DENILI2054240002",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 29000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054240002",
+        "JAHR": 2024,
+        "SCHLAG_NR": 29,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.076767,
+              52.171838
+            ],
+            [
+              10.078638,
+              52.172265
+            ],
+            [
+              10.079731,
+              52.169832
+            ],
+            [
+              10.079705,
+              52.169826
+            ],
+            [
+              10.07968,
+              52.169821
+            ],
+            [
+              10.079524,
+              52.169771
+            ],
+            [
+              10.078305,
+              52.169389
+            ],
+            [
+              10.077918,
+              52.169272
+            ],
+            [
+              10.077891,
+              52.169332
+            ],
+            [
+              10.077884,
+              52.169353
+            ],
+            [
+              10.077723,
+              52.169709
+            ],
+            [
+              10.077681,
+              52.169805
+            ],
+            [
+              10.076878,
+              52.171585
+            ],
+            [
+              10.076767,
+              52.171838
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_2_DENILI2254110006",
+    "referenceDate": "2024",
+    "NameOfField": "Schule",
+    "NumberOfField": 2,
+    "Area": 0.6979,
+    "FieldBlockNumber": "DENILI2254110006",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 22000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110006",
+        "JAHR": 2024,
+        "SCHLAG_NR": 22,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.084997,
+              52.146717
+            ],
+            [
+              10.086224,
+              52.146768
+            ],
+            [
+              10.087097,
+              52.146799
+            ],
+            [
+              10.0871,
+              52.146778
+            ],
+            [
+              10.087156,
+              52.146385
+            ],
+            [
+              10.085889,
+              52.146313
+            ],
+            [
+              10.08576,
+              52.146302
+            ],
+            [
+              10.085065,
+              52.146268
+            ],
+            [
+              10.084997,
+              52.146717
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 171,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_3_DENILI2254110016",
+    "referenceDate": "2024",
+    "NameOfField": "Ohe 2",
+    "NumberOfField": 3,
+    "Area": 0.2258,
+    "FieldBlockNumber": "DENILI2254110016",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 63000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110016",
+        "JAHR": 2024,
+        "SCHLAG_NR": 63,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.075583,
+              52.152178
+            ],
+            [
+              10.075595,
+              52.152117
+            ],
+            [
+              10.074328,
+              52.152042
+            ],
+            [
+              10.074302,
+              52.152041
+            ],
+            [
+              10.074414,
+              52.151323
+            ],
+            [
+              10.074615,
+              52.15026
+            ],
+            [
+              10.074757,
+              52.149573
+            ],
+            [
+              10.07467,
+              52.149568
+            ],
+            [
+              10.074636,
+              52.149651
+            ],
+            [
+              10.074594,
+              52.149873
+            ],
+            [
+              10.074402,
+              52.150958
+            ],
+            [
+              10.074249,
+              52.151813
+            ],
+            [
+              10.07421,
+              52.152012
+            ],
+            [
+              10.074214,
+              52.152045
+            ],
+            [
+              10.074281,
+              52.152097
+            ],
+            [
+              10.074326,
+              52.152099
+            ],
+            [
+              10.075445,
+              52.152169
+            ],
+            [
+              10.075583,
+              52.152178
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 591,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_33_DENILI2254110016",
+    "referenceDate": "2024",
+    "NameOfField": "OheRalf",
+    "NumberOfField": 3,
+    "Area": 0.4589,
+    "FieldBlockNumber": "DENILI2254110016",
+    "PartOfField": 1,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 431000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110016",
+        "JAHR": 2024,
+        "SCHLAG_NR": 431,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.075879,
+              52.152197
+            ],
+            [
+              10.07588,
+              52.152187
+            ],
+            [
+              10.075925,
+              52.151989
+            ],
+            [
+              10.075927,
+              52.151975
+            ],
+            [
+              10.076091,
+              52.151023
+            ],
+            [
+              10.076142,
+              52.150747
+            ],
+            [
+              10.076169,
+              52.150593
+            ],
+            [
+              10.075848,
+              52.150219
+            ],
+            [
+              10.075597,
+              52.152117
+            ],
+            [
+              10.075595,
+              52.152117
+            ],
+            [
+              10.075583,
+              52.152178
+            ],
+            [
+              10.075879,
+              52.152197
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 424,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_40_DENILI2254110016",
+    "referenceDate": "2024",
+    "NameOfField": "Ohe",
+    "NumberOfField": 3,
+    "Area": 2.2351,
+    "FieldBlockNumber": "DENILI2254110016",
+    "PartOfField": 2,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 43000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110016",
+        "JAHR": 2024,
+        "SCHLAG_NR": 43,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.075848,
+              52.150219
+            ],
+            [
+              10.075697,
+              52.150037
+            ],
+            [
+              10.075534,
+              52.149849
+            ],
+            [
+              10.075454,
+              52.149732
+            ],
+            [
+              10.075436,
+              52.149677
+            ],
+            [
+              10.075439,
+              52.149617
+            ],
+            [
+              10.074757,
+              52.149573
+            ],
+            [
+              10.074615,
+              52.15026
+            ],
+            [
+              10.074414,
+              52.151323
+            ],
+            [
+              10.074302,
+              52.152041
+            ],
+            [
+              10.074328,
+              52.152042
+            ],
+            [
+              10.075597,
+              52.152117
+            ],
+            [
+              10.075848,
+              52.150219
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_4_DENILI1754110019",
+    "referenceDate": "2024",
+    "NameOfField": "Bergfeld 2",
+    "NumberOfField": 4,
+    "Area": 0.1223,
+    "FieldBlockNumber": "DENILI1754110019",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 71000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI1754110019",
+        "JAHR": 2024,
+        "SCHLAG_NR": 71,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.081771,
+              52.149106
+            ],
+            [
+              10.08297,
+              52.149178
+            ],
+            [
+              10.083956,
+              52.149236
+            ],
+            [
+              10.084617,
+              52.149273
+            ],
+            [
+              10.084831,
+              52.147797
+            ],
+            [
+              10.084938,
+              52.147037
+            ],
+            [
+              10.084922,
+              52.147036
+            ],
+            [
+              10.084732,
+              52.148237
+            ],
+            [
+              10.084587,
+              52.149251
+            ],
+            [
+              10.08179,
+              52.149064
+            ],
+            [
+              10.081771,
+              52.149106
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 591,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_22_DENILI1754110019",
+    "referenceDate": "2024",
+    "NameOfField": "Bergfeld",
+    "NumberOfField": 4,
+    "Area": 3.6085,
+    "FieldBlockNumber": "DENILI1754110019",
+    "PartOfField": 1,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 23000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI1754110019",
+        "JAHR": 2024,
+        "SCHLAG_NR": 23,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.08179,
+              52.149064
+            ],
+            [
+              10.084586,
+              52.149251
+            ],
+            [
+              10.084596,
+              52.149187
+            ],
+            [
+              10.084732,
+              52.148237
+            ],
+            [
+              10.084891,
+              52.147231
+            ],
+            [
+              10.084921,
+              52.147036
+            ],
+            [
+              10.083611,
+              52.14698
+            ],
+            [
+              10.083572,
+              52.146993
+            ],
+            [
+              10.082728,
+              52.147878
+            ],
+            [
+              10.082072,
+              52.148534
+            ],
+            [
+              10.081983,
+              52.148634
+            ],
+            [
+              10.08179,
+              52.149064
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 171,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_5_DENILI2254280002",
+    "referenceDate": "2024",
+    "NameOfField": "Ziegelei",
+    "NumberOfField": 5,
+    "Area": 16.9472,
+    "FieldBlockNumber": "DENILI2254280002",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 52000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254280002",
+        "JAHR": 2024,
+        "SCHLAG_NR": 52,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.077194,
+              52.138386
+            ],
+            [
+              10.075898,
+              52.138367
+            ],
+            [
+              10.075028,
+              52.138345
+            ],
+            [
+              10.074985,
+              52.138345
+            ],
+            [
+              10.074977,
+              52.138357
+            ],
+            [
+              10.073692,
+              52.140223
+            ],
+            [
+              10.07358,
+              52.140387
+            ],
+            [
+              10.073914,
+              52.140746
+            ],
+            [
+              10.074622,
+              52.141503
+            ],
+            [
+              10.075267,
+              52.14218
+            ],
+            [
+              10.075663,
+              52.142595
+            ],
+            [
+              10.076583,
+              52.143585
+            ],
+            [
+              10.076655,
+              52.143645
+            ],
+            [
+              10.077041,
+              52.143308
+            ],
+            [
+              10.077746,
+              52.142682
+            ],
+            [
+              10.078223,
+              52.142244
+            ],
+            [
+              10.07834,
+              52.142133
+            ],
+            [
+              10.078411,
+              52.142062
+            ],
+            [
+              10.078663,
+              52.141843
+            ],
+            [
+              10.080503,
+              52.140188
+            ],
+            [
+              10.080533,
+              52.14016
+            ],
+            [
+              10.080864,
+              52.139859
+            ],
+            [
+              10.080968,
+              52.13977
+            ],
+            [
+              10.081225,
+              52.139539
+            ],
+            [
+              10.080685,
+              52.139379
+            ],
+            [
+              10.080576,
+              52.139348
+            ],
+            [
+              10.079906,
+              52.139148
+            ],
+            [
+              10.079898,
+              52.139145
+            ],
+            [
+              10.07741,
+              52.138419
+            ],
+            [
+              10.077396,
+              52.138408
+            ],
+            [
+              10.077395,
+              52.138409
+            ],
+            [
+              10.077386,
+              52.138407
+            ],
+            [
+              10.077194,
+              52.138386
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 603,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_6_DENILI2354110003",
+    "referenceDate": "2024",
+    "NameOfField": "Bergwiese",
+    "NumberOfField": 6,
+    "Area": 0.2578,
+    "FieldBlockNumber": "DENILI2354110003",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 24000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2354110003",
+        "JAHR": 2024,
+        "SCHLAG_NR": 24,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.083924,
+              52.149431
+            ],
+            [
+              10.083948,
+              52.149236
+            ],
+            [
+              10.08297,
+              52.149178
+            ],
+            [
+              10.082918,
+              52.149639
+            ],
+            [
+              10.08326,
+              52.149668
+            ],
+            [
+              10.083273,
+              52.149594
+            ],
+            [
+              10.083357,
+              52.149601
+            ],
+            [
+              10.083357,
+              52.149601
+            ],
+            [
+              10.083423,
+              52.149606
+            ],
+            [
+              10.083444,
+              52.149471
+            ],
+            [
+              10.083727,
+              52.149482
+            ],
+            [
+              10.083791,
+              52.149428
+            ],
+            [
+              10.083924,
+              52.149431
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 451,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_7_DENILI2054110011",
+    "referenceDate": "2024",
+    "NameOfField": "Wöhler Str H2",
+    "NumberOfField": 7,
+    "Area": 1.3212,
+    "FieldBlockNumber": "DENILI2054110011",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 82000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054110011",
+        "JAHR": 2024,
+        "SCHLAG_NR": 82,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.094647,
+              52.15221
+            ],
+            [
+              10.09493,
+              52.15221
+            ],
+            [
+              10.094932,
+              52.15222
+            ],
+            [
+              10.095469,
+              52.152222
+            ],
+            [
+              10.096284,
+              52.150091
+            ],
+            [
+              10.095718,
+              52.150124
+            ],
+            [
+              10.09544,
+              52.15014
+            ],
+            [
+              10.094647,
+              52.15221
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 171,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_27_DENILI2054110011",
+    "referenceDate": "2024",
+    "NameOfField": "WöhlerstrH11",
+    "NumberOfField": 7,
+    "Area": 1.0687,
+    "FieldBlockNumber": "DENILI2054110011",
+    "PartOfField": 1,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 811000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054110011",
+        "JAHR": 2024,
+        "SCHLAG_NR": 811,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.089685,
+              52.150477
+            ],
+            [
+              10.089041,
+              52.150513
+            ],
+            [
+              10.088962,
+              52.150941
+            ],
+            [
+              10.088804,
+              52.151676
+            ],
+            [
+              10.088737,
+              52.152031
+            ],
+            [
+              10.088705,
+              52.152202
+            ],
+            [
+              10.088704,
+              52.152204
+            ],
+            [
+              10.088687,
+              52.152293
+            ],
+            [
+              10.088697,
+              52.15237
+            ],
+            [
+              10.088712,
+              52.152455
+            ],
+            [
+              10.088739,
+              52.152596
+            ],
+            [
+              10.088698,
+              52.152732
+            ],
+            [
+              10.088898,
+              52.152797
+            ],
+            [
+              10.089178,
+              52.152887
+            ],
+            [
+              10.089685,
+              52.150477
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 591,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_31_DENILI2054110011",
+    "referenceDate": "2024",
+    "NameOfField": "Borchfeld",
+    "NumberOfField": 7,
+    "Area": 5.3059,
+    "FieldBlockNumber": "DENILI2054110011",
+    "PartOfField": 2,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 45000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054110011",
+        "JAHR": 2024,
+        "SCHLAG_NR": 45,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.100704,
+              52.149819
+            ],
+            [
+              10.099736,
+              52.152239
+            ],
+            [
+              10.102764,
+              52.152271
+            ],
+            [
+              10.102945,
+              52.151389
+            ],
+            [
+              10.103098,
+              52.150575
+            ],
+            [
+              10.103218,
+              52.149913
+            ],
+            [
+              10.103243,
+              52.149714
+            ],
+            [
+              10.103212,
+              52.149688
+            ],
+            [
+              10.103172,
+              52.149685
+            ],
+            [
+              10.101402,
+              52.149782
+            ],
+            [
+              10.100704,
+              52.149819
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 171,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_8_DENILI2254110010",
+    "referenceDate": "2024",
+    "NameOfField": "Kemmer Weg",
+    "NumberOfField": 8,
+    "Area": 5.0942,
+    "FieldBlockNumber": "DENILI2254110010",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 18000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110010",
+        "JAHR": 2024,
+        "SCHLAG_NR": 18,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.081989,
+              52.157049
+            ],
+            [
+              10.081745,
+              52.157655
+            ],
+            [
+              10.081967,
+              52.157773
+            ],
+            [
+              10.083253,
+              52.158376
+            ],
+            [
+              10.084089,
+              52.158759
+            ],
+            [
+              10.08522,
+              52.156034
+            ],
+            [
+              10.084821,
+              52.155973
+            ],
+            [
+              10.082573,
+              52.155625
+            ],
+            [
+              10.082371,
+              52.156131
+            ],
+            [
+              10.082202,
+              52.156538
+            ],
+            [
+              10.082204,
+              52.156538
+            ],
+            [
+              10.082201,
+              52.156541
+            ],
+            [
+              10.081989,
+              52.157049
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_38_DENILI2254110010",
+    "referenceDate": "2024",
+    "NameOfField": "Farmser Str H 4",
+    "NumberOfField": 8,
+    "Area": 3.7492,
+    "FieldBlockNumber": "DENILI2254110010",
+    "PartOfField": 1,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 84000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110010",
+        "JAHR": 2024,
+        "SCHLAG_NR": 84,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.085589,
+              52.160324
+            ],
+            [
+              10.085887,
+              52.160812
+            ],
+            [
+              10.08627,
+              52.161432
+            ],
+            [
+              10.086427,
+              52.161683
+            ],
+            [
+              10.086843,
+              52.162341
+            ],
+            [
+              10.088281,
+              52.162798
+            ],
+            [
+              10.088162,
+              52.162439
+            ],
+            [
+              10.088123,
+              52.16233
+            ],
+            [
+              10.087986,
+              52.161959
+            ],
+            [
+              10.087724,
+              52.161185
+            ],
+            [
+              10.087335,
+              52.160058
+            ],
+            [
+              10.087097,
+              52.159307
+            ],
+            [
+              10.087093,
+              52.159295
+            ],
+            [
+              10.086725,
+              52.159306
+            ],
+            [
+              10.085993,
+              52.159331
+            ],
+            [
+              10.085589,
+              52.160324
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 311,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_9_DENILI1754130002",
+    "referenceDate": "2024",
+    "NameOfField": "Döhren",
+    "NumberOfField": 9,
+    "Area": 2.0179,
+    "FieldBlockNumber": "DENILI1754130002",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 10000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI1754130002",
+        "JAHR": 2024,
+        "SCHLAG_NR": 10,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.12023,
+              52.154333
+            ],
+            [
+              10.12015,
+              52.154323
+            ],
+            [
+              10.12015,
+              52.154332
+            ],
+            [
+              10.120121,
+              52.15433
+            ],
+            [
+              10.12012,
+              52.15432
+            ],
+            [
+              10.120108,
+              52.154319
+            ],
+            [
+              10.120092,
+              52.154317
+            ],
+            [
+              10.120032,
+              52.154306
+            ],
+            [
+              10.120003,
+              52.154305
+            ],
+            [
+              10.119474,
+              52.157394
+            ],
+            [
+              10.119653,
+              52.157433
+            ],
+            [
+              10.119917,
+              52.15749
+            ],
+            [
+              10.120047,
+              52.157296
+            ],
+            [
+              10.120117,
+              52.1572
+            ],
+            [
+              10.12046,
+              52.156705
+            ],
+            [
+              10.120602,
+              52.156149
+            ],
+            [
+              10.120664,
+              52.155805
+            ],
+            [
+              10.120691,
+              52.155642
+            ],
+            [
+              10.120699,
+              52.15554
+            ],
+            [
+              10.120737,
+              52.155363
+            ],
+            [
+              10.120865,
+              52.154631
+            ],
+            [
+              10.120874,
+              52.154575
+            ],
+            [
+              10.120881,
+              52.154522
+            ],
+            [
+              10.120893,
+              52.154475
+            ],
+            [
+              10.12094,
+              52.154412
+            ],
+            [
+              10.120925,
+              52.15437
+            ],
+            [
+              10.120625,
+              52.154351
+            ],
+            [
+              10.12023,
+              52.154333
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_10_DENILI2054150011",
+    "referenceDate": "2024",
+    "NameOfField": "Schellerten",
+    "NumberOfField": 10,
+    "Area": 2.8159,
+    "FieldBlockNumber": "DENILI2054150011",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 42000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054150011",
+        "JAHR": 2024,
+        "SCHLAG_NR": 42,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.089649,
+              52.176234
+            ],
+            [
+              10.0937,
+              52.17673
+            ],
+            [
+              10.09382,
+              52.176393
+            ],
+            [
+              10.094037,
+              52.17579
+            ],
+            [
+              10.089847,
+              52.175432
+            ],
+            [
+              10.089817,
+              52.175555
+            ],
+            [
+              10.089659,
+              52.176195
+            ],
+            [
+              10.089649,
+              52.176234
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_11_DENILI2054110007",
+    "referenceDate": "2024",
+    "NameOfField": "Kemmer Weg H3",
+    "NumberOfField": 11,
+    "Area": 1.0074,
+    "FieldBlockNumber": "DENILI2054110007",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 83000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054110007",
+        "JAHR": 2024,
+        "SCHLAG_NR": 83,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.083768,
+              52.154445
+            ],
+            [
+              10.083097,
+              52.154344
+            ],
+            [
+              10.082946,
+              52.154696
+            ],
+            [
+              10.082892,
+              52.154827
+            ],
+            [
+              10.083273,
+              52.154888
+            ],
+            [
+              10.085704,
+              52.155273
+            ],
+            [
+              10.085694,
+              52.155244
+            ],
+            [
+              10.085691,
+              52.155238
+            ],
+            [
+              10.085592,
+              52.155038
+            ],
+            [
+              10.085477,
+              52.154881
+            ],
+            [
+              10.085383,
+              52.154775
+            ],
+            [
+              10.085265,
+              52.15468
+            ],
+            [
+              10.083768,
+              52.154445
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_12_DENILI2254110003",
+    "referenceDate": "2024",
+    "NameOfField": "Wiese3",
+    "NumberOfField": 12,
+    "Area": 0.104,
+    "FieldBlockNumber": "DENILI2254110003",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 92000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110003",
+        "JAHR": 2024,
+        "SCHLAG_NR": 92,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.075935,
+              52.146415
+            ],
+            [
+              10.075812,
+              52.1468
+            ],
+            [
+              10.075716,
+              52.147094
+            ],
+            [
+              10.075617,
+              52.147385
+            ],
+            [
+              10.075482,
+              52.14783
+            ],
+            [
+              10.075447,
+              52.147945
+            ],
+            [
+              10.075533,
+              52.147955
+            ],
+            [
+              10.075568,
+              52.14784
+            ],
+            [
+              10.075703,
+              52.147396
+            ],
+            [
+              10.075802,
+              52.147105
+            ],
+            [
+              10.075898,
+              52.146811
+            ],
+            [
+              10.076021,
+              52.146426
+            ],
+            [
+              10.075935,
+              52.146415
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 591,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_13_DENILI2254110003",
+    "referenceDate": "2024",
+    "NameOfField": "Wiese2",
+    "NumberOfField": 12,
+    "Area": 0.102,
+    "FieldBlockNumber": "DENILI2254110003",
+    "PartOfField": 1,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 91000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110003",
+        "JAHR": 2024,
+        "SCHLAG_NR": 91,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.075714,
+              52.146809
+            ],
+            [
+              10.075843,
+              52.146406
+            ],
+            [
+              10.07575,
+              52.1464
+            ],
+            [
+              10.075285,
+              52.147938
+            ],
+            [
+              10.075373,
+              52.147942
+            ],
+            [
+              10.075413,
+              52.1478
+            ],
+            [
+              10.07554,
+              52.147372
+            ],
+            [
+              10.075714,
+              52.146809
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 591,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_25_DENILI2254110003",
+    "referenceDate": "2024",
+    "NameOfField": "Wiese",
+    "NumberOfField": 12,
+    "Area": 1.4477,
+    "FieldBlockNumber": "DENILI2254110003",
+    "PartOfField": 2,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 70000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110003",
+        "JAHR": 2024,
+        "SCHLAG_NR": 70,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.075386,
+              52.146326
+            ],
+            [
+              10.075251,
+              52.146632
+            ],
+            [
+              10.075193,
+              52.146772
+            ],
+            [
+              10.075184,
+              52.146819
+            ],
+            [
+              10.075152,
+              52.146929
+            ],
+            [
+              10.075129,
+              52.14705
+            ],
+            [
+              10.075111,
+              52.147125
+            ],
+            [
+              10.075079,
+              52.147288
+            ],
+            [
+              10.075035,
+              52.147574
+            ],
+            [
+              10.07496,
+              52.147852
+            ],
+            [
+              10.074948,
+              52.14796
+            ],
+            [
+              10.075011,
+              52.147958
+            ],
+            [
+              10.075374,
+              52.147965
+            ],
+            [
+              10.075441,
+              52.147972
+            ],
+            [
+              10.075615,
+              52.147981
+            ],
+            [
+              10.076047,
+              52.147995
+            ],
+            [
+              10.076094,
+              52.147995
+            ],
+            [
+              10.076093,
+              52.147996
+            ],
+            [
+              10.076131,
+              52.147997
+            ],
+            [
+              10.07672,
+              52.146984
+            ],
+            [
+              10.076815,
+              52.146874
+            ],
+            [
+              10.077019,
+              52.146538
+            ],
+            [
+              10.075386,
+              52.146326
+            ]
+          ],
+          [
+            [
+              10.075843,
+              52.146406
+            ],
+            [
+              10.075935,
+              52.146415
+            ],
+            [
+              10.075935,
+              52.146415
+            ],
+            [
+              10.076021,
+              52.146426
+            ],
+            [
+              10.075898,
+              52.146811
+            ],
+            [
+              10.075802,
+              52.147105
+            ],
+            [
+              10.075703,
+              52.147396
+            ],
+            [
+              10.075568,
+              52.14784
+            ],
+            [
+              10.075533,
+              52.147955
+            ],
+            [
+              10.075447,
+              52.147945
+            ],
+            [
+              10.075373,
+              52.147942
+            ],
+            [
+              10.075285,
+              52.147938
+            ],
+            [
+              10.07575,
+              52.1464
+            ],
+            [
+              10.075843,
+              52.146406
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 171,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_14_DENILI2054110005",
+    "referenceDate": "2024",
+    "NameOfField": "Neues Land",
+    "NumberOfField": 13,
+    "Area": 6.8877,
+    "FieldBlockNumber": "DENILI2054110005",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 12000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054110005",
+        "JAHR": 2024,
+        "SCHLAG_NR": 12,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.103133,
+              52.152597
+            ],
+            [
+              10.103192,
+              52.15268
+            ],
+            [
+              10.10362,
+              52.153302
+            ],
+            [
+              10.103849,
+              52.15364
+            ],
+            [
+              10.104313,
+              52.154326
+            ],
+            [
+              10.10451,
+              52.154629
+            ],
+            [
+              10.104708,
+              52.154919
+            ],
+            [
+              10.104716,
+              52.154928
+            ],
+            [
+              10.104764,
+              52.154998
+            ],
+            [
+              10.104768,
+              52.155008
+            ],
+            [
+              10.10481,
+              52.155076
+            ],
+            [
+              10.104877,
+              52.155107
+            ],
+            [
+              10.105681,
+              52.155179
+            ],
+            [
+              10.105873,
+              52.155193
+            ],
+            [
+              10.106023,
+              52.155238
+            ],
+            [
+              10.106194,
+              52.155283
+            ],
+            [
+              10.106275,
+              52.155295
+            ],
+            [
+              10.107584,
+              52.155399
+            ],
+            [
+              10.107572,
+              52.155328
+            ],
+            [
+              10.10757,
+              52.155328
+            ],
+            [
+              10.107568,
+              52.155307
+            ],
+            [
+              10.107555,
+              52.155307
+            ],
+            [
+              10.107489,
+              52.154595
+            ],
+            [
+              10.107489,
+              52.154595
+            ],
+            [
+              10.107489,
+              52.154593
+            ],
+            [
+              10.107487,
+              52.154593
+            ],
+            [
+              10.107487,
+              52.154592
+            ],
+            [
+              10.107486,
+              52.154592
+            ],
+            [
+              10.107467,
+              52.154421
+            ],
+            [
+              10.107352,
+              52.153519
+            ],
+            [
+              10.107256,
+              52.152549
+            ],
+            [
+              10.107228,
+              52.152549
+            ],
+            [
+              10.107229,
+              52.152556
+            ],
+            [
+              10.104079,
+              52.152586
+            ],
+            [
+              10.103133,
+              52.152597
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 171,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_15_DENILI2254110005",
+    "referenceDate": "2024",
+    "NameOfField": "Mühlenkamp",
+    "NumberOfField": 14,
+    "Area": 0.2287,
+    "FieldBlockNumber": "DENILI2254110005",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 62000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110005",
+        "JAHR": 2024,
+        "SCHLAG_NR": 62,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.075408,
+              52.155699
+            ],
+            [
+              10.075423,
+              52.155537
+            ],
+            [
+              10.07545,
+              52.155283
+            ],
+            [
+              10.075524,
+              52.154719
+            ],
+            [
+              10.07561,
+              52.154126
+            ],
+            [
+              10.075724,
+              52.153269
+            ],
+            [
+              10.075796,
+              52.152717
+            ],
+            [
+              10.075848,
+              52.152351
+            ],
+            [
+              10.075844,
+              52.152281
+            ],
+            [
+              10.075763,
+              52.152275
+            ],
+            [
+              10.07576,
+              52.152349
+            ],
+            [
+              10.075709,
+              52.152713
+            ],
+            [
+              10.075636,
+              52.153265
+            ],
+            [
+              10.075523,
+              52.154121
+            ],
+            [
+              10.075436,
+              52.154715
+            ],
+            [
+              10.075362,
+              52.15528
+            ],
+            [
+              10.075335,
+              52.155534
+            ],
+            [
+              10.07532,
+              52.155696
+            ],
+            [
+              10.075408,
+              52.155699
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 591,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_17_DENILI2254110005",
+    "referenceDate": "2024",
+    "NameOfField": "Mühlenkamp",
+    "NumberOfField": 14,
+    "Area": 6.7559,
+    "FieldBlockNumber": "DENILI2254110005",
+    "PartOfField": 1,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 61000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110005",
+        "JAHR": 2024,
+        "SCHLAG_NR": 61,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.075763,
+              52.152275
+            ],
+            [
+              10.075153,
+              52.152233
+            ],
+            [
+              10.074374,
+              52.152182
+            ],
+            [
+              10.074256,
+              52.152178
+            ],
+            [
+              10.074188,
+              52.152194
+            ],
+            [
+              10.07416,
+              52.152226
+            ],
+            [
+              10.074056,
+              52.152789
+            ],
+            [
+              10.073968,
+              52.153323
+            ],
+            [
+              10.073878,
+              52.153838
+            ],
+            [
+              10.073791,
+              52.154366
+            ],
+            [
+              10.073693,
+              52.1549
+            ],
+            [
+              10.073604,
+              52.155431
+            ],
+            [
+              10.073554,
+              52.155726
+            ],
+            [
+              10.073511,
+              52.155929
+            ],
+            [
+              10.073508,
+              52.155995
+            ],
+            [
+              10.073543,
+              52.156055
+            ],
+            [
+              10.073558,
+              52.156075
+            ],
+            [
+              10.073566,
+              52.156082
+            ],
+            [
+              10.073683,
+              52.156205
+            ],
+            [
+              10.073699,
+              52.156221
+            ],
+            [
+              10.0737,
+              52.156234
+            ],
+            [
+              10.073707,
+              52.156241
+            ],
+            [
+              10.073709,
+              52.156272
+            ],
+            [
+              10.073705,
+              52.1563
+            ],
+            [
+              10.073683,
+              52.156313
+            ],
+            [
+              10.073634,
+              52.15631
+            ],
+            [
+              10.073523,
+              52.156303
+            ],
+            [
+              10.073412,
+              52.156297
+            ],
+            [
+              10.073357,
+              52.156295
+            ],
+            [
+              10.073357,
+              52.156291
+            ],
+            [
+              10.073202,
+              52.156275
+            ],
+            [
+              10.069001,
+              52.155998
+            ],
+            [
+              10.068981,
+              52.156168
+            ],
+            [
+              10.073408,
+              52.156456
+            ],
+            [
+              10.074542,
+              52.156531
+            ],
+            [
+              10.075418,
+              52.156588
+            ],
+            [
+              10.076434,
+              52.156112
+            ],
+            [
+              10.07661,
+              52.156034
+            ],
+            [
+              10.07669,
+              52.155992
+            ],
+            [
+              10.076748,
+              52.155955
+            ],
+            [
+              10.076802,
+              52.155907
+            ],
+            [
+              10.076855,
+              52.155857
+            ],
+            [
+              10.076896,
+              52.155804
+            ],
+            [
+              10.076639,
+              52.155784
+            ],
+            [
+              10.07588,
+              52.155728
+            ],
+            [
+              10.07532,
+              52.155696
+            ],
+            [
+              10.075335,
+              52.155534
+            ],
+            [
+              10.075362,
+              52.15528
+            ],
+            [
+              10.075436,
+              52.154715
+            ],
+            [
+              10.075523,
+              52.154121
+            ],
+            [
+              10.075636,
+              52.153265
+            ],
+            [
+              10.075709,
+              52.152713
+            ],
+            [
+              10.07576,
+              52.152349
+            ],
+            [
+              10.075763,
+              52.152275
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_19_DENILI2254110005",
+    "referenceDate": "2024",
+    "NameOfField": "Stadweg2",
+    "NumberOfField": 14,
+    "Area": 5.7807,
+    "FieldBlockNumber": "DENILI2254110005",
+    "PartOfField": 2,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 86000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110005",
+        "JAHR": 2024,
+        "SCHLAG_NR": 86,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0615,
+              52.152186
+            ],
+            [
+              10.061691,
+              52.152195
+            ],
+            [
+              10.063036,
+              52.152205
+            ],
+            [
+              10.063403,
+              52.1522
+            ],
+            [
+              10.063436,
+              52.152199
+            ],
+            [
+              10.063467,
+              52.152196
+            ],
+            [
+              10.063814,
+              52.152166
+            ],
+            [
+              10.065658,
+              52.149001
+            ],
+            [
+              10.065339,
+              52.148981
+            ],
+            [
+              10.064956,
+              52.148953
+            ],
+            [
+              10.063415,
+              52.148848
+            ],
+            [
+              10.062133,
+              52.151068
+            ],
+            [
+              10.0615,
+              52.152186
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 311,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_23_DENILI2254110005",
+    "referenceDate": "2024",
+    "NameOfField": "Tante Marie",
+    "NumberOfField": 14,
+    "Area": 2.0096,
+    "FieldBlockNumber": "DENILI2254110005",
+    "PartOfField": 3,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 40000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110005",
+        "JAHR": 2024,
+        "SCHLAG_NR": 40,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.077528,
+              52.154003
+            ],
+            [
+              10.077596,
+              52.153495
+            ],
+            [
+              10.077682,
+              52.152951
+            ],
+            [
+              10.077715,
+              52.152643
+            ],
+            [
+              10.077201,
+              52.152636
+            ],
+            [
+              10.077212,
+              52.15238
+            ],
+            [
+              10.07601,
+              52.152295
+            ],
+            [
+              10.075792,
+              52.153861
+            ],
+            [
+              10.077528,
+              52.154003
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_24_DENILI2254110005",
+    "referenceDate": "2024",
+    "NameOfField": "Tante Marie 2",
+    "NumberOfField": 14,
+    "Area": 0.1044,
+    "FieldBlockNumber": "DENILI2254110005",
+    "PartOfField": 4,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 64000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110005",
+        "JAHR": 2024,
+        "SCHLAG_NR": 64,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.07601,
+              52.152295
+            ],
+            [
+              10.075924,
+              52.152292
+            ],
+            [
+              10.07585,
+              52.152769
+            ],
+            [
+              10.075772,
+              52.153307
+            ],
+            [
+              10.075705,
+              52.153854
+            ],
+            [
+              10.075792,
+              52.153861
+            ],
+            [
+              10.075859,
+              52.153312
+            ],
+            [
+              10.075937,
+              52.152774
+            ],
+            [
+              10.07601,
+              52.152295
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 591,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_32_DENILI2254110005",
+    "referenceDate": "2024",
+    "NameOfField": "Stadtweg Konrad",
+    "NumberOfField": 14,
+    "Area": 7.5509,
+    "FieldBlockNumber": "DENILI2254110005",
+    "PartOfField": 5,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 41000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110005",
+        "JAHR": 2024,
+        "SCHLAG_NR": 41,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.070343,
+              52.149304
+            ],
+            [
+              10.068195,
+              52.149165
+            ],
+            [
+              10.06691,
+              52.149087
+            ],
+            [
+              10.065177,
+              52.152047
+            ],
+            [
+              10.066787,
+              52.15194
+            ],
+            [
+              10.067034,
+              52.151927
+            ],
+            [
+              10.068674,
+              52.152046
+            ],
+            [
+              10.068726,
+              52.152049
+            ],
+            [
+              10.0693,
+              52.151059
+            ],
+            [
+              10.069303,
+              52.151059
+            ],
+            [
+              10.069305,
+              52.151056
+            ],
+            [
+              10.069304,
+              52.151056
+            ],
+            [
+              10.069356,
+              52.15097
+            ],
+            [
+              10.06955,
+              52.150642
+            ],
+            [
+              10.069546,
+              52.150642
+            ],
+            [
+              10.069876,
+              52.150092
+            ],
+            [
+              10.070343,
+              52.149304
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 311,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_16_DENILI1954110006",
+    "referenceDate": "2024",
+    "NameOfField": "Rotacker",
+    "NumberOfField": 15,
+    "Area": 12.4371,
+    "FieldBlockNumber": "DENILI1954110006",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 7000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI1954110006",
+        "JAHR": 2024,
+        "SCHLAG_NR": 7,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.068662,
+              52.145227
+            ],
+            [
+              10.068626,
+              52.145309
+            ],
+            [
+              10.068373,
+              52.145872
+            ],
+            [
+              10.0681,
+              52.146465
+            ],
+            [
+              10.068002,
+              52.14667
+            ],
+            [
+              10.067992,
+              52.146702
+            ],
+            [
+              10.068,
+              52.146721
+            ],
+            [
+              10.068025,
+              52.146736
+            ],
+            [
+              10.068638,
+              52.146839
+            ],
+            [
+              10.069862,
+              52.147047
+            ],
+            [
+              10.070965,
+              52.147235
+            ],
+            [
+              10.074734,
+              52.147875
+            ],
+            [
+              10.074744,
+              52.147877
+            ],
+            [
+              10.074774,
+              52.147883
+            ],
+            [
+              10.074802,
+              52.147879
+            ],
+            [
+              10.074834,
+              52.147628
+            ],
+            [
+              10.074926,
+              52.147053
+            ],
+            [
+              10.07497,
+              52.146854
+            ],
+            [
+              10.075,
+              52.146774
+            ],
+            [
+              10.075177,
+              52.146411
+            ],
+            [
+              10.075436,
+              52.145885
+            ],
+            [
+              10.075704,
+              52.145346
+            ],
+            [
+              10.074339,
+              52.145204
+            ],
+            [
+              10.071808,
+              52.144942
+            ],
+            [
+              10.068928,
+              52.144627
+            ],
+            [
+              10.068662,
+              52.145227
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_18_DENILI0354240028",
+    "referenceDate": "2024",
+    "NameOfField": "Stadtweg",
+    "NumberOfField": 16,
+    "Area": 5.1546,
+    "FieldBlockNumber": "DENILI0354240028",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 25000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI0354240028",
+        "JAHR": 2024,
+        "SCHLAG_NR": 25,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.047897,
+              52.144277
+            ],
+            [
+              10.048387,
+              52.144431
+            ],
+            [
+              10.049527,
+              52.144786
+            ],
+            [
+              10.050715,
+              52.145158
+            ],
+            [
+              10.051645,
+              52.145449
+            ],
+            [
+              10.051994,
+              52.145557
+            ],
+            [
+              10.052054,
+              52.145575
+            ],
+            [
+              10.052092,
+              52.145571
+            ],
+            [
+              10.052116,
+              52.145558
+            ],
+            [
+              10.05223,
+              52.145438
+            ],
+            [
+              10.052749,
+              52.144894
+            ],
+            [
+              10.050685,
+              52.144246
+            ],
+            [
+              10.050686,
+              52.144245
+            ],
+            [
+              10.050685,
+              52.144245
+            ],
+            [
+              10.05071,
+              52.144171
+            ],
+            [
+              10.051008,
+              52.143232
+            ],
+            [
+              10.050341,
+              52.143022
+            ],
+            [
+              10.049653,
+              52.142806
+            ],
+            [
+              10.049125,
+              52.142641
+            ],
+            [
+              10.048491,
+              52.142443
+            ],
+            [
+              10.048386,
+              52.142777
+            ],
+            [
+              10.047897,
+              52.144277
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 603,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_20_DENILI2254110013",
+    "referenceDate": "2024",
+    "NameOfField": "Wöhler Str. re",
+    "NumberOfField": 17,
+    "Area": 4.2497,
+    "FieldBlockNumber": "DENILI2254110013",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 48000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2254110013",
+        "JAHR": 2024,
+        "SCHLAG_NR": 48,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.09535,
+              52.14685
+            ],
+            [
+              10.095367,
+              52.146761
+            ],
+            [
+              10.094362,
+              52.146815
+            ],
+            [
+              10.093848,
+              52.146848
+            ],
+            [
+              10.093759,
+              52.146868
+            ],
+            [
+              10.093698,
+              52.146888
+            ],
+            [
+              10.093658,
+              52.146927
+            ],
+            [
+              10.093632,
+              52.146985
+            ],
+            [
+              10.093554,
+              52.147523
+            ],
+            [
+              10.093454,
+              52.148234
+            ],
+            [
+              10.09326,
+              52.149554
+            ],
+            [
+              10.093173,
+              52.150122
+            ],
+            [
+              10.093565,
+              52.150102
+            ],
+            [
+              10.094121,
+              52.15007
+            ],
+            [
+              10.094907,
+              52.150021
+            ],
+            [
+              10.094949,
+              52.149766
+            ],
+            [
+              10.09503,
+              52.149178
+            ],
+            [
+              10.095094,
+              52.148719
+            ],
+            [
+              10.095142,
+              52.148403
+            ],
+            [
+              10.095252,
+              52.147628
+            ],
+            [
+              10.09535,
+              52.14685
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_21_DENILI0354110017",
+    "referenceDate": "2024",
+    "NameOfField": "Dinkl. Str.",
+    "NumberOfField": 18,
+    "Area": 1.5477,
+    "FieldBlockNumber": "DENILI0354110017",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 20000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI0354110017",
+        "JAHR": 2024,
+        "SCHLAG_NR": 20,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.074639,
+              52.158092
+            ],
+            [
+              10.075413,
+              52.157585
+            ],
+            [
+              10.075816,
+              52.157306
+            ],
+            [
+              10.076,
+              52.157177
+            ],
+            [
+              10.076165,
+              52.157044
+            ],
+            [
+              10.076422,
+              52.156794
+            ],
+            [
+              10.076755,
+              52.156468
+            ],
+            [
+              10.077119,
+              52.156091
+            ],
+            [
+              10.077895,
+              52.155242
+            ],
+            [
+              10.07846,
+              52.154622
+            ],
+            [
+              10.078177,
+              52.154516
+            ],
+            [
+              10.077914,
+              52.154849
+            ],
+            [
+              10.077341,
+              52.155556
+            ],
+            [
+              10.077063,
+              52.155915
+            ],
+            [
+              10.076993,
+              52.155997
+            ],
+            [
+              10.076951,
+              52.156028
+            ],
+            [
+              10.07687,
+              52.156067
+            ],
+            [
+              10.07578,
+              52.156578
+            ],
+            [
+              10.074814,
+              52.157026
+            ],
+            [
+              10.074753,
+              52.157069
+            ],
+            [
+              10.074723,
+              52.157097
+            ],
+            [
+              10.074708,
+              52.157128
+            ],
+            [
+              10.074676,
+              52.15756
+            ],
+            [
+              10.074639,
+              52.158092
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 452,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_26_DENILI2354110001",
+    "referenceDate": "2024",
+    "NameOfField": "Knobbenberg",
+    "NumberOfField": 19,
+    "Area": 3.094,
+    "FieldBlockNumber": "DENILI2354110001",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 4000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2354110001",
+        "JAHR": 2024,
+        "SCHLAG_NR": 4,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.095326,
+              52.146658
+            ],
+            [
+              10.095395,
+              52.146649
+            ],
+            [
+              10.095444,
+              52.146636
+            ],
+            [
+              10.095476,
+              52.146619
+            ],
+            [
+              10.095498,
+              52.146591
+            ],
+            [
+              10.095517,
+              52.146481
+            ],
+            [
+              10.095571,
+              52.146112
+            ],
+            [
+              10.095631,
+              52.145632
+            ],
+            [
+              10.095728,
+              52.144974
+            ],
+            [
+              10.095812,
+              52.144326
+            ],
+            [
+              10.095893,
+              52.14368
+            ],
+            [
+              10.095926,
+              52.143211
+            ],
+            [
+              10.094777,
+              52.143342
+            ],
+            [
+              10.094299,
+              52.146462
+            ],
+            [
+              10.094262,
+              52.146717
+            ],
+            [
+              10.095175,
+              52.146665
+            ],
+            [
+              10.095326,
+              52.146658
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_28_DENILI2054240008",
+    "referenceDate": "2024",
+    "NameOfField": "Kemmer Berg",
+    "NumberOfField": 20,
+    "Area": 1.2104,
+    "FieldBlockNumber": "DENILI2054240008",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 30000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054240008",
+        "JAHR": 2024,
+        "SCHLAG_NR": 30,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.068608,
+              52.174968
+            ],
+            [
+              10.067735,
+              52.176228
+            ],
+            [
+              10.068112,
+              52.176335
+            ],
+            [
+              10.06815,
+              52.176346
+            ],
+            [
+              10.070363,
+              52.173152
+            ],
+            [
+              10.069981,
+              52.17301
+            ],
+            [
+              10.069971,
+              52.173006
+            ],
+            [
+              10.068608,
+              52.174968
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_29_DENILI1954110005",
+    "referenceDate": "2024",
+    "NameOfField": "Beek",
+    "NumberOfField": 21,
+    "Area": 3.0624,
+    "FieldBlockNumber": "DENILI1954110005",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 34000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI1954110005",
+        "JAHR": 2024,
+        "SCHLAG_NR": 34,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.094304,
+              52.132524
+            ],
+            [
+              10.094222,
+              52.132546
+            ],
+            [
+              10.093737,
+              52.132684
+            ],
+            [
+              10.09308,
+              52.132861
+            ],
+            [
+              10.092552,
+              52.132996
+            ],
+            [
+              10.092249,
+              52.133079
+            ],
+            [
+              10.091861,
+              52.133175
+            ],
+            [
+              10.091107,
+              52.133376
+            ],
+            [
+              10.090638,
+              52.1335
+            ],
+            [
+              10.090491,
+              52.133539
+            ],
+            [
+              10.089213,
+              52.133882
+            ],
+            [
+              10.089195,
+              52.133904
+            ],
+            [
+              10.087136,
+              52.134875
+            ],
+            [
+              10.086909,
+              52.134974
+            ],
+            [
+              10.086557,
+              52.135137
+            ],
+            [
+              10.08611,
+              52.135342
+            ],
+            [
+              10.085829,
+              52.135471
+            ],
+            [
+              10.085404,
+              52.135678
+            ],
+            [
+              10.085088,
+              52.135835
+            ],
+            [
+              10.085001,
+              52.135879
+            ],
+            [
+              10.084935,
+              52.135923
+            ],
+            [
+              10.084891,
+              52.135958
+            ],
+            [
+              10.08484,
+              52.136005
+            ],
+            [
+              10.084545,
+              52.136357
+            ],
+            [
+              10.084537,
+              52.136373
+            ],
+            [
+              10.08445,
+              52.136479
+            ],
+            [
+              10.084429,
+              52.136502
+            ],
+            [
+              10.085072,
+              52.136614
+            ],
+            [
+              10.085236,
+              52.136481
+            ],
+            [
+              10.085405,
+              52.136351
+            ],
+            [
+              10.085571,
+              52.13624
+            ],
+            [
+              10.085857,
+              52.136064
+            ],
+            [
+              10.086182,
+              52.135866
+            ],
+            [
+              10.086722,
+              52.135528
+            ],
+            [
+              10.086899,
+              52.135406
+            ],
+            [
+              10.087222,
+              52.135218
+            ],
+            [
+              10.087547,
+              52.135063
+            ],
+            [
+              10.087823,
+              52.134925
+            ],
+            [
+              10.088128,
+              52.134775
+            ],
+            [
+              10.088436,
+              52.134637
+            ],
+            [
+              10.088699,
+              52.134522
+            ],
+            [
+              10.08883,
+              52.134462
+            ],
+            [
+              10.088947,
+              52.134421
+            ],
+            [
+              10.089434,
+              52.134252
+            ],
+            [
+              10.092251,
+              52.133402
+            ],
+            [
+              10.092732,
+              52.133251
+            ],
+            [
+              10.093534,
+              52.133014
+            ],
+            [
+              10.094472,
+              52.132744
+            ],
+            [
+              10.094304,
+              52.132524
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 591,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_30_DENILI2054010011",
+    "referenceDate": "2024",
+    "NameOfField": "Himstedt",
+    "NumberOfField": 22,
+    "Area": 6.4851,
+    "FieldBlockNumber": "DENILI2054010011",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 55000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054010011",
+        "JAHR": 2024,
+        "SCHLAG_NR": 55,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.188583,
+              52.175276
+            ],
+            [
+              10.188485,
+              52.175268
+            ],
+            [
+              10.185301,
+              52.175148
+            ],
+            [
+              10.185075,
+              52.175883
+            ],
+            [
+              10.185029,
+              52.176041
+            ],
+            [
+              10.184928,
+              52.176361
+            ],
+            [
+              10.184784,
+              52.17683
+            ],
+            [
+              10.187405,
+              52.176902
+            ],
+            [
+              10.190662,
+              52.176984
+            ],
+            [
+              10.190719,
+              52.176829
+            ],
+            [
+              10.190982,
+              52.176075
+            ],
+            [
+              10.191,
+              52.176006
+            ],
+            [
+              10.190796,
+              52.175977
+            ],
+            [
+              10.189933,
+              52.175835
+            ],
+            [
+              10.18846,
+              52.175614
+            ],
+            [
+              10.188465,
+              52.175546
+            ],
+            [
+              10.188445,
+              52.175543
+            ],
+            [
+              10.188583,
+              52.175276
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 171,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_34_DENILI2054240003",
+    "referenceDate": "2024",
+    "NameOfField": "Kannenstieg 2",
+    "NumberOfField": 23,
+    "Area": 0.8786,
+    "FieldBlockNumber": "DENILI2054240003",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 68000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054240003",
+        "JAHR": 2024,
+        "SCHLAG_NR": 68,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.066407,
+              52.166994
+            ],
+            [
+              10.071396,
+              52.168777
+            ],
+            [
+              10.071588,
+              52.168613
+            ],
+            [
+              10.068717,
+              52.167588
+            ],
+            [
+              10.066939,
+              52.166949
+            ],
+            [
+              10.066653,
+              52.166851
+            ],
+            [
+              10.066407,
+              52.166994
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 171,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_42_DENILI2054240003",
+    "referenceDate": "2024",
+    "NameOfField": "Kannenstieg",
+    "NumberOfField": 23,
+    "Area": 4.0573,
+    "FieldBlockNumber": "DENILI2054240003",
+    "PartOfField": 1,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 28000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054240003",
+        "JAHR": 2024,
+        "SCHLAG_NR": 28,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.068371,
+              52.169509
+            ],
+            [
+              10.069849,
+              52.170032
+            ],
+            [
+              10.070361,
+              52.169622
+            ],
+            [
+              10.070711,
+              52.169336
+            ],
+            [
+              10.065524,
+              52.16749
+            ],
+            [
+              10.064772,
+              52.167912
+            ],
+            [
+              10.064429,
+              52.168106
+            ],
+            [
+              10.068371,
+              52.169509
+            ],
+            [
+              10.068371,
+              52.169509
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_35_DENILI2054110010",
+    "referenceDate": "2024",
+    "NameOfField": "Gröfde Johannes2",
+    "NumberOfField": 24,
+    "Area": 3.6028,
+    "FieldBlockNumber": "DENILI2054110010",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 57000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054110010",
+        "JAHR": 2024,
+        "SCHLAG_NR": 57,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.093749,
+              52.154312
+            ],
+            [
+              10.093723,
+              52.15431
+            ],
+            [
+              10.093492,
+              52.154297
+            ],
+            [
+              10.093222,
+              52.154275
+            ],
+            [
+              10.092645,
+              52.155779
+            ],
+            [
+              10.092201,
+              52.156946
+            ],
+            [
+              10.092202,
+              52.156947
+            ],
+            [
+              10.092256,
+              52.156954
+            ],
+            [
+              10.092254,
+              52.15696
+            ],
+            [
+              10.093895,
+              52.157119
+            ],
+            [
+              10.094921,
+              52.154406
+            ],
+            [
+              10.093749,
+              52.154312
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_43_DENILI2054110010",
+    "referenceDate": "2024",
+    "NameOfField": "Gröfde Farmsen",
+    "NumberOfField": 24,
+    "Area": 1.8711,
+    "FieldBlockNumber": "DENILI2054110010",
+    "PartOfField": 1,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 17000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054110010",
+        "JAHR": 2024,
+        "SCHLAG_NR": 17,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.098111,
+              52.156105
+            ],
+            [
+              10.097269,
+              52.156008
+            ],
+            [
+              10.096725,
+              52.157426
+            ],
+            [
+              10.097094,
+              52.157456
+            ],
+            [
+              10.096114,
+              52.159975
+            ],
+            [
+              10.096385,
+              52.160015
+            ],
+            [
+              10.096479,
+              52.160017
+            ],
+            [
+              10.096518,
+              52.160002
+            ],
+            [
+              10.096606,
+              52.159916
+            ],
+            [
+              10.096693,
+              52.15974
+            ],
+            [
+              10.096889,
+              52.159257
+            ],
+            [
+              10.09722,
+              52.158401
+            ],
+            [
+              10.097381,
+              52.157971
+            ],
+            [
+              10.097715,
+              52.157108
+            ],
+            [
+              10.098111,
+              52.156105
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 311,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_36_DENILI2054070008",
+    "referenceDate": "2024",
+    "NameOfField": "Nettlingen",
+    "NumberOfField": 25,
+    "Area": 2.51,
+    "FieldBlockNumber": "DENILI2054070008",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 9000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054070008",
+        "JAHR": 2024,
+        "SCHLAG_NR": 9,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.148257,
+              52.155674
+            ],
+            [
+              10.147913,
+              52.155562
+            ],
+            [
+              10.146973,
+              52.155252
+            ],
+            [
+              10.1466,
+              52.155136
+            ],
+            [
+              10.146192,
+              52.155971
+            ],
+            [
+              10.14585,
+              52.156782
+            ],
+            [
+              10.145877,
+              52.156794
+            ],
+            [
+              10.147468,
+              52.157454
+            ],
+            [
+              10.148257,
+              52.155674
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_37_DENILI0354240024",
+    "referenceDate": "2024",
+    "NameOfField": "Bruch",
+    "NumberOfField": 26,
+    "Area": 3.9985,
+    "FieldBlockNumber": "DENILI0354240024",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 26000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI0354240024",
+        "JAHR": 2024,
+        "SCHLAG_NR": 26,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.035701,
+              52.146344
+            ],
+            [
+              10.036211,
+              52.146515
+            ],
+            [
+              10.036917,
+              52.146745
+            ],
+            [
+              10.037467,
+              52.146922
+            ],
+            [
+              10.038337,
+              52.144235
+            ],
+            [
+              10.038078,
+              52.14415
+            ],
+            [
+              10.037019,
+              52.14381
+            ],
+            [
+              10.036836,
+              52.143752
+            ],
+            [
+              10.036564,
+              52.143664
+            ],
+            [
+              10.036023,
+              52.145341
+            ],
+            [
+              10.035701,
+              52.146344
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 603,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_39_DENILI0354110009",
+    "referenceDate": "2024",
+    "NameOfField": "Kemmer Weg Kirche",
+    "NumberOfField": 27,
+    "Area": 4.9972,
+    "FieldBlockNumber": "DENILI0354110009",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 36000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI0354110009",
+        "JAHR": 2024,
+        "SCHLAG_NR": 36,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.081759,
+              52.157724
+            ],
+            [
+              10.081712,
+              52.1577
+            ],
+            [
+              10.08134,
+              52.158612
+            ],
+            [
+              10.08102,
+              52.159384
+            ],
+            [
+              10.082156,
+              52.159739
+            ],
+            [
+              10.084098,
+              52.160345
+            ],
+            [
+              10.085608,
+              52.160809
+            ],
+            [
+              10.085879,
+              52.160889
+            ],
+            [
+              10.085845,
+              52.16083
+            ],
+            [
+              10.085529,
+              52.160318
+            ],
+            [
+              10.084986,
+              52.159448
+            ],
+            [
+              10.084787,
+              52.15914
+            ],
+            [
+              10.084749,
+              52.15911
+            ],
+            [
+              10.083683,
+              52.158608
+            ],
+            [
+              10.082962,
+              52.158278
+            ],
+            [
+              10.082058,
+              52.157865
+            ],
+            [
+              10.081759,
+              52.157724
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  },
+  {
+    "id": "harmonie_41_DENILI2054120003",
+    "referenceDate": "2024",
+    "NameOfField": "Kahrbusch",
+    "NumberOfField": 28,
+    "Area": 3.0346,
+    "FieldBlockNumber": "DENILI2054120003",
+    "PartOfField": 0,
+    "SpatialData": {
+      "type": "Feature",
+      "properties": {
+        "OBJEKT_ID": 14000,
+        "REG_NR": "276032540291401",
+        "FLIK": "DENILI2054120003",
+        "JAHR": 2024,
+        "SCHLAG_NR": 14,
+        "TSCHLAG_BE": "A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.111439,
+              52.162454
+            ],
+            [
+              10.11182,
+              52.161538
+            ],
+            [
+              10.111833,
+              52.161459
+            ],
+            [
+              10.111822,
+              52.161346
+            ],
+            [
+              10.11063,
+              52.161342
+            ],
+            [
+              10.108651,
+              52.161344
+            ],
+            [
+              10.108578,
+              52.161344
+            ],
+            [
+              10.108374,
+              52.161755
+            ],
+            [
+              10.108371,
+              52.161761
+            ],
+            [
+              10.10829,
+              52.161936
+            ],
+            [
+              10.108293,
+              52.161937
+            ],
+            [
+              10.108299,
+              52.161939
+            ],
+            [
+              10.108476,
+              52.161986
+            ],
+            [
+              10.108702,
+              52.162047
+            ],
+            [
+              10.109033,
+              52.162151
+            ],
+            [
+              10.109197,
+              52.16221
+            ],
+            [
+              10.109336,
+              52.162266
+            ],
+            [
+              10.109494,
+              52.162356
+            ],
+            [
+              10.109606,
+              52.162449
+            ],
+            [
+              10.109682,
+              52.162507
+            ],
+            [
+              10.109753,
+              52.162563
+            ],
+            [
+              10.10988,
+              52.162641
+            ],
+            [
+              10.110521,
+              52.162936
+            ],
+            [
+              10.111119,
+              52.163207
+            ],
+            [
+              10.111133,
+              52.163207
+            ],
+            [
+              10.111439,
+              52.162454
+            ]
+          ]
+        ]
+      }
+    },
+    "LandUseRestriction": "",
+    "Cultivation": {
+      "PrimaryCrop": {
+        "CropSpeciesCode": 115,
+        "Name": ""
+      }
+    }
+  }
+]

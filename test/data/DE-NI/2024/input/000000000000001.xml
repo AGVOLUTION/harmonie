@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:hauptantrag xmlns:ns2="http://hauptantrag.schnittstellen.andi_gela.sla.nds.de/" andi_version="2024.1.6" andi_antrag_db_id="173526" antragsjahr="2024" antragsart="HAUPTANTRAG" reg_nr="000000000000001" andi_erstell_datum="2024-04-19T11:46:43.944+02:00" andi_export_datum="2024-05-07T14:43:39.086+02:00" abgabe_reg_nr="000000000000001" abgabe_typ="SELBST" dsa_version="2024.1.4" dsa_export_datum="2024-04-15T12:27:00+02:00" betr_email_weitergabe="true" verifizierung_typ="DBS">
+    <absender afa_id="4" name="Bewilligungsstelle Northeim" strasse="Musterstraße" plz="00000" ort="Musterstadt"/>
+    <akteurAendern adrHausnr="1" adrNation="DE" adrOrt="Musterstadt" adrOrtsteil="" adrPLZ="00000" adrStrasse="Musterstraße" beantragungInEU="false" betrEMail="anon@example.com" betrFax="0000/000000" betrHandy="0000000000000" betrTelefon="0000/000000" bewirtschaftungNGO="false" erwerbsumfang="H" finanzamt="0000" finanzamtBez="Musteramt" steueridentifikationsnummer="50869724309" steuerNrWirt="30/241/01510" geburtGruendungDatum="1990-01-01" geburtGruendungNr="0" geburtGruendungOrt="Musterstadt" gemeindeArt="" generation="" geschlecht="M" name="Ernst" rechtsform="EU" registriernummer="000000000000001" sdvid="000001" sonstigerLW="false" vorname="Max" unternehmensgruppeZugehoerigkeit="false">
+        <bankverbindung akiBank="Musterbank" akiIban="DE00000000000000000000" akiKz="false" bank="Musterbank" bvbid="642341" iban="DE00000000000000000000" massnahme="0"/>
+        <aktiverLandwirt>
+            <antragDirektzahlung>false</antragDirektzahlung>
+            <unfallversicherung>true</unfallversicherung>
+            <unfallversicherungstraeger>UNVERAENDERT</unfallversicherungstraeger>
+        </aktiverLandwirt>
+    </akteurAendern>
+    <ergaenzende_angaben hauptsitz_in_niedersachsen="true" belegenheitsland="PATRIOT" weitere_reg_nr_betriebsstaetten="false">
+        <bll_bundeslaender_liste/>
+        <betriebsstaetten_liste/>
+    </ergaenzende_angaben>
+    <oeko_betrieb betrieb="false"/>
+    <tierhaltung haltung="true" pferde_milch_fleisch="false">
+        <tier_liste>
+            <tier art_fach_code="59" anzahl_gesamt="2"/>
+            <tier art_fach_code="65" anzahl_gesamt="100"/>
+        </tier_liste>
+    </tierhaltung>
+    <konditionalitaet mineraloel_treibstoff="true" mineraloel_pflanzenschutzmittel="true" klaerschlamm_vorjahr="false" klaerschlamm_antragsjahr="false" wirtschaftsduenger_vorjahr="false" wirtschaftsduenger_antragsjahr="false" organischer_duenger_verwendung="false" zertifizierungssystem_teilnahme="true" zertifizierungssystem="GESAMT_BETRIEB" wasserentnahme="false"/>
+    <direktzahlung>
+        <einkommensgrundstuetzung einkommensgrundstuetzung="true"/>
+        <umverteilungseinkommensstuetzung umverteilungseinkommensstuetzung="true"/>
+        <junglandwirteeinkommensstuetzung junglandwirteeinkommensstuetzung="false" junglandwirt_vorjahr="false" junglandwirt_neueinsteiger_fehlerhaft="false">
+            <junglandwirt_betriebsleiter/>
+            <junglandwirt_qualifikation_liste/>
+            <junglandwirt_person_liste/>
+        </junglandwirteeinkommensstuetzung>
+    </direktzahlung>
+    <kulturcodeabhaengige_angaben anbau="false" nebenkultur="false" kurzumtriebsplantagen="false" erstaufforstung="false" mischkulturen="false"/>
+    <oekoregelungen nichtproduktive_flaechen_al="true" bluehstreifen_flaechen_al="false" bluehstreifen_flaechen_dk="false" altgrasstreifen_flaechen_dgl="false" anbau_vielfaeltiger_kulturen="false" beibehaltung_agroforst_bewirtschaftungsweise="false" dgl_extensivierung="false" kennarten_dgl="false" verzicht_chem_synth_psm="false" natura_2000_gebiete="false"/>
+    <zusatzantraege teilnahme_aukm_bestehend="false" teilnahme_aukm_neu="false" teilnahme_aukm_uebernommen="false" teilnahme_trinkwasserschutz="false" teilnahme_ausgleichszulage="true">
+        <oekoregelung_liste>
+            <oekoregelung foerderart="ÖR1a"/>
+        </oekoregelung_liste>
+        <erschwernisausgleich beantragung="false"/>
+        <erweiterter_erschwernisausgleich verbot_gruenland_umbruch="false" artenreiches_gruenland="false" mesophiles_gruenland="false" verbot_pflanzenschutzmittel="false" wiesenbrueterschutz="false"/>
+        <teilnahme_aukm/>
+    </zusatzantraege>
+    <tierwohl auszahlungsantrag="false" sommerweidehaltung_milchkuh="false"/>
+    <gekoppelteEinkommensstuetzungMutterschafeZiegen beantragungGekoppelte_einkommensstuetzung_mutterschafe_ziegen="false">
+        <mutterschaf_ziege_liste/>
+    </gekoppelteEinkommensstuetzungMutterschafeZiegen>
+    <gekoppelteEinkommensstuetzungMutterkuehe beantragungGekoppelte_einkommensstuetzung_mutterkuehe="false">
+        <mutterkuh_liste/>
+    </gekoppelteEinkommensstuetzungMutterkuehe>
+    <schlag_liste>
+        <schlag flik="DENILI2254240003" nr="19" bezeichnung="Maathe" kultur_fach_code="115" le="false" gela_fach_id="2023_610342" gela_objekt_id="19">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.2774" biodiv_streifen="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626685" gela_objekt_id="19000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054240002" nr="29" bezeichnung="Streitacker" kultur_fach_code="115" le="false" gela_fach_id="2023_610340" gela_objekt_id="29">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.9232" flaechenspezifische_zusatzangaben="67" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626683" gela_objekt_id="29000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110006" nr="22" bezeichnung="Schule" kultur_fach_code="171" le="false" gela_fach_id="2023_610326" gela_objekt_id="22">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.6979" biodiv_streifen="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626669" gela_objekt_id="22000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110016" nr="63" bezeichnung="Ohe 2" kultur_fach_code="591" le="false" gela_fach_id="2023_610317" gela_objekt_id="63">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.2258" gloez8_begruenung="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626660" gela_objekt_id="63000">
+                    <teilschlag_oekoregel_aukm_liste>
+                        <teilschlag_oekoregel_aukm massnahme_fach_code="ÖR1a"/>
+                    </teilschlag_oekoregel_aukm_liste>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1754110019" nr="71" bezeichnung="Bergfeld 2" kultur_fach_code="591" le="false" gela_fach_id="2023_610337" gela_objekt_id="71">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1223" gloez8_begruenung="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626680" gela_objekt_id="71000">
+                    <teilschlag_oekoregel_aukm_liste>
+                        <teilschlag_oekoregel_aukm massnahme_fach_code="ÖR1a"/>
+                    </teilschlag_oekoregel_aukm_liste>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254280002" nr="52" bezeichnung="Ziegelei" kultur_fach_code="603" le="false" gela_fach_id="2023_610344" gela_objekt_id="52">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="16.9472" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626687" gela_objekt_id="52000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2354110003" nr="24" bezeichnung="Bergwiese" kultur_fach_code="451" le="false" gela_fach_id="2023_610321" gela_objekt_id="24">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.2578" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626664" gela_objekt_id="24000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054110011" nr="82" bezeichnung="Wöhler Str H2" kultur_fach_code="171" kultur_fach_code_verwendung="171_05" le="false" gela_fach_id="2023_610320" gela_objekt_id="82">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.3212" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626663" gela_objekt_id="82000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110010" nr="18" bezeichnung="Kemmer Weg" kultur_fach_code="115" le="false" gela_fach_id="2023_610323" gela_objekt_id="18">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.0942" biodiv_streifen="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626666" gela_objekt_id="18000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1754130002" nr="10" bezeichnung="Döhren" kultur_fach_code="115" le="false" gela_fach_id="2023_610334" gela_objekt_id="10">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.0179" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626677" gela_objekt_id="10000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054150011" nr="42" bezeichnung="Schellerten" kultur_fach_code="115" le="false" gela_fach_id="2023_610314" gela_objekt_id="42">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.8159" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626657" gela_objekt_id="42000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054110007" nr="83" bezeichnung="Kemmer Weg H3" kultur_fach_code="115" le="false" gela_fach_id="2023_610313" gela_objekt_id="83">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.0074" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626656" gela_objekt_id="83000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110003" nr="92" bezeichnung="Wiese3" kultur_fach_code="591" le="false" gela_fach_id="2023_610315" gela_objekt_id="92">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1040" gloez8_begruenung="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626658" gela_objekt_id="92000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110003" nr="91" bezeichnung="Wiese2" kultur_fach_code="591" le="false" gela_fach_id="2023_610346" gela_objekt_id="91">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1020" gloez8_begruenung="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626689" gela_objekt_id="91000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054110005" nr="12" bezeichnung="Neues Land" kultur_fach_code="171" kultur_fach_code_verwendung="171_05" le="false" gela_fach_id="2023_610330" gela_objekt_id="12">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.8877" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626673" gela_objekt_id="12000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110005" nr="62" bezeichnung="Mühlenkamp" kultur_fach_code="591" le="false" gela_fach_id="2023_610336" gela_objekt_id="62">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.2287" gloez8_begruenung="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626679" gela_objekt_id="62000">
+                    <teilschlag_oekoregel_aukm_liste>
+                        <teilschlag_oekoregel_aukm massnahme_fach_code="ÖR1a"/>
+                    </teilschlag_oekoregel_aukm_liste>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1954110006" nr="7" bezeichnung="Rotacker" kultur_fach_code="115" le="false" gela_fach_id="2023_610316" gela_objekt_id="7">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="12.4371" biodiv_streifen="true" flaechenspezifische_zusatzangaben="61" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626659" gela_objekt_id="7000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110005" nr="61" bezeichnung="Mühlenkamp" kultur_fach_code="115" le="false" gela_fach_id="2023_610322" gela_objekt_id="61">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.7559" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626665" gela_objekt_id="61000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354240028" nr="25" bezeichnung="Stadtweg" kultur_fach_code="603" le="false" gela_fach_id="2023_610327" gela_objekt_id="25">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.1546" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626670" gela_objekt_id="25000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110005" nr="86" bezeichnung="Stadweg2" kultur_fach_code="311" le="false" gela_fach_id="2023_610305" gela_objekt_id="86">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.7807" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626648" gela_objekt_id="86000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110013" nr="48" bezeichnung="Wöhler Str. re" kultur_fach_code="115" le="false" gela_fach_id="2023_610332" gela_objekt_id="48">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="4.2497" biodiv_streifen="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626675" gela_objekt_id="48000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354110017" nr="20" bezeichnung="Dinkl. Str." kultur_fach_code="452" le="false" gela_fach_id="2023_610319" gela_objekt_id="20">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.5477" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626662" gela_objekt_id="20000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1754110019" nr="23" bezeichnung="Bergfeld" kultur_fach_code="171" kultur_fach_code_verwendung="171_05" le="false" gela_fach_id="2023_610310" gela_objekt_id="23">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.6085" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626653" gela_objekt_id="23000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110005" nr="40" bezeichnung="Tante Marie" kultur_fach_code="115" le="false" gela_fach_id="2023_610343" gela_objekt_id="40">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.0096" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626686" gela_objekt_id="40000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110005" nr="64" bezeichnung="Tante Marie 2" kultur_fach_code="591" le="false" gela_fach_id="2023_610308" gela_objekt_id="64">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.1044" gloez8_begruenung="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626651" gela_objekt_id="64000">
+                    <teilschlag_oekoregel_aukm_liste>
+                        <teilschlag_oekoregel_aukm massnahme_fach_code="ÖR1a"/>
+                    </teilschlag_oekoregel_aukm_liste>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110003" nr="70" bezeichnung="Wiese" kultur_fach_code="171" kultur_fach_code_verwendung="171_05" le="false" gela_fach_id="2023_610333" gela_objekt_id="70">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.4477" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626676" gela_objekt_id="70000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2354110001" nr="4" bezeichnung="Knobbenberg" kultur_fach_code="115" le="false" gela_fach_id="2023_610338" gela_objekt_id="4">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.0940" biodiv_streifen="true" flaechenspezifische_zusatzangaben="61" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626681" gela_objekt_id="4000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054110011" nr="811" bezeichnung="WöhlerstrH11" kultur_fach_code="591" le="false" gela_fach_id="2023_610335" gela_objekt_id="811">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.0687" gloez8_begruenung="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626678" gela_objekt_id="811000">
+                    <teilschlag_oekoregel_aukm_liste>
+                        <teilschlag_oekoregel_aukm massnahme_fach_code="ÖR1a"/>
+                    </teilschlag_oekoregel_aukm_liste>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054240008" nr="30" bezeichnung="Kemmer Berg" kultur_fach_code="115" le="false" gela_fach_id="2023_610331" gela_objekt_id="30">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.2104" flaechenspezifische_zusatzangaben="67" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626674" gela_objekt_id="30000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI1954110005" nr="34" bezeichnung="Beek" kultur_fach_code="591" le="false" gela_fach_id="2023_610311" gela_objekt_id="34">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.0624" gloez8_begruenung="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626654" gela_objekt_id="34000">
+                    <teilschlag_oekoregel_aukm_liste>
+                        <teilschlag_oekoregel_aukm massnahme_fach_code="ÖR1a"/>
+                    </teilschlag_oekoregel_aukm_liste>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054010011" nr="55" bezeichnung="Himstedt" kultur_fach_code="171" kultur_fach_code_verwendung="171_05" le="false" gela_fach_id="2023_610328" gela_objekt_id="55">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="6.4851" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626671" gela_objekt_id="55000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054110011" nr="45" bezeichnung="Borchfeld" kultur_fach_code="171" kultur_fach_code_verwendung="171_05" le="false" gela_fach_id="2023_610341" gela_objekt_id="45">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="5.3059" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626684" gela_objekt_id="45000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110005" nr="41" bezeichnung="Stadtweg Konrad" kultur_fach_code="311" le="false" gela_fach_id="2023_610306" gela_objekt_id="41">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="7.5509" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626649" gela_objekt_id="41000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110016" nr="431" bezeichnung="OheRalf" kultur_fach_code="424" le="false" gela_fach_id="2023_610325" gela_objekt_id="431">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.4589" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626668" gela_objekt_id="431000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054240003" nr="68" bezeichnung="Kannenstieg 2" kultur_fach_code="171" kultur_fach_code_verwendung="171_05" le="false" gela_fach_id="2023_610329" gela_objekt_id="68">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="0.8786" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626672" gela_objekt_id="68000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054110010" nr="57" bezeichnung="Gröfde Johannes2" kultur_fach_code="115" le="false" gela_fach_id="2023_610309" gela_objekt_id="57">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.6028" biodiv_streifen="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626652" gela_objekt_id="57000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054070008" nr="9" bezeichnung="Nettlingen" kultur_fach_code="115" le="false" gela_fach_id="2023_610303" gela_objekt_id="9">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.5100" biodiv_streifen="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626646" gela_objekt_id="9000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354240024" nr="26" bezeichnung="Bruch" kultur_fach_code="603" le="false" gela_fach_id="2023_610312" gela_objekt_id="26">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.9985" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626655" gela_objekt_id="26000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110010" nr="84" bezeichnung="Farmser Str H 4" kultur_fach_code="311" le="false" gela_fach_id="2023_610307" gela_objekt_id="84">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.7492" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626650" gela_objekt_id="84000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI0354110009" nr="36" bezeichnung="Kemmer Weg Kirche" kultur_fach_code="115" le="false" gela_fach_id="2023_610318" gela_objekt_id="36">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="4.9972" biodiv_streifen="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626661" gela_objekt_id="36000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2254110016" nr="43" bezeichnung="Ohe" kultur_fach_code="115" le="false" gela_fach_id="2023_610345" gela_objekt_id="43">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="2.2351" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626688" gela_objekt_id="43000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054120003" nr="14" bezeichnung="Kahrbusch" kultur_fach_code="115" le="false" gela_fach_id="2023_610339" gela_objekt_id="14">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="3.0346" biodiv_streifen="true" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626682" gela_objekt_id="14000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054240003" nr="28" bezeichnung="Kannenstieg" kultur_fach_code="115" le="false" gela_fach_id="2023_610348" gela_objekt_id="28">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="4.0573" flaechenspezifische_zusatzangaben="67" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626691" gela_objekt_id="28000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+        <schlag flik="DENILI2054110010" nr="17" bezeichnung="Gröfde Farmsen" kultur_fach_code="311" le="false" gela_fach_id="2023_610347" gela_objekt_id="17">
+            <teilschlag_liste>
+                <teilschlag bezeichnung="A" geometrie_groesse="1.8711" moorkulisse_erfuellt="false" moorkulisse_nicht_erfuellt="false" gela_fach_id="2023_626690" gela_objekt_id="17000">
+                    <teilschlag_oekoregel_aukm_liste/>
+                </teilschlag>
+            </teilschlag_liste>
+            <le_teilschlag_liste/>
+        </schlag>
+    </schlag_liste>
+</ns2:hauptantrag>
