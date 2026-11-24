@@ -10,7 +10,7 @@ on:
 
 jobs:
   publish-gpr:
-    runs-on: ubuntu-latest
+    runs-on: agvolution-k8s
     permissions:
       contents: read
       packages: write
@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: 22
           registry-url: 'https://npm.pkg.github.com'
+      # The k8s runner image has no Yarn; corepack provides it (packageManager / yarnPath).
+      - name: Enable Yarn
+        run: corepack enable
       - name: Setup .yarnrc.yml
         run: |
           yarn config set npmScopes.agvolution.npmRegistryServer "https://npm.pkg.github.com"
